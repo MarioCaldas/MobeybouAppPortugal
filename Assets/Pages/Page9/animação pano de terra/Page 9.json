@@ -1,0 +1,71 @@
+{
+"skeleton": {
+	"hash": "3w1aN5VG63IjVc9CwDudSf4womc",
+	"spine": "3.8.97",
+	"x": -959.28,
+	"y": -2.73,
+	"width": 1922,
+	"height": 1082,
+	"images": "./images/",
+	"audio": "C:/Users/anapa/Dropbox/Mobeybou/App Cabo Verde/Page 9"
+},
+"bones": [
+	{ "name": "root", "x": 1.72, "y": -1.73 }
+],
+"slots": [
+	{ "name": "Background", "bone": "root", "attachment": "Background" },
+	{ "name": "Handle_Back glow", "bone": "root", "attachment": "Handle_Back glow", "blend": "additive" },
+	{ "name": "Handle_Front glow", "bone": "root", "attachment": "Handle_Front glow", "blend": "additive" },
+	{ "name": "Handle_Back", "bone": "root", "attachment": "Handle_Back" },
+	{ "name": "Loom", "bone": "root", "attachment": "Loom" },
+	{ "name": "Handle_Front", "bone": "root", "attachment": "Handle_Front" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Background": {
+				"Background": { "y": 540, "width": 1922, "height": 1082 }
+			},
+			"Handle_Back": {
+				"Handle_Back": { "x": -57.5, "y": 372.5, "width": 371, "height": 457 }
+			},
+			"Handle_Back glow": {
+				"Handle_Back glow": { "x": -57, "y": 372.5, "width": 424, "height": 509 }
+			},
+			"Handle_Front": {
+				"Handle_Front": { "x": -44.5, "y": 379.5, "width": 417, "height": 471 }
+			},
+			"Handle_Front glow": {
+				"Handle_Front glow": { "x": -44.5, "y": 380, "width": 471, "height": 524 }
+			},
+			"Loom": {
+				"Loom": { "x": -55.5, "y": 503.5, "width": 1141, "height": 651 }
+			}
+		}
+	}
+],
+"animations": {
+	"Glow Loom": {
+		"slots": {
+			"Handle_Back glow": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 2.3333, "color": "ffffff66" },
+					{ "time": 4, "color": "ffffff00" }
+				]
+			},
+			"Handle_Front glow": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 2.3333, "color": "ffffff66" },
+					{ "time": 4, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4.6667, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

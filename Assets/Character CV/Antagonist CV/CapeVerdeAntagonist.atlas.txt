@@ -1,0 +1,195 @@
+
+CapeVerdeAntagonist.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Afraid
+  rotate: false
+  xy: 1518, 673
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+Zapped
+  rotate: false
+  xy: 1518, 673
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+Asleep
+  rotate: false
+  xy: 1330, 451
+  size: 127, 113
+  orig: 127, 113
+  offset: 0, 0
+  index: -1
+Body
+  rotate: true
+  xy: 641, 515
+  size: 804, 487
+  orig: 804, 487
+  offset: 0, 0
+  index: -1
+Cold
+  rotate: true
+  xy: 1330, 326
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+Dance
+  rotate: false
+  xy: 1445, 324
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+Eye_L_Faint
+  rotate: false
+  xy: 1130, 1282
+  size: 33, 37
+  orig: 33, 37
+  offset: 0, 0
+  index: -1
+Eye_R_Faint
+  rotate: false
+  xy: 1257, 571
+  size: 44, 46
+  orig: 44, 46
+  offset: 0, 0
+  index: -1
+Faint
+  rotate: true
+  xy: 1570, 314
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+Flag1
+  rotate: false
+  xy: 535, 295
+  size: 102, 177
+  orig: 102, 177
+  offset: 0, 0
+  index: -1
+Flag2
+  rotate: true
+  xy: 162, 143
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+Flag3
+  rotate: false
+  xy: 1330, 566
+  size: 186, 220
+  orig: 186, 220
+  offset: 0, 0
+  index: -1
+Flinch
+  rotate: true
+  xy: 1459, 439
+  size: 125, 113
+  orig: 125, 113
+  offset: 0, 0
+  index: -1
+Glow
+  rotate: true
+  xy: 1167, 1051
+  size: 908, 706
+  orig: 908, 706
+  offset: 0, 0
+  index: -1
+Hat
+  rotate: true
+  xy: 314, 239
+  size: 233, 219
+  orig: 233, 219
+  offset: 0, 0
+  index: -1
+Idle
+  rotate: false
+  xy: 1643, 673
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+Scarf_R
+  rotate: true
+  xy: 1130, 619
+  size: 167, 154
+  orig: 167, 154
+  offset: 0, 0
+  index: -1
+Seaweed
+  rotate: true
+  xy: 1130, 535
+  size: 82, 125
+  orig: 82, 125
+  offset: 0, 0
+  index: -1
+Seaweed1
+  rotate: true
+  xy: 1574, 445
+  size: 111, 115
+  orig: 111, 115
+  offset: 0, 0
+  index: -1
+Seaweed2
+  rotate: false
+  xy: 1604, 558
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+Shell6
+  rotate: false
+  xy: 1518, 597
+  size: 84, 74
+  orig: 84, 74
+  offset: 0, 0
+  index: -1
+Skeleton
+  rotate: true
+  xy: 2, 474
+  size: 845, 637
+  orig: 845, 637
+  offset: 0, 0
+  index: -1
+pano
+  rotate: true
+  xy: 2, 2
+  size: 276, 158
+  orig: 276, 158
+  offset: 0, 0
+  index: -1
+pano glow
+  rotate: false
+  xy: 2, 280
+  size: 310, 192
+  orig: 310, 192
+  offset: 0, 0
+  index: -1
+wave
+  rotate: false
+  xy: 1130, 788
+  size: 672, 261
+  orig: 672, 261
+  offset: 0, 0
+  index: -1
+wave 1
+  rotate: false
+  xy: 2, 1321
+  size: 1163, 638
+  orig: 1163, 638
+  offset: 0, 0
+  index: -1
+wave 2
+  rotate: false
+  xy: 641, 375
+  size: 687, 138
+  orig: 687, 138
+  offset: 0, 0
+  index: -1

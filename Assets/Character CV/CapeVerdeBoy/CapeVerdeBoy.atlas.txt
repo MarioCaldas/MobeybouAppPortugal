@@ -1,0 +1,293 @@
+
+CapeVerdeBoy.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Afraid
+  rotate: true
+  xy: 814, 295
+  size: 103, 77
+  orig: 103, 77
+  offset: 0, 0
+  index: -1
+Angry
+  rotate: false
+  xy: 893, 265
+  size: 102, 56
+  orig: 102, 56
+  offset: 0, 0
+  index: -1
+Blinking
+  rotate: true
+  xy: 793, 400
+  size: 105, 55
+  orig: 105, 55
+  offset: 0, 0
+  index: -1
+Blinking 2
+  rotate: true
+  xy: 650, 287
+  size: 108, 45
+  orig: 108, 45
+  offset: 0, 0
+  index: -1
+Bragging
+  rotate: false
+  xy: 429, 154
+  size: 105, 60
+  orig: 105, 60
+  offset: 0, 0
+  index: -1
+CapeVerdeInstrument
+  rotate: false
+  xy: 2, 5
+  size: 301, 146
+  orig: 301, 146
+  offset: 0, 0
+  index: -1
+CapeVerdeInstrument_glow
+  rotate: true
+  xy: 2, 153
+  size: 352, 194
+  orig: 352, 194
+  offset: 0, 0
+  index: -1
+CapeVerdeObject
+  rotate: false
+  xy: 305, 9
+  size: 239, 143
+  orig: 239, 143
+  offset: 0, 0
+  index: -1
+Chest
+  rotate: true
+  xy: 689, 400
+  size: 105, 102
+  orig: 105, 102
+  offset: 0, 0
+  index: -1
+Cold
+  rotate: true
+  xy: 850, 402
+  size: 103, 63
+  orig: 103, 63
+  offset: 0, 0
+  index: -1
+Eye_L_Faint
+  rotate: false
+  xy: 725, 11
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+Eye_R_Faint
+  rotate: false
+  xy: 847, 203
+  size: 41, 32
+  orig: 41, 32
+  offset: 0, 0
+  index: -1
+Faint
+  rotate: false
+  xy: 578, 218
+  size: 97, 66
+  orig: 97, 66
+  offset: 0, 0
+  index: -1
+Flinch
+  rotate: true
+  xy: 632, 397
+  size: 108, 55
+  orig: 108, 55
+  offset: 0, 0
+  index: -1
+Foot_L
+  rotate: true
+  xy: 675, 101
+  size: 55, 57
+  orig: 55, 57
+  offset: 0, 0
+  index: -1
+Foot_R
+  rotate: true
+  xy: 198, 154
+  size: 43, 61
+  orig: 43, 61
+  offset: 0, 0
+  index: -1
+Glow
+  rotate: false
+  xy: 198, 199
+  size: 197, 306
+  orig: 197, 306
+  offset: 0, 0
+  index: -1
+Hand_L
+  rotate: false
+  xy: 734, 104
+  size: 37, 51
+  orig: 37, 51
+  offset: 0, 0
+  index: -1
+Hand_R
+  rotate: true
+  xy: 675, 2
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 546, 11
+  size: 141, 127
+  orig: 141, 127
+  offset: 0, 0
+  index: -1
+Idle
+  rotate: false
+  xy: 891, 208
+  size: 102, 55
+  orig: 102, 55
+  offset: 0, 0
+  index: -1
+Idle 2
+  rotate: true
+  xy: 756, 293
+  size: 105, 56
+  orig: 105, 56
+  offset: 0, 0
+  index: -1
+Laugh
+  rotate: true
+  xy: 578, 286
+  size: 108, 70
+  orig: 108, 70
+  offset: 0, 0
+  index: -1
+Leg_L
+  rotate: false
+  xy: 677, 219
+  size: 63, 66
+  orig: 63, 66
+  offset: 0, 0
+  index: -1
+Leg_R
+  rotate: true
+  xy: 750, 157
+  size: 63, 66
+  orig: 63, 66
+  offset: 0, 0
+  index: -1
+LowerArm_L
+  rotate: false
+  xy: 709, 45
+  size: 38, 54
+  orig: 38, 54
+  offset: 0, 0
+  index: -1
+LowerArm_R
+  rotate: false
+  xy: 675, 43
+  size: 32, 56
+  orig: 32, 56
+  offset: 0, 0
+  index: -1
+Playing_Pungi
+  rotate: false
+  xy: 536, 154
+  size: 105, 60
+  orig: 105, 60
+  offset: 0, 0
+  index: -1
+Pouting
+  rotate: true
+  xy: 697, 293
+  size: 105, 57
+  orig: 105, 57
+  offset: 0, 0
+  index: -1
+Sad
+  rotate: false
+  xy: 915, 382
+  size: 102, 58
+  orig: 102, 58
+  offset: 0, 0
+  index: -1
+Shirt_L
+  rotate: true
+  xy: 321, 155
+  size: 42, 106
+  orig: 42, 106
+  offset: 0, 0
+  index: -1
+Shirt_R
+  rotate: false
+  xy: 578, 396
+  size: 52, 109
+  orig: 52, 109
+  offset: 0, 0
+  index: -1
+Skeleton
+  rotate: false
+  xy: 397, 216
+  size: 179, 289
+  orig: 179, 289
+  offset: 0, 0
+  index: -1
+Sleeping
+  rotate: false
+  xy: 643, 158
+  size: 105, 58
+  orig: 105, 58
+  offset: 0, 0
+  index: -1
+Surprised
+  rotate: false
+  xy: 742, 222
+  size: 103, 69
+  orig: 103, 69
+  offset: 0, 0
+  index: -1
+Suspicious
+  rotate: false
+  xy: 908, 323
+  size: 102, 57
+  orig: 102, 57
+  offset: 0, 0
+  index: -1
+Tongue
+  rotate: false
+  xy: 397, 202
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+UpperArm_L
+  rotate: true
+  xy: 261, 154
+  size: 43, 58
+  orig: 43, 58
+  offset: 0, 0
+  index: -1
+UpperArm_R
+  rotate: false
+  xy: 847, 237
+  size: 42, 56
+  orig: 42, 56
+  offset: 0, 0
+  index: -1
+Zapped
+  rotate: false
+  xy: 915, 442
+  size: 103, 63
+  orig: 103, 63
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 893, 363
+  size: 37, 13
+  orig: 37, 13
+  offset: 0, 0
+  index: -1

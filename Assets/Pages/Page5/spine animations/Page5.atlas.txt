@@ -1,0 +1,48 @@
+
+Page5.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bush
+  rotate: true
+  xy: 649, 44
+  size: 575, 594
+  orig: 575, 594
+  offset: 0, 0
+  index: -1
+Bush_Glow
+  rotate: true
+  xy: 2, 2
+  size: 617, 645
+  orig: 617, 645
+  offset: 0, 0
+  index: -1
+Folha 1
+  rotate: true
+  xy: 1245, 357
+  size: 66, 37
+  orig: 66, 37
+  offset: 0, 0
+  index: -1
+Folha 2
+  rotate: false
+  xy: 1245, 564
+  size: 52, 55
+  orig: 52, 55
+  offset: 0, 0
+  index: -1
+Folha 3
+  rotate: true
+  xy: 1245, 425
+  size: 83, 42
+  orig: 83, 42
+  offset: 0, 0
+  index: -1
+Folha 4
+  rotate: true
+  xy: 1245, 510
+  size: 52, 44
+  orig: 52, 44
+  offset: 0, 0
+  index: -1

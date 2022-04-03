@@ -1,0 +1,76 @@
+
+Page2.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Basket
+  rotate: false
+  xy: 2, 64
+  size: 314, 288
+  orig: 314, 288
+  offset: 0, 0
+  index: -1
+BigBasket
+  rotate: false
+  xy: 649, 22
+  size: 597, 458
+  orig: 597, 458
+  offset: 0, 0
+  index: -1
+BigBasket Glow
+  rotate: false
+  xy: 2, 354
+  size: 645, 510
+  orig: 645, 510
+  offset: 0, 0
+  index: -1
+Bread
+  rotate: true
+  xy: 1927, 640
+  size: 224, 114
+  orig: 224, 114
+  offset: 0, 0
+  index: -1
+Cake1
+  rotate: true
+  xy: 318, 125
+  size: 227, 168
+  orig: 227, 168
+  offset: 0, 0
+  index: -1
+Chimarrao
+  rotate: true
+  xy: 318, 2
+  size: 121, 199
+  orig: 121, 199
+  offset: 0, 0
+  index: -1
+Hat
+  rotate: true
+  xy: 1927, 369
+  size: 269, 106
+  orig: 269, 106
+  offset: 0, 0
+  index: -1
+Jam
+  rotate: true
+  xy: 488, 203
+  size: 149, 143
+  orig: 149, 143
+  offset: 0, 0
+  index: -1
+Pelego
+  rotate: false
+  xy: 1248, 138
+  size: 763, 229
+  orig: 763, 229
+  offset: 0, 0
+  index: -1
+Towel
+  rotate: false
+  xy: 649, 482
+  size: 1276, 382
+  orig: 1276, 382
+  offset: 0, 0
+  index: -1

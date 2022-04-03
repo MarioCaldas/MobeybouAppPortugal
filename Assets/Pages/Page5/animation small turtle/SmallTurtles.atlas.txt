@@ -1,0 +1,118 @@
+
+SmallTurtles.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Aqua Dance
+  rotate: true
+  xy: 186, 293
+  size: 193, 90
+  orig: 193, 90
+  offset: 0, 0
+  index: -1
+Aqua Idle
+  rotate: false
+  xy: 199, 2
+  size: 193, 90
+  orig: 193, 90
+  offset: 0, 0
+  index: -1
+Coral Dance
+  rotate: true
+  xy: 2, 291
+  size: 195, 90
+  orig: 195, 90
+  offset: 0, 0
+  index: -1
+Coral Idle
+  rotate: true
+  xy: 2, 94
+  size: 195, 90
+  orig: 195, 90
+  offset: 0, 0
+  index: -1
+Green Dance
+  rotate: true
+  xy: 462, 293
+  size: 193, 87
+  orig: 193, 87
+  offset: 0, 0
+  index: -1
+Green Idle
+  rotate: true
+  xy: 546, 98
+  size: 193, 87
+  orig: 193, 87
+  offset: 0, 0
+  index: -1
+Lilac Dance
+  rotate: false
+  xy: 394, 8
+  size: 193, 88
+  orig: 193, 88
+  offset: 0, 0
+  index: -1
+Lilac Idle
+  rotate: true
+  xy: 456, 98
+  size: 193, 88
+  orig: 193, 88
+  offset: 0, 0
+  index: -1
+Pink  Idle
+  rotate: true
+  xy: 183, 94
+  size: 195, 87
+  orig: 195, 87
+  offset: 0, 0
+  index: -1
+Pink Dance
+  rotate: true
+  xy: 94, 94
+  size: 195, 87
+  orig: 195, 87
+  offset: 0, 0
+  index: -1
+Purple Dance
+  rotate: false
+  xy: 2, 2
+  size: 195, 90
+  orig: 195, 90
+  offset: 0, 0
+  index: -1
+Purple Idle
+  rotate: true
+  xy: 94, 291
+  size: 195, 90
+  orig: 195, 90
+  offset: 0, 0
+  index: -1
+Rose Dance
+  rotate: true
+  xy: 272, 98
+  size: 193, 90
+  orig: 193, 90
+  offset: 0, 0
+  index: -1
+Rose Idle
+  rotate: true
+  xy: 278, 293
+  size: 193, 90
+  orig: 193, 90
+  offset: 0, 0
+  index: -1
+Yellow Dance
+  rotate: true
+  xy: 364, 98
+  size: 193, 90
+  orig: 193, 90
+  offset: 0, 0
+  index: -1
+Yellow Idle
+  rotate: true
+  xy: 370, 293
+  size: 193, 90
+  orig: 193, 90
+  offset: 0, 0
+  index: -1

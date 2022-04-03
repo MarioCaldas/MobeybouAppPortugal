@@ -1,0 +1,174 @@
+
+CapeVerdeAntagonist.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Afraid
+  rotate: false
+  xy: 2, 313
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+Zapped
+  rotate: false
+  xy: 2, 313
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+Asleep
+  rotate: true
+  xy: 1051, 383
+  size: 127, 113
+  orig: 127, 113
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 1167, 203
+  size: 804, 487
+  orig: 804, 487
+  offset: 0, 0
+  index: -1
+Cold
+  rotate: false
+  xy: 127, 313
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+Dance
+  rotate: false
+  xy: 252, 313
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+Eye_L_Faint
+  rotate: true
+  xy: 1973, 611
+  size: 33, 37
+  orig: 33, 37
+  offset: 0, 0
+  index: -1
+Eye_R_Faint
+  rotate: true
+  xy: 1973, 646
+  size: 44, 46
+  orig: 44, 46
+  offset: 0, 0
+  index: -1
+Faint
+  rotate: false
+  xy: 377, 313
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+Flag1
+  rotate: false
+  xy: 1051, 512
+  size: 102, 177
+  orig: 102, 177
+  offset: 0, 0
+  index: -1
+Flag2
+  rotate: false
+  xy: 985, 136
+  size: 135, 130
+  orig: 135, 130
+  offset: 0, 0
+  index: -1
+Flag3
+  rotate: true
+  xy: 816, 282
+  size: 186, 220
+  orig: 186, 220
+  offset: 0, 0
+  index: -1
+Flinch
+  rotate: false
+  xy: 1038, 268
+  size: 125, 113
+  orig: 125, 113
+  offset: 0, 0
+  index: -1
+Hat
+  rotate: false
+  xy: 816, 470
+  size: 233, 219
+  orig: 233, 219
+  offset: 0, 0
+  index: -1
+Idle
+  rotate: false
+  xy: 502, 313
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+Scarf_R
+  rotate: false
+  xy: 816, 126
+  size: 167, 154
+  orig: 167, 154
+  offset: 0, 0
+  index: -1
+Seaweed
+  rotate: true
+  xy: 244, 229
+  size: 82, 125
+  orig: 82, 125
+  offset: 0, 0
+  index: -1
+Seaweed1
+  rotate: true
+  xy: 127, 200
+  size: 111, 115
+  orig: 111, 115
+  offset: 0, 0
+  index: -1
+Seaweed2
+  rotate: false
+  xy: 2, 198
+  size: 123, 113
+  orig: 123, 113
+  offset: 0, 0
+  index: -1
+Shell6
+  rotate: false
+  xy: 371, 237
+  size: 84, 74
+  orig: 84, 74
+  offset: 0, 0
+  index: -1
+Skeleton
+  rotate: false
+  xy: 1167, 692
+  size: 845, 637
+  orig: 845, 637
+  offset: 0, 0
+  index: -1
+wave
+  rotate: false
+  xy: 2, 428
+  size: 672, 261
+  orig: 672, 261
+  offset: 0, 0
+  index: -1
+wave 1
+  rotate: false
+  xy: 2, 691
+  size: 1163, 638
+  orig: 1163, 638
+  offset: 0, 0
+  index: -1
+wave 2
+  rotate: true
+  xy: 676, 2
+  size: 687, 138
+  orig: 687, 138
+  offset: 0, 0
+  index: -1

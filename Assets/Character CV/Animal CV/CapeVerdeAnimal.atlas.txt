@@ -1,0 +1,139 @@
+
+CapeVerdeAnimal.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Afraid
+  rotate: false
+  xy: 1944, 653
+  size: 91, 98
+  orig: 91, 98
+  offset: 0, 0
+  index: -1
+Asleep
+  rotate: true
+  xy: 1944, 389
+  size: 130, 76
+  orig: 130, 76
+  offset: 0, 0
+  index: -1
+Attack
+  rotate: true
+  xy: 1944, 889
+  size: 130, 92
+  orig: 130, 92
+  offset: 0, 0
+  index: -1
+BackLeg_L
+  rotate: true
+  xy: 944, 114
+  size: 399, 136
+  orig: 399, 136
+  offset: 0, 0
+  index: -1
+BackLeg_R
+  rotate: false
+  xy: 2, 276
+  size: 408, 237
+  orig: 408, 237
+  offset: 0, 0
+  index: -1
+Blink
+  rotate: false
+  xy: 1673, 311
+  size: 134, 76
+  orig: 134, 76
+  offset: 0, 0
+  index: -1
+Cold
+  rotate: true
+  xy: 1934, 183
+  size: 126, 98
+  orig: 126, 98
+  offset: 0, 0
+  index: -1
+Dance
+  rotate: false
+  xy: 1809, 311
+  size: 134, 76
+  orig: 134, 76
+  offset: 0, 0
+  index: -1
+Eye_Faint
+  rotate: true
+  xy: 1934, 2
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1
+Faint
+  rotate: false
+  xy: 1082, 109
+  size: 130, 34
+  orig: 130, 34
+  offset: 0, 0
+  index: -1
+Flinch
+  rotate: true
+  xy: 1944, 521
+  size: 130, 86
+  orig: 130, 86
+  offset: 0, 0
+  index: -1
+FrontLeg_L
+  rotate: false
+  xy: 412, 309
+  size: 530, 204
+  orig: 530, 204
+  offset: 0, 0
+  index: -1
+FrontLeg_R
+  rotate: false
+  xy: 1402, 5
+  size: 530, 303
+  orig: 530, 303
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 1673, 389
+  size: 630, 269
+  orig: 630, 269
+  offset: 0, 0
+  index: -1
+Idle
+  rotate: true
+  xy: 1944, 753
+  size: 134, 91
+  orig: 134, 91
+  offset: 0, 0
+  index: -1
+Sand
+  rotate: true
+  xy: 1127, 145
+  size: 874, 273
+  orig: 874, 273
+  offset: 0, 0
+  index: -1
+Shell
+  rotate: true
+  xy: 1402, 310
+  size: 709, 269
+  orig: 709, 269
+  offset: 0, 0
+  index: -1
+Skeleton
+  rotate: false
+  xy: 2, 515
+  size: 1123, 504
+  orig: 1123, 504
+  offset: 0, 0
+  index: -1
+Zapped
+  rotate: true
+  xy: 1934, 51
+  size: 130, 97
+  orig: 130, 97
+  offset: 0, 0
+  index: -1
