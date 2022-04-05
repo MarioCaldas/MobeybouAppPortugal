@@ -1,0 +1,244 @@
+
+PortugalBoy.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Accessories/Binocles
+  rotate: false
+  xy: 2, 2
+  size: 451, 216
+  orig: 456, 218
+  offset: 5, 2
+  index: -1
+Accessories/Binocles_Glow
+  rotate: false
+  xy: 2, 220
+  size: 526, 289
+  orig: 530, 294
+  offset: 0, 5
+  index: -1
+Accessories/PortugalInstrument
+  rotate: true
+  xy: 881, 275
+  size: 234, 150
+  orig: 236, 151
+  offset: 1, 1
+  index: -1
+Accessories/Portugal_Object
+  rotate: true
+  xy: 1166, 373
+  size: 136, 132
+  orig: 136, 132
+  offset: 0, 0
+  index: -1
+Basket_empty
+  rotate: false
+  xy: 455, 17
+  size: 271, 201
+  orig: 273, 203
+  offset: 1, 1
+  index: -1
+Basket_full
+  rotate: false
+  xy: 728, 21
+  size: 271, 201
+  orig: 273, 203
+  offset: 1, 1
+  index: -1
+Expressions/Blinking
+  rotate: false
+  xy: 1172, 250
+  size: 107, 56
+  orig: 111, 58
+  offset: 1, 1
+  index: -1
+Expressions/Idle
+  rotate: false
+  xy: 1142, 308
+  size: 108, 56
+  orig: 110, 58
+  offset: 1, 1
+  index: -1
+Expressions/Laugh
+  rotate: false
+  xy: 1001, 3
+  size: 109, 70
+  orig: 114, 72
+  offset: 1, 1
+  index: -1
+Expressions/Surprised
+  rotate: false
+  xy: 1033, 290
+  size: 107, 74
+  orig: 109, 77
+  offset: 1, 2
+  index: -1
+Head
+  rotate: true
+  xy: 1033, 366
+  size: 143, 131
+  orig: 149, 134
+  offset: 1, 2
+  index: -1
+Mask
+  rotate: true
+  xy: 1001, 75
+  size: 151, 140
+  orig: 153, 142
+  offset: 1, 1
+  index: -1
+Portugal/Chest
+  rotate: true
+  xy: 1215, 11
+  size: 108, 104
+  orig: 118, 104
+  offset: 0, 0
+  index: -1
+Portugal/Foot_R
+  rotate: true
+  xy: 1252, 321
+  size: 50, 83
+  orig: 50, 83
+  offset: 0, 0
+  index: -1
+Portugal/Hand_L
+  rotate: true
+  xy: 1015, 238
+  size: 35, 48
+  orig: 39, 53
+  offset: 3, 1
+  index: -1
+Portugal/Hand_R
+  rotate: true
+  xy: 883, 236
+  size: 37, 51
+  orig: 41, 53
+  offset: 1, 1
+  index: -1
+Portugal/Leg_L
+  rotate: true
+  xy: 1281, 252
+  size: 67, 70
+  orig: 96, 77
+  offset: 22, 7
+  index: -1
+Portugal/Leg_R
+  rotate: true
+  xy: 1250, 177
+  size: 71, 70
+  orig: 94, 80
+  offset: 6, 10
+  index: -1
+Portugal/LowerArm_L
+  rotate: true
+  xy: 706, 224
+  size: 40, 55
+  orig: 40, 57
+  offset: 0, 1
+  index: -1
+Portugal/LowerArm_R
+  rotate: true
+  xy: 763, 227
+  size: 37, 59
+  orig: 37, 59
+  offset: 0, 0
+  index: -1
+Portugal/UpperArm_L
+  rotate: true
+  xy: 1250, 121
+  size: 54, 62
+  orig: 57, 86
+  offset: 0, 24
+  index: -1
+Portugal/UpperArm_R
+  rotate: true
+  xy: 1314, 125
+  size: 50, 61
+  orig: 50, 91
+  offset: 0, 30
+  index: -1
+Swim/Chest
+  rotate: false
+  xy: 1143, 121
+  size: 105, 107
+  orig: 105, 122
+  offset: 0, 15
+  index: -1
+Swim/Foot_L
+  rotate: true
+  xy: 1112, 2
+  size: 71, 101
+  orig: 71, 101
+  offset: 0, 0
+  index: -1
+Swim/Foot_R
+  rotate: true
+  xy: 1065, 230
+  size: 58, 105
+  orig: 58, 105
+  offset: 0, 0
+  index: -1
+Swim/Hand_L
+  rotate: false
+  xy: 975, 228
+  size: 38, 45
+  orig: 42, 51
+  offset: 3, 1
+  index: -1
+Swim/Hand_R
+  rotate: false
+  xy: 936, 224
+  size: 37, 49
+  orig: 41, 51
+  offset: 1, 1
+  index: -1
+Swim/Leg_L
+  rotate: false
+  xy: 1321, 57
+  size: 65, 66
+  orig: 65, 66
+  offset: 0, 0
+  index: -1
+Swim/Leg_R
+  rotate: true
+  xy: 1322, 179
+  size: 71, 66
+  orig: 71, 66
+  offset: 0, 0
+  index: -1
+Swim/LowerArm_L
+  rotate: true
+  xy: 592, 222
+  size: 42, 55
+  orig: 44, 56
+  offset: 1, 1
+  index: -1
+Swim/LowerArm_R
+  rotate: true
+  xy: 824, 229
+  size: 35, 57
+  orig: 37, 59
+  offset: 1, 1
+  index: -1
+Swim/UpperArm_L
+  rotate: true
+  xy: 649, 223
+  size: 41, 55
+  orig: 43, 58
+  offset: 1, 2
+  index: -1
+Swim/UpperArm_R
+  rotate: true
+  xy: 530, 225
+  size: 39, 60
+  orig: 41, 61
+  offset: 1, 1
+  index: -1
+glow
+  rotate: true
+  xy: 530, 266
+  size: 243, 349
+  orig: 249, 354
+  offset: 3, 3
+  index: -1

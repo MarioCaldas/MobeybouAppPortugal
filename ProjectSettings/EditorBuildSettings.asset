@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/memorygameassets/Scenes/MemoryGame.unity
     guid: 81b9e2bd42f13aa439138b422762dd4e
+  - enabled: 1
+    path: Assets/AppPortugal/TicTacToe/TicTacToeGame.unity
+    guid: 6673b9916122c544d9a41d6ec1e7aad9
   m_configObjects: {}

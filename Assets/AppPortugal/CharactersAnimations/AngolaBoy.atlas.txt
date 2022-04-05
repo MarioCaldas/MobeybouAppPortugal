@@ -1,0 +1,825 @@
+
+AngolaBoy.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Afraid
+  rotate: true
+  xy: 438, 725
+  size: 109, 86
+  orig: 109, 86
+  offset: 0, 0
+  index: -1
+AngolaInstrument
+  rotate: false
+  xy: 528, 688
+  size: 143, 146
+  orig: 143, 146
+  offset: 0, 0
+  index: -1
+Angry
+  rotate: true
+  xy: 838, 267
+  size: 112, 58
+  orig: 112, 58
+  offset: 0, 0
+  index: -1
+Berimbau
+  rotate: false
+  xy: 257, 442
+  size: 217, 238
+  orig: 217, 238
+  offset: 0, 0
+  index: -1
+Blinking
+  rotate: true
+  xy: 948, 402
+  size: 111, 61
+  orig: 111, 61
+  offset: 0, 0
+  index: -1
+Bragging
+  rotate: true
+  xy: 942, 41
+  size: 111, 65
+  orig: 111, 65
+  offset: 0, 0
+  index: -1
+BrazilChest
+  rotate: false
+  xy: 868, 880
+  size: 128, 142
+  orig: 128, 142
+  offset: 0, 0
+  index: -1
+BrazilFoot_L
+  rotate: false
+  xy: 1078, 719
+  size: 61, 79
+  orig: 61, 79
+  offset: 0, 0
+  index: -1
+BrazilFoot_R
+  rotate: false
+  xy: 1011, 797
+  size: 49, 81
+  orig: 49, 81
+  offset: 0, 0
+  index: -1
+BrazilLeg_L
+  rotate: true
+  xy: 967, 515
+  size: 74, 80
+  orig: 74, 80
+  offset: 0, 0
+  index: -1
+BrazilLeg_R
+  rotate: false
+  xy: 458, 359
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+BrazilLowerArm_L
+  rotate: false
+  xy: 1141, 729
+  size: 45, 69
+  orig: 45, 69
+  offset: 0, 0
+  index: -1
+BrazilLowerArm_R
+  rotate: false
+  xy: 1232, 961
+  size: 52, 61
+  orig: 52, 61
+  offset: 0, 0
+  index: -1
+BrazilObject
+  rotate: true
+  xy: 438, 836
+  size: 186, 157
+  orig: 186, 157
+  offset: 0, 0
+  index: -1
+BrazilUpperArm_L
+  rotate: false
+  xy: 1235, 756
+  size: 49, 58
+  orig: 49, 58
+  offset: 0, 0
+  index: -1
+BrazilUpperArm_R
+  rotate: false
+  xy: 1246, 821
+  size: 48, 58
+  orig: 48, 58
+  offset: 0, 0
+  index: -1
+CapeVerdeChest
+  rotate: true
+  xy: 699, 10
+  size: 112, 108
+  orig: 112, 108
+  offset: 0, 0
+  index: -1
+CapeVerdeFoot_L
+  rotate: true
+  xy: 998, 880
+  size: 56, 60
+  orig: 56, 60
+  offset: 0, 0
+  index: -1
+CapeVerdeFoot_R
+  rotate: false
+  xy: 1188, 733
+  size: 45, 65
+  orig: 45, 65
+  offset: 0, 0
+  index: -1
+CapeVerdeInstrument
+  rotate: true
+  xy: 597, 842
+  size: 180, 128
+  orig: 180, 128
+  offset: 0, 0
+  index: -1
+CapeVerdeLeg_L
+  rotate: false
+  xy: 1122, 647
+  size: 67, 70
+  orig: 67, 70
+  offset: 0, 0
+  index: -1
+CapeVerdeLeg_R
+  rotate: false
+  xy: 1171, 519
+  size: 67, 70
+  orig: 67, 70
+  offset: 0, 0
+  index: -1
+CapeVerdeLowerArm_L
+  rotate: false
+  xy: 1239, 699
+  size: 40, 55
+  orig: 40, 55
+  offset: 0, 0
+  index: -1
+PortugalLowerArm_L
+  rotate: false
+  xy: 1239, 699
+  size: 40, 55
+  orig: 40, 55
+  offset: 0, 0
+  index: -1
+TurkeyLowerArm_L
+  rotate: false
+  xy: 1239, 699
+  size: 40, 55
+  orig: 40, 55
+  offset: 0, 0
+  index: -1
+CapeVerdeLowerArm_R
+  rotate: false
+  xy: 1215, 881
+  size: 44, 60
+  orig: 44, 60
+  offset: 0, 0
+  index: -1
+CapeVerdeObject
+  rotate: true
+  xy: 652, 514
+  size: 172, 103
+  orig: 172, 103
+  offset: 0, 0
+  index: -1
+CapeVerdeShirt_L
+  rotate: false
+  xy: 627, 364
+  size: 44, 113
+  orig: 44, 113
+  offset: 0, 0
+  index: -1
+CapeVerdeShirt_R
+  rotate: false
+  xy: 340, 2
+  size: 55, 115
+  orig: 55, 115
+  offset: 0, 0
+  index: -1
+CapeVerdeUpperArm_L
+  rotate: false
+  xy: 1191, 670
+  size: 46, 61
+  orig: 46, 61
+  offset: 0, 0
+  index: -1
+CapeVerdeUpperArm_R
+  rotate: false
+  xy: 1168, 881
+  size: 45, 60
+  orig: 45, 60
+  offset: 0, 0
+  index: -1
+Chest
+  rotate: true
+  xy: 673, 369
+  size: 143, 141
+  orig: 143, 141
+  offset: 0, 0
+  index: -1
+ChinaChest
+  rotate: false
+  xy: 816, 381
+  size: 130, 132
+  orig: 130, 132
+  offset: 0, 0
+  index: -1
+ChinaFoot_L
+  rotate: false
+  xy: 476, 455
+  size: 46, 22
+  orig: 46, 22
+  offset: 0, 0
+  index: -1
+ChinaFoot_R
+  rotate: false
+  xy: 387, 686
+  size: 43, 29
+  orig: 43, 29
+  offset: 0, 0
+  index: -1
+ChinaInstrument
+  rotate: true
+  xy: 425, 124
+  size: 231, 151
+  orig: 231, 151
+  offset: 0, 0
+  index: -1
+ChinaLeg_L
+  rotate: false
+  xy: 1008, 695
+  size: 68, 74
+  orig: 68, 74
+  offset: 0, 0
+  index: -1
+ChinaLeg_R
+  rotate: false
+  xy: 1049, 515
+  size: 68, 74
+  orig: 68, 74
+  offset: 0, 0
+  index: -1
+ChinaLowerArm_L
+  rotate: false
+  xy: 1128, 105
+  size: 75, 98
+  orig: 75, 98
+  offset: 0, 0
+  index: -1
+ChinaLowerArm_R
+  rotate: false
+  xy: 1034, 308
+  size: 68, 101
+  orig: 68, 101
+  offset: 0, 0
+  index: -1
+ChinaObject
+  rotate: true
+  xy: 578, 172
+  size: 190, 124
+  orig: 190, 124
+  offset: 0, 0
+  index: -1
+ChinaUpperArm_L
+  rotate: true
+  xy: 905, 695
+  size: 73, 101
+  orig: 73, 101
+  offset: 0, 0
+  index: -1
+ChinaUpperArm_R
+  rotate: false
+  xy: 1011, 411
+  size: 67, 102
+  orig: 67, 102
+  offset: 0, 0
+  index: -1
+Cold
+  rotate: true
+  xy: 809, 10
+  size: 112, 65
+  orig: 112, 65
+  offset: 0, 0
+  index: -1
+Eye_L_Faint
+  rotate: false
+  xy: 355, 684
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+Eye_R_Faint
+  rotate: false
+  xy: 313, 684
+  size: 40, 31
+  orig: 40, 31
+  offset: 0, 0
+  index: -1
+Faint
+  rotate: true
+  xy: 898, 268
+  size: 111, 71
+  orig: 111, 71
+  offset: 0, 0
+  index: -1
+Flinch
+  rotate: true
+  xy: 397, 3
+  size: 114, 62
+  orig: 114, 62
+  offset: 0, 0
+  index: -1
+Foot_L
+  rotate: false
+  xy: 1133, 800
+  size: 61, 79
+  orig: 61, 79
+  offset: 0, 0
+  index: -1
+Foot_R
+  rotate: false
+  xy: 1110, 941
+  size: 49, 81
+  orig: 49, 81
+  offset: 0, 0
+  index: -1
+GLow
+  rotate: false
+  xy: 2, 678
+  size: 250, 344
+  orig: 250, 344
+  offset: 0, 0
+  index: -1
+GermanObject
+  rotate: true
+  xy: 2, 357
+  size: 319, 253
+  orig: 319, 253
+  offset: 0, 0
+  index: -1
+GermanyChest
+  rotate: true
+  xy: 476, 479
+  size: 206, 174
+  orig: 206, 174
+  offset: 0, 0
+  index: -1
+GermanyFoot_L
+  rotate: true
+  xy: 1196, 816
+  size: 63, 48
+  orig: 63, 48
+  offset: 0, 0
+  index: -1
+GermanyFoot_R
+  rotate: false
+  xy: 1049, 941
+  size: 59, 81
+  orig: 59, 81
+  offset: 0, 0
+  index: -1
+GermanyInstrument
+  rotate: true
+  xy: 757, 515
+  size: 171, 96
+  orig: 171, 96
+  offset: 0, 0
+  index: -1
+GermanyLeg_L
+  rotate: false
+  xy: 1260, 23
+  size: 69, 92
+  orig: 69, 92
+  offset: 0, 0
+  index: -1
+GermanyLeg_R
+  rotate: false
+  xy: 1217, 223
+  size: 60, 93
+  orig: 60, 93
+  offset: 0, 0
+  index: -1
+GermanyLowerArm_L
+  rotate: false
+  xy: 830, 125
+  size: 52, 104
+  orig: 52, 104
+  offset: 0, 0
+  index: -1
+GermanyLowerArm_R
+  rotate: false
+  xy: 905, 770
+  size: 48, 108
+  orig: 48, 108
+  offset: 0, 0
+  index: -1
+GermanyUpperArm_L
+  rotate: false
+  xy: 955, 771
+  size: 54, 107
+  orig: 54, 107
+  offset: 0, 0
+  index: -1
+GermanyUpperArm_R
+  rotate: false
+  xy: 1076, 65
+  size: 50, 109
+  orig: 50, 109
+  offset: 0, 0
+  index: -1
+Hand_L
+  rotate: false
+  xy: 1166, 591
+  size: 41, 54
+  orig: 41, 54
+  offset: 0, 0
+  index: -1
+Hand_R
+  rotate: false
+  xy: 1122, 591
+  size: 42, 54
+  orig: 42, 54
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 778, 695
+  size: 149, 125
+  orig: 149, 125
+  offset: 0, 0
+  index: -1
+Idle
+  rotate: true
+  xy: 971, 289
+  size: 111, 61
+  orig: 111, 61
+  offset: 0, 0
+  index: -1
+IndiaChest
+  rotate: true
+  xy: 727, 872
+  size: 150, 139
+  orig: 150, 139
+  offset: 0, 0
+  index: -1
+IndiaFoot_L
+  rotate: true
+  xy: 1286, 966
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: -1
+IndiaFoot_R
+  rotate: false
+  xy: 1060, 881
+  size: 53, 58
+  orig: 53, 58
+  offset: 0, 0
+  index: -1
+IndiaInstrument
+  rotate: true
+  xy: 578, 124
+  size: 46, 152
+  orig: 46, 152
+  offset: 0, 0
+  index: -1
+IndiaLeg_L
+  rotate: true
+  xy: 257, 357
+  size: 83, 99
+  orig: 83, 99
+  offset: 0, 0
+  index: -1
+IndiaLeg_R
+  rotate: true
+  xy: 358, 357
+  size: 83, 98
+  orig: 83, 98
+  offset: 0, 0
+  index: -1
+IndiaLowerArm_L
+  rotate: false
+  xy: 920, 591
+  size: 69, 102
+  orig: 69, 102
+  offset: 0, 0
+  index: -1
+IndiaLowerArm_R
+  rotate: true
+  xy: 1076, 2
+  size: 61, 103
+  orig: 61, 103
+  offset: 0, 0
+  index: -1
+IndiaUpperArm_L
+  rotate: false
+  xy: 991, 591
+  size: 69, 102
+  orig: 69, 102
+  offset: 0, 0
+  index: -1
+IndiaUpperArm_R
+  rotate: false
+  xy: 1062, 591
+  size: 58, 102
+  orig: 58, 102
+  offset: 0, 0
+  index: -1
+Jutti_L
+  rotate: false
+  xy: 272, 89
+  size: 56, 28
+  orig: 56, 28
+  offset: 0, 0
+  index: -1
+Jutti_R
+  rotate: false
+  xy: 254, 682
+  size: 57, 33
+  orig: 57, 33
+  offset: 0, 0
+  index: -1
+Laugh
+  rotate: false
+  xy: 224, 2
+  size: 114, 78
+  orig: 114, 78
+  offset: 0, 0
+  index: -1
+Leg_L
+  rotate: false
+  xy: 1062, 800
+  size: 69, 79
+  orig: 69, 79
+  offset: 0, 0
+  index: -1
+Leg_R
+  rotate: false
+  xy: 1161, 943
+  size: 69, 79
+  orig: 69, 79
+  offset: 0, 0
+  index: -1
+LowerArm_L
+  rotate: false
+  xy: 1198, 318
+  size: 61, 95
+  orig: 61, 95
+  offset: 0, 0
+  index: -1
+LowerArm_R
+  rotate: false
+  xy: 1145, 415
+  size: 63, 99
+  orig: 63, 99
+  offset: 0, 0
+  index: -1
+Pestle
+  rotate: false
+  xy: 206, 82
+  size: 64, 273
+  orig: 64, 273
+  offset: 0, 0
+  index: -1
+Pilão_Back
+  rotate: false
+  xy: 727, 846
+  size: 96, 24
+  orig: 96, 24
+  offset: 0, 0
+  index: -1
+Pilão_Front
+  rotate: false
+  xy: 673, 688
+  size: 103, 152
+  orig: 103, 152
+  offset: 0, 0
+  index: -1
+PortugalChest
+  rotate: true
+  xy: 461, 4
+  size: 118, 107
+  orig: 118, 107
+  offset: 0, 0
+  index: -1
+PortugalFoot_R
+  rotate: false
+  xy: 998, 938
+  size: 49, 84
+  orig: 49, 84
+  offset: 0, 0
+  index: -1
+PortugalInstrument
+  rotate: true
+  xy: 272, 119
+  size: 236, 151
+  orig: 236, 151
+  offset: 0, 0
+  index: -1
+PortugalLeg_L
+  rotate: true
+  xy: 1181, 7
+  size: 96, 77
+  orig: 96, 77
+  offset: 0, 0
+  index: -1
+PortugalLeg_R
+  rotate: true
+  xy: 1205, 117
+  size: 94, 80
+  orig: 94, 80
+  offset: 0, 0
+  index: -1
+PortugalLowerArm_R
+  rotate: false
+  xy: 1209, 608
+  size: 44, 60
+  orig: 44, 60
+  offset: 0, 0
+  index: -1
+TurkeyLowerArm_R
+  rotate: false
+  xy: 1209, 608
+  size: 44, 60
+  orig: 44, 60
+  offset: 0, 0
+  index: -1
+PortugalUpperArm_L
+  rotate: false
+  xy: 1115, 881
+  size: 51, 58
+  orig: 51, 58
+  offset: 0, 0
+  index: -1
+PortugalUpperArm_R
+  rotate: false
+  xy: 1261, 901
+  size: 48, 58
+  orig: 48, 58
+  offset: 0, 0
+  index: -1
+Portugal_Object
+  rotate: true
+  xy: 704, 231
+  size: 136, 132
+  orig: 136, 132
+  offset: 0, 0
+  index: -1
+Pouting
+  rotate: true
+  xy: 855, 582
+  size: 111, 63
+  orig: 111, 63
+  offset: 0, 0
+  index: -1
+Pungi
+  rotate: true
+  xy: 960, 155
+  size: 111, 65
+  orig: 111, 65
+  offset: 0, 0
+  index: -1
+Sad
+  rotate: false
+  xy: 855, 515
+  size: 110, 65
+  orig: 110, 65
+  offset: 0, 0
+  index: -1
+Skeleton
+  rotate: false
+  xy: 2, 60
+  size: 202, 295
+  orig: 202, 295
+  offset: 0, 0
+  index: -1
+Sleeping
+  rotate: true
+  xy: 1027, 176
+  size: 111, 61
+  orig: 111, 61
+  offset: 0, 0
+  index: -1
+Stick
+  rotate: true
+  xy: 1151, 213
+  size: 95, 64
+  orig: 95, 64
+  offset: 0, 0
+  index: -1
+Strap_Back
+  rotate: true
+  xy: 2, 2
+  size: 56, 77
+  orig: 56, 77
+  offset: 0, 0
+  index: -1
+Strap_Front
+  rotate: true
+  xy: 432, 687
+  size: 28, 94
+  orig: 28, 94
+  offset: 0, 0
+  index: -1
+Surprised
+  rotate: true
+  xy: 884, 154
+  size: 111, 74
+  orig: 111, 74
+  offset: 0, 0
+  index: -1
+Suspicious
+  rotate: true
+  xy: 876, 11
+  size: 112, 64
+  orig: 112, 64
+  offset: 0, 0
+  index: -1
+TurkeyChest
+  rotate: true
+  xy: 570, 5
+  size: 117, 127
+  orig: 117, 127
+  offset: 0, 0
+  index: -1
+TurkeyInstrument
+  rotate: true
+  xy: 254, 717
+  size: 305, 182
+  orig: 305, 182
+  offset: 0, 0
+  index: -1
+TurkeyLeg_L
+  rotate: true
+  xy: 732, 124
+  size: 105, 96
+  orig: 105, 96
+  offset: 0, 0
+  index: -1
+TurkeyLeg_R
+  rotate: false
+  xy: 1104, 310
+  size: 92, 100
+  orig: 92, 100
+  offset: 0, 0
+  index: -1
+TurkeyObject
+  rotate: false
+  xy: 156, 2
+  size: 66, 56
+  orig: 66, 56
+  offset: 0, 0
+  index: -1
+TurkeyScarf
+  rotate: true
+  xy: 536, 364
+  size: 113, 89
+  orig: 113, 89
+  offset: 0, 0
+  index: -1
+TurkeyUpperArm_L
+  rotate: true
+  xy: 81, 2
+  size: 56, 73
+  orig: 56, 73
+  offset: 0, 0
+  index: -1
+TurkeyUpperArm_R
+  rotate: false
+  xy: 1119, 516
+  size: 50, 73
+  orig: 50, 73
+  offset: 0, 0
+  index: -1
+UpperArm_L
+  rotate: false
+  xy: 1090, 205
+  size: 59, 101
+  orig: 59, 101
+  offset: 0, 0
+  index: -1
+UpperArm_R
+  rotate: false
+  xy: 1080, 412
+  size: 63, 101
+  orig: 63, 101
+  offset: 0, 0
+  index: -1
+Zapped
+  rotate: true
+  xy: 1009, 42
+  size: 111, 65
+  orig: 111, 65
+  offset: 0, 0
+  index: -1

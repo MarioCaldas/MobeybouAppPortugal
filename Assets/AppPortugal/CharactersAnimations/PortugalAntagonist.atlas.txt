@@ -1,0 +1,118 @@
+
+PortugalAntagonist.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Afraid
+  rotate: true
+  xy: 1301, 308
+  size: 158, 159
+  orig: 158, 159
+  offset: 0, 0
+  index: -1
+Asleep
+  rotate: true
+  xy: 1276, 115
+  size: 191, 136
+  orig: 191, 136
+  offset: 0, 0
+  index: -1
+Cold
+  rotate: true
+  xy: 1219, 827
+  size: 190, 139
+  orig: 190, 139
+  offset: 0, 0
+  index: -1
+Dance
+  rotate: true
+  xy: 1139, 308
+  size: 196, 160
+  orig: 196, 160
+  offset: 0, 0
+  index: -1
+EyeFaint_L
+  rotate: true
+  xy: 603, 407
+  size: 63, 60
+  orig: 63, 60
+  offset: 0, 0
+  index: -1
+EyeFaint_R
+  rotate: false
+  xy: 665, 413
+  size: 53, 57
+  orig: 53, 57
+  offset: 0, 0
+  index: -1
+Faint
+  rotate: true
+  xy: 985, 39
+  size: 203, 158
+  orig: 203, 158
+  offset: 0, 0
+  index: -1
+Flinch
+  rotate: true
+  xy: 1301, 468
+  size: 165, 152
+  orig: 165, 152
+  offset: 0, 0
+  index: -1
+Green
+  rotate: true
+  xy: 603, 472
+  size: 545, 312
+  orig: 545, 312
+  offset: 0, 0
+  index: -1
+Happy
+  rotate: true
+  xy: 1145, 110
+  size: 196, 129
+  orig: 196, 129
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 2, 2
+  size: 380, 382
+  orig: 380, 382
+  offset: 0, 0
+  index: -1
+Idle
+  rotate: true
+  xy: 985, 244
+  size: 260, 152
+  orig: 260, 152
+  offset: 0, 0
+  index: -1
+Red
+  rotate: true
+  xy: 917, 506
+  size: 511, 300
+  orig: 511, 300
+  offset: 0, 0
+  index: -1
+Skeleton
+  rotate: false
+  xy: 2, 386
+  size: 599, 631
+  orig: 599, 631
+  offset: 0, 0
+  index: -1
+Yellow
+  rotate: false
+  xy: 384, 39
+  size: 599, 345
+  orig: 599, 345
+  offset: 0, 0
+  index: -1
+Zapped
+  rotate: true
+  xy: 1219, 635
+  size: 190, 139
+  orig: 190, 139
+  offset: 0, 0
+  index: -1

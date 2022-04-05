@@ -91,7 +91,10 @@ public class ChapterMenuManager : MonoBehaviour
     public void MemoryGame(){
         SceneManager.LoadScene("MemoryGame");
     }
-
+    public void TicTacToeGame()
+    {
+        SceneManager.LoadScene("TicTacToeGame");
+    }
     public void StartMenu(){
         SceneManager.LoadScene("StartMenu");
     }
