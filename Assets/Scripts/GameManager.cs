@@ -20,6 +20,10 @@ public class GameManager : MonoBehaviour
 
     public Dataholder dh = new Dataholder();
 
+    [SerializeField] private GameObject boyGO;
+    [SerializeField] private GameObject girlGO;
+
+
     void Awake()
     {
 
@@ -55,6 +59,19 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void SetCharacter()
+    {
+        if(gender)
+        {
+            boyGO.SetActive(false);
+            girlGO.SetActive(true);
+        }
+        else
+        {
+            boyGO.SetActive(true);
+            girlGO.SetActive(false);
+        }
+    }
 
     private bool CheckPermissions()
     {
