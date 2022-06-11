@@ -62,11 +62,8 @@ public class TileController : MonoBehaviour
     public void OnMouseUp()
     {
         //gameController.dragController.ResetCurrentDrag();
-        print("ata");
         if(gameController.dragController.GetCurrentDrag() != null && !used)
         {
-
-            print("ata 11");
             internalText.text = gameController.GetPlayersTurn();
             interactiveButton.image.sprite = gameController.GetPlayerSprite();
             interactiveButton.interactable = false;

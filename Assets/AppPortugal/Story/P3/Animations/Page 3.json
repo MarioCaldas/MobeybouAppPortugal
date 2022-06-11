@@ -1,0 +1,190 @@
+{
+"skeleton": {
+	"hash": "RFvT6fjsHVLsQD6V7Ri6/Eakruc",
+	"spine": "3.8.99",
+	"x": -966,
+	"y": 255,
+	"width": 1171,
+	"height": 559,
+	"images": "./images/",
+	"audio": "C:/Users/anapa/Dropbox/Jobs/Mobeybou/App PT/P3"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Peaches", "bone": "root", "attachment": "Peaches" },
+	{ "name": "Peaches_Glow", "bone": "root", "color": "ffffff00", "attachment": "Peaches_Glow" },
+	{ "name": "Plums", "bone": "root", "attachment": "Plums" },
+	{ "name": "Plums_Glow", "bone": "root", "color": "ffffff00", "attachment": "Plums_Glow" },
+	{ "name": "Apples", "bone": "root", "attachment": "Apples" },
+	{ "name": "Apples_Glow", "bone": "root", "color": "ffffff00", "attachment": "Apples_Glow" },
+	{ "name": "Oranges", "bone": "root", "attachment": "Oranges" },
+	{ "name": "Oranges_Glow", "bone": "root", "color": "ffffff00", "attachment": "Oranges_Glow" },
+	{ "name": "RedApples", "bone": "root", "attachment": "RedApples" },
+	{ "name": "RedApples_Glow", "bone": "root", "color": "ffffff00", "attachment": "RedApples_Glow" },
+	{ "name": "Mangoes", "bone": "root", "attachment": "Mangoes" },
+	{ "name": "Mangoes_Glow", "bone": "root", "color": "ffffff00", "attachment": "Mangoes_Glow" },
+	{ "name": "Bananas", "bone": "root", "attachment": "Bananas" },
+	{ "name": "Bananas_Glow", "bone": "root", "color": "ffffff00", "attachment": "Bananas_Glow" },
+	{ "name": "Basket_full", "bone": "root" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Apples": {
+				"Apples": { "x": -289, "y": 606, "width": 272, "height": 190 }
+			},
+			"Apples_Glow": {
+				"Apples_Glow": { "x": -289, "y": 604.5, "width": 372, "height": 287 }
+			},
+			"Bananas": {
+				"Bananas": { "x": -4, "y": 418.5, "width": 322, "height": 229 }
+			},
+			"Bananas_Glow": {
+				"Bananas_Glow": { "x": -4.5, "y": 419, "width": 419, "height": 328 }
+			},
+			"Mangoes": {
+				"Mangoes": { "x": -352, "y": 420.5, "width": 308, "height": 169 }
+			},
+			"Mangoes_Glow": {
+				"Mangoes_Glow": { "x": -352, "y": 420, "width": 408, "height": 270 }
+			},
+			"Oranges": {
+				"Oranges": { "x": -553.5, "y": 538, "width": 293, "height": 188 }
+			},
+			"Oranges_Glow": {
+				"Oranges_Glow": { "x": -553.5, "y": 538, "width": 393, "height": 290 }
+			},
+			"Peaches": {
+				"Peaches": { "x": -778.5, "y": 683.5, "width": 275, "height": 163 }
+			},
+			"Peaches_Glow": {
+				"Peaches_Glow": { "x": -778, "y": 683, "width": 376, "height": 262 }
+			},
+			"Plums": {
+				"Plums": { "x": -481.5, "y": 659, "width": 271, "height": 114 }
+			},
+			"Plums_Glow": {
+				"Plums_Glow": { "x": -481, "y": 658.5, "width": 368, "height": 213 }
+			},
+			"RedApples": {
+				"RedApples": { "x": -746, "y": 432, "width": 272, "height": 192 }
+			},
+			"RedApples_Glow": {
+				"RedApples_Glow": { "x": -746, "y": 431.5, "width": 372, "height": 291 }
+			}
+		}
+	}
+],
+"animations": {
+	"glow_fruits": {
+		"slots": {
+			"Apples_Glow": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 1.1667, "color": "ffffffff" },
+					{ "time": 2.3333, "color": "ffffff00" }
+				]
+			},
+			"Bananas_Glow": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				]
+			},
+			"Mangoes_Glow": {
+				"color": [
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 1.8333, "color": "ffffffff" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"Oranges_Glow": {
+				"color": [
+					{ "time": 0.9667, "color": "ffffff00" },
+					{ "time": 2.1333, "color": "ffffffff" },
+					{ "time": 3.3, "color": "ffffff00" }
+				]
+			},
+			"Peaches_Glow": {
+				"color": [
+					{ "time": 1.3333, "color": "ffffff00" },
+					{ "time": 2.5, "color": "ffffffff" },
+					{ "time": 3.6667, "color": "ffffff48" }
+				]
+			},
+			"Plums_Glow": {
+				"color": [
+					{ "time": 1.6333, "color": "ffffff00" },
+					{ "time": 2.8, "color": "ffffffff" },
+					{ "time": 4, "color": "ffffff00" }
+				]
+			},
+			"RedApples_Glow": {
+				"color": [
+					{ "time": 2, "color": "ffffff00" },
+					{ "time": 3.1667, "color": "ffffffff" },
+					{ "time": 4.3333, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"glow_fruits_synch": {
+		"slots": {
+			"Apples_Glow": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				]
+			},
+			"Bananas_Glow": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				]
+			},
+			"Mangoes_Glow": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				]
+			},
+			"Oranges_Glow": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				]
+			},
+			"Peaches_Glow": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				]
+			},
+			"Plums_Glow": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00" }
+				]
+			},
+			"RedApples_Glow": {
+				"color": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 2.6667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

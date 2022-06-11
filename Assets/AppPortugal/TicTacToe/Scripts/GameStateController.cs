@@ -160,15 +160,20 @@ public class GameStateController : MonoBehaviour
 
         int checkNotLosePlay = CheckForPlayerWin();
 
+        print("checkWinPlay " + checkWinPlay);
+        print("checkNotLosePlay " + checkNotLosePlay);
+
+
         if (checkWinPlay != -1 && !tileList[checkWinPlay].transform.GetComponentInParent<TileController>().used)
         {
+            print("play to win");
             tileList[checkWinPlay].transform.GetComponentInParent<TileController>().UpdateTile();
         }
-        else if(checkNotLosePlay != -1 && Random.Range(0, 100) >= 65)
+        else if(checkNotLosePlay != -1 && Random.Range(0, 100) >= 65 && !tileList[checkNotLosePlay].transform.GetComponentInParent<TileController>().used)
         {
-            tileList[checkNotLosePlay].transform.GetComponentInParent<TileController>().UpdateTile();
+            print("play to note lose");
 
-            print("die bitch");
+            tileList[checkNotLosePlay].transform.GetComponentInParent<TileController>().UpdateTile();
   
         }
         else

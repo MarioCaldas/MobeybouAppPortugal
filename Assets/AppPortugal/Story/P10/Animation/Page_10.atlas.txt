@@ -1,0 +1,48 @@
+
+Page_10.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cruzeiro
+  rotate: true
+  xy: 876, 545
+  size: 194, 415
+  orig: 203, 418
+  offset: 7, 1
+  index: -1
+Cruzeiro_Glow
+  rotate: true
+  xy: 1293, 449
+  size: 290, 508
+  orig: 298, 516
+  offset: 4, 4
+  index: -1
+Devil
+  rotate: true
+  xy: 294, 579
+  size: 160, 264
+  orig: 162, 266
+  offset: 1, 1
+  index: -1
+Foreground
+  rotate: false
+  xy: 2, 2
+  size: 1920, 445
+  orig: 1922, 447
+  offset: 1, 1
+  index: -1
+Lady
+  rotate: true
+  xy: 2, 588
+  size: 151, 290
+  orig: 158, 292
+  offset: 1, 1
+  index: -1
+Musician
+  rotate: true
+  xy: 560, 569
+  size: 170, 314
+  orig: 172, 316
+  offset: 1, 1
+  index: -1

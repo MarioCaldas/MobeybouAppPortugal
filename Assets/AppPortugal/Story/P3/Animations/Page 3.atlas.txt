@@ -1,0 +1,104 @@
+
+Page 3.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Apples
+  rotate: true
+  xy: 1060, 5
+  size: 272, 190
+  orig: 272, 190
+  offset: 0, 0
+  index: -1
+Apples_Glow
+  rotate: true
+  xy: 596, 649
+  size: 372, 287
+  orig: 372, 287
+  offset: 0, 0
+  index: -1
+Bananas
+  rotate: false
+  xy: 571, 40
+  size: 322, 229
+  orig: 322, 229
+  offset: 0, 0
+  index: -1
+Bananas_Glow
+  rotate: true
+  xy: 2, 602
+  size: 419, 328
+  orig: 419, 328
+  offset: 0, 0
+  index: -1
+Mangoes
+  rotate: true
+  xy: 885, 713
+  size: 308, 169
+  orig: 308, 169
+  offset: 0, 0
+  index: -1
+Mangoes_Glow
+  rotate: true
+  xy: 2, 192
+  size: 408, 270
+  orig: 408, 270
+  offset: 0, 0
+  index: -1
+Oranges
+  rotate: false
+  xy: 2, 2
+  size: 293, 188
+  orig: 293, 188
+  offset: 0, 0
+  index: -1
+Oranges_Glow
+  rotate: true
+  xy: 274, 207
+  size: 393, 290
+  orig: 393, 290
+  offset: 0, 0
+  index: -1
+Peaches
+  rotate: true
+  xy: 895, 2
+  size: 275, 163
+  orig: 275, 163
+  offset: 0, 0
+  index: -1
+Peaches_Glow
+  rotate: true
+  xy: 332, 645
+  size: 376, 262
+  orig: 376, 262
+  offset: 0, 0
+  index: -1
+Plums
+  rotate: true
+  xy: 1056, 750
+  size: 271, 114
+  orig: 271, 114
+  offset: 0, 0
+  index: -1
+Plums_Glow
+  rotate: true
+  xy: 859, 279
+  size: 368, 213
+  orig: 368, 213
+  offset: 0, 0
+  index: -1
+RedApples
+  rotate: false
+  xy: 297, 13
+  size: 272, 192
+  orig: 272, 192
+  offset: 0, 0
+  index: -1
+RedApples_Glow
+  rotate: true
+  xy: 566, 271
+  size: 372, 291
+  orig: 372, 291
+  offset: 0, 0
+  index: -1

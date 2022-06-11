@@ -1,0 +1,55 @@
+
+Page_4.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cataplana_Empty
+  rotate: false
+  xy: 969, 2
+  size: 692, 300
+  orig: 694, 302
+  offset: 1, 1
+  index: -1
+Cataplana_Full
+  rotate: true
+  xy: 1391, 304
+  size: 692, 300
+  orig: 694, 302
+  offset: 1, 1
+  index: -1
+Cataplana_GLow
+  rotate: true
+  xy: 2, 186
+  size: 810, 541
+  orig: 820, 549
+  offset: 5, 4
+  index: -1
+Cataplana_Half
+  rotate: false
+  xy: 1663, 2
+  size: 692, 300
+  orig: 694, 302
+  offset: 1, 1
+  index: -1
+Cataplana_Lid
+  rotate: true
+  xy: 969, 304
+  size: 692, 420
+  orig: 694, 422
+  offset: 1, 1
+  index: -1
+Cataplanal_Glow2
+  rotate: true
+  xy: 545, 186
+  size: 810, 422
+  orig: 820, 429
+  offset: 5, 4
+  index: -1
+Foreground_Table
+  rotate: false
+  xy: 1693, 534
+  size: 1458, 462
+  orig: 1461, 482
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,124 @@
+{
+"skeleton": {
+	"hash": "o4beBT2rN/AvpeG9phhK1KPAdIA",
+	"spine": "3.8.99",
+	"x": -957,
+	"y": -1,
+	"width": 1888,
+	"height": 772,
+	"images": "./images/",
+	"audio": "C:/Users/anapa/Dropbox/Jobs/Mobeybou/App PT/P4"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Foreground_Table", "bone": "root", "attachment": "Foreground_Table" },
+	{ "name": "Cataplana_Empty", "bone": "root", "attachment": "Cataplana_Empty" },
+	{ "name": "Cataplana_Glow2", "bone": "root", "color": "ffffff00", "attachment": "Cataplanal_Glow2", "blend": "additive" },
+	{ "name": "Cataplana_Half", "bone": "root", "attachment": "Cataplana_Half" },
+	{ "name": "Cataplana_Full", "bone": "root", "attachment": "Cataplana_Full" },
+	{ "name": "Cataplana_Lid", "bone": "root", "attachment": "Cataplana_Lid" },
+	{ "name": "Cataplana_GLow", "bone": "root", "color": "ffffff00", "attachment": "Cataplana_GLow", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Cataplana_Empty": {
+				"Cataplana_Empty": { "x": -3, "y": 437, "width": 694, "height": 302 }
+			},
+			"Cataplana_Full": {
+				"Cataplana_Full": { "x": -3, "y": 437, "width": 694, "height": 302 }
+			},
+			"Cataplana_GLow": {
+				"Cataplana_GLow": { "x": -3, "y": 496.5, "width": 820, "height": 549 }
+			},
+			"Cataplana_Glow2": {
+				"Cataplanal_Glow2": { "x": -3, "y": 437, "width": 820, "height": 429 }
+			},
+			"Cataplana_Half": {
+				"Cataplana_Half": { "x": -3, "y": 437, "width": 694, "height": 302 }
+			},
+			"Cataplana_Lid": {
+				"Cataplana_Lid": { "x": -3, "y": 497, "width": 694, "height": 422 }
+			},
+			"Foreground_Table": {
+				"Foreground_Table": { "x": -3.5, "y": 240, "width": 1461, "height": 482 }
+			}
+		}
+	}
+],
+"animations": {
+	"Cataplana_closed_Glow": {
+		"slots": {
+			"Cataplana_GLow": {
+				"color": [
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffff9c" },
+					{ "time": 2.5, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"Cataplana_empty": {
+		"slots": {
+			"Cataplana_Full": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Cataplana_Half": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Cataplana_Lid": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"Cataplana_full_Glow": {
+		"slots": {
+			"Cataplana_Glow2": {
+				"color": [
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffac" },
+					{ "time": 2.5, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"Cataplana_Lid": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"Cataplana_half_Glow": {
+		"slots": {
+			"Cataplana_Full": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Cataplana_Glow2": {
+				"color": [
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffac" },
+					{ "time": 2.5, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 3, "color": "ffffff00" }
+				]
+			},
+			"Cataplana_Lid": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	}
+}
+}

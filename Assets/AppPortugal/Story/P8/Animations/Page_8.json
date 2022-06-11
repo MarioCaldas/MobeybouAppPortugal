@@ -1,0 +1,63 @@
+{
+"skeleton": {
+	"hash": "aOvmUCB2jONEuf3NanV2uvilcQI",
+	"spine": "3.8.99",
+	"x": -957,
+	"y": -1,
+	"width": 1922,
+	"height": 1082,
+	"images": "./images/",
+	"audio": "C:/Users/anapa/Dropbox/Jobs/Mobeybou/App PT/P8"
+},
+"bones": [
+	{ "name": "root" },
+	{
+		"name": "Boat",
+		"parent": "root",
+		"length": 106.67,
+		"rotation": 88.85,
+		"x": -472.73,
+		"y": 244.19,
+		"color": "f30ad5ff"
+	}
+],
+"slots": [
+	{ "name": "Boat_Glow", "bone": "root" },
+	{ "name": "Boat", "bone": "Boat", "attachment": "Boat" },
+	{ "name": "Foreground_Day", "bone": "root", "attachment": "Foreground_Day" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Boat": {
+				"Boat": { "x": 198.87, "y": -25.76, "rotation": -88.85, "width": 722, "height": 499 }
+			},
+			"Boat_Glow": {
+				"Boat_Glow": { "x": -444, "y": 442, "width": 786, "height": 566 }
+			},
+			"Foreground_Day": {
+				"Foreground_Day": { "x": 4.5, "y": 105.5, "width": 1921, "height": 213 }
+			}
+		}
+	}
+],
+"animations": {
+	"Boat_glow": {
+		"slots": {
+			"Boat_Glow": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffff" },
+					{ "time": 3.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Boat_Glow" }
+				]
+			}
+		}
+	}
+}
+}

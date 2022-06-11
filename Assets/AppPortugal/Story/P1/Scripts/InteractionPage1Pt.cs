@@ -13,16 +13,62 @@ public class InteractionPage1Pt : MonoBehaviour
     [SerializeField] private Animator panoAnimator;
     [SerializeField] private Animator mapAnimator;
 
-    private void Start()
+    private GameManager gm;
+
+
+    [SerializeField] private GameObject boyGO;
+    [SerializeField] private GameObject girlGO;
+
+    private UI ui;
+
+    public Animator characterAnimator;
+
+    private void Awake()
     {
+
+        ui = FindObjectOfType<UI>();
+
         panoAnimator.gameObject.SetActive(false);
         mapAnimator.gameObject.SetActive(false);
+        
+        characterAnimator = GetComponentInChildren<Animator>();
 
-        StartCoroutine(Sequence());
     }
 
+    private void Start()
+    {
+        print("start");
+        gm = FindObjectOfType<GameManager>();
+
+        print(gm);
+        SetCharacter();
+
+        StartCoroutine(Sequence());
+
+        characterAnimator.SetTrigger("Swim");
+
+    }
+    private void SetCharacter()
+    {
+        if (gm.gender)
+        {
+            boyGO.SetActive(false);
+            girlGO.SetActive(true);
+
+            characterAnimator = girlGO.GetComponentInChildren<Animator>();
+        }
+        else
+        {
+            boyGO.SetActive(true);
+            girlGO.SetActive(false);
+
+            characterAnimator = boyGO.GetComponentInChildren<Animator>();
+
+        }
+    }
     private IEnumerator Sequence()
     {
+        print("started");
 
         bottleAnimator.SetTrigger("bottleGlow");
 
@@ -33,7 +79,7 @@ public class InteractionPage1Pt : MonoBehaviour
 
         panoAnimator.gameObject.SetActive(true);
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
 
         panoAnimator.SetTrigger("Glow");
 
@@ -43,6 +89,9 @@ public class InteractionPage1Pt : MonoBehaviour
             yield return null;
         }
         mapAnimator.gameObject.SetActive(true);
+
+
+        StartCoroutine(ui.Glow(1f));
 
     }
 }

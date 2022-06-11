@@ -11,6 +11,7 @@ public class UI : MonoBehaviour
 
     public void Next()
     {
+        print("nextt");
         int currentBuildIndex = SceneManager.GetActiveScene().buildIndex + 1;
         StartCoroutine(LoadAsyncOperation(currentBuildIndex));
     }

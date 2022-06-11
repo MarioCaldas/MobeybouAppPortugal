@@ -21,6 +21,8 @@ public class SwimScript : MonoBehaviour
     void Start()
     {
         initScaleX = transform.localScale.x;
+
+        transform.position = initPos.position;
     }
 
     void Update()

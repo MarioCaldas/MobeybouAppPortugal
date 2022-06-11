@@ -153,7 +153,6 @@ public class StartMenuManager : MonoBehaviour
         loader1.SetActive(true);
         loader2.SetActive(true);
         AsyncOperation gameLevel = SceneManager.LoadSceneAsync(name);
-        Debug.Log(gameLevel.progress);
         yield return new WaitForEndOfFrame();
     }
 
