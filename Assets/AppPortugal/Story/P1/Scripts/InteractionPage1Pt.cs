@@ -10,7 +10,9 @@ public class InteractionPage1Pt : MonoBehaviour
     [SerializeField] private Clickable pano;
 
     [SerializeField] private Animator bottleAnimator;
-    [SerializeField] private Animator panoAnimator;
+    [SerializeField] private Animator panoAnimatorUK;
+    [SerializeField] private Animator panoAnimatorPt;
+
     [SerializeField] private Animator mapAnimator;
 
     private GameManager gm;
@@ -28,7 +30,9 @@ public class InteractionPage1Pt : MonoBehaviour
 
         ui = FindObjectOfType<UI>();
 
-        panoAnimator.gameObject.SetActive(false);
+        panoAnimatorUK.gameObject.SetActive(false);
+        panoAnimatorPt.gameObject.SetActive(false);
+
         mapAnimator.gameObject.SetActive(false);
         
         characterAnimator = GetComponentInChildren<Animator>();
@@ -68,7 +72,14 @@ public class InteractionPage1Pt : MonoBehaviour
     }
     private IEnumerator Sequence()
     {
-        print("started");
+        if (gm.gender)
+        {
+            girlGO.GetComponent<SwimScript>().swim = true;
+        }
+        else
+        {
+            boyGO.GetComponent<SwimScript>().swim = true;
+        }
 
         bottleAnimator.SetTrigger("bottleGlow");
 
@@ -76,13 +87,25 @@ public class InteractionPage1Pt : MonoBehaviour
         {
             yield return null;
         }
-
-        panoAnimator.gameObject.SetActive(true);
+        if(gm.language == 0)
+            panoAnimatorUK.gameObject.SetActive(true);
+        else
+            panoAnimatorPt.gameObject.SetActive(true);
 
         yield return new WaitForSeconds(1f);
 
-        panoAnimator.SetTrigger("Glow");
+        if (gm.language == 0)
+        {
+            panoAnimatorUK.SetTrigger("Glow");
+            pano = panoAnimatorUK.transform.GetComponent<Clickable>();
 
+        }
+        else
+        {
+            panoAnimatorPt.SetTrigger("Glow");
+            pano = panoAnimatorPt.transform.GetComponent<Clickable>();
+
+        }
 
         while (!pano.clicked)
         {

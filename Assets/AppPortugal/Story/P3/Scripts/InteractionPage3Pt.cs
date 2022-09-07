@@ -17,6 +17,8 @@ public class InteractionPage3Pt : MonoBehaviour
 
     public int currentFruits;
 
+    [SerializeField] private Animator animator;
+
     private void Awake()
     {
 
@@ -34,6 +36,7 @@ public class InteractionPage3Pt : MonoBehaviour
     {
         SetCharacter();
 
+        animator.SetBool("glow", true);
 
 
         /*while (!clickable.clicked)
@@ -48,7 +51,7 @@ public class InteractionPage3Pt : MonoBehaviour
             yield return null;
         }
 
-
+        animator.SetBool("glow", false);
 
         StartCoroutine(ui.Glow(1f));
 

@@ -14,6 +14,7 @@ public class InteractionPage10Pt : MonoBehaviour
     private UI ui;
 
     [SerializeField] private Animator animator;
+    [SerializeField] private Animator galoAnimator;
 
     private void Awake()
     {
@@ -41,10 +42,31 @@ public class InteractionPage10Pt : MonoBehaviour
         }
 
         animator.SetTrigger("Appear");
+        yield return new WaitForSeconds(0.5f);
 
-        yield return new WaitForSeconds(2);
+        galoAnimator.SetTrigger("Scare");
 
+        if (gm.gender)
+        {
+            girlGO.GetComponentInChildren<Animator>().SetTrigger("Laught");
+        }
+        else
+        {
+            boyGO.GetComponentInChildren<Animator>().SetTrigger("Laught");
+        }
         animator.SetTrigger("Dance");
+
+        yield return new WaitForSeconds(1.5f);
+        if (gm.gender)
+        {
+            girlGO.GetComponentInChildren<Animator>().SetTrigger("Dance");
+        }
+        else
+        {
+            boyGO.GetComponentInChildren<Animator>().SetTrigger("Dance");
+        }
+        galoAnimator.SetTrigger("Dance");
+
 
         StartCoroutine(ui.Glow(1f));
 

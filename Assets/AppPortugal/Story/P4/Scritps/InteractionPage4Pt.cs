@@ -14,9 +14,8 @@ public class InteractionPage4Pt : MonoBehaviour
     private GameManager gm;
 
     [SerializeField] private GameObject boyGO;
-    [SerializeField] private GameObject boyGO2;
     [SerializeField] private GameObject girlGO;
-    [SerializeField] private GameObject girlGO2;
+    [SerializeField] private GameObject brazilianGirl;
 
     private UI ui;
 
@@ -34,7 +33,8 @@ public class InteractionPage4Pt : MonoBehaviour
         SetCharacter();
 
         characterAnimator.SetTrigger("SitIdle");
-        characterAnimator2.SetTrigger("SitIdle");
+
+        characterAnimator2 = brazilianGirl.GetComponent<Animator>();
 
     }
 
@@ -44,23 +44,16 @@ public class InteractionPage4Pt : MonoBehaviour
         {
             boyGO.SetActive(false);
             girlGO.SetActive(true);
-            boyGO2.SetActive(false);
-            girlGO2.SetActive(true);
 
             characterAnimator = girlGO.GetComponentInChildren<Animator>();
-            characterAnimator2 = girlGO2.GetComponentInChildren<Animator>();
 
         }
         else
         {
             boyGO.SetActive(true);
             girlGO.SetActive(false);
-            boyGO2.SetActive(true);
-            girlGO2.SetActive(false);
 
             characterAnimator = boyGO.GetComponentInChildren<Animator>();
-            characterAnimator2 = boyGO2.GetComponentInChildren<Animator>();
-
         }
     }
 
@@ -76,7 +69,7 @@ public class InteractionPage4Pt : MonoBehaviour
         
         sceneAnimator.SetTrigger("Full");
         characterAnimator.SetTrigger("SitLaught");
-        characterAnimator2.SetTrigger("SitLaught");
+        characterAnimator2.SetTrigger("Laught");
 
         yield return new WaitForSeconds(2);
 
@@ -90,7 +83,7 @@ public class InteractionPage4Pt : MonoBehaviour
         }
         sceneAnimator.SetTrigger("Half");
         characterAnimator.SetTrigger("SitLaught");
-        characterAnimator2.SetTrigger("SitLaught");
+        characterAnimator2.SetTrigger("Laught");
 
         yield return new WaitForSeconds(2);
 
@@ -103,13 +96,12 @@ public class InteractionPage4Pt : MonoBehaviour
         }
         sceneAnimator.SetTrigger("Empty");
         characterAnimator.SetTrigger("SitLaught");
-        characterAnimator2.SetTrigger("SitLaught");
+        characterAnimator2.SetTrigger("Laught");
 
         yield return new WaitForSeconds(2);
 
         //tacho.clicked = false;
 
-        print("start glow " + ui);
 
         StartCoroutine(ui.Glow(1f));
 

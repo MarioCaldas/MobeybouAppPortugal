@@ -25,7 +25,9 @@ public class ChapterMenuManager : MonoBehaviour
 
     public void Close()
     {
-        SceneManager.LoadScene(previousScene);
+        SceneManager.LoadScene("HomePage1");
+
+        //SceneManager.LoadScene(previousScene);
     }
 
     public void Page1()
@@ -51,8 +53,8 @@ public class ChapterMenuManager : MonoBehaviour
 
     public void Page4()
     {
-        //SceneManager.LoadScene("PagePt4");
-        SceneManager.LoadScene("Page4");
+        SceneManager.LoadScene("PagePt4");
+        //SceneManager.LoadScene("Page4");
 
     }
 
@@ -72,7 +74,7 @@ public class ChapterMenuManager : MonoBehaviour
 
     public void Page7()
     {
-        SceneManager.LoadScene("PagePt8");
+        SceneManager.LoadScene("PagePt7");
 
         //SceneManager.LoadScene("Page7");
     }
@@ -123,11 +125,11 @@ public class ChapterMenuManager : MonoBehaviour
     }
 
     public void ChaptersMenu(){
-        SceneManager.LoadScene("ChaptersMenu");
+        SceneManager.LoadScene("ChaptersMenu 1");
     }
 
     public void Dictionary(){
-        SceneManager.LoadScene("Dictionary");
+        SceneManager.LoadScene("Dictionary 1");
     }
 
     public void Credits()

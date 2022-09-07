@@ -11,6 +11,11 @@ public class InteractionPage11Pt : MonoBehaviour
     private GameManager gm;
     private UI ui;
 
+    [SerializeField] private Animator pageAnimator;
+
+    [SerializeField] private Animator theEndAnimator;
+
+
     private void Awake()
     {
 
@@ -23,18 +28,33 @@ public class InteractionPage11Pt : MonoBehaviour
 
         SetCharacter();
 
+        StartCoroutine(Sequence());
     }
+
+    private IEnumerator Sequence()
+    {
+
+        yield return new WaitForSeconds(4);
+ 
+
+        StartCoroutine(ui.Glow(1f));
+
+    }
+
     private void SetCharacter()
     {
         if (gm.gender)
         {
             boyGO.SetActive(false);
             girlGO.SetActive(true);
+
+            pageAnimator.SetTrigger("girl");
         }
         else
         {
             boyGO.SetActive(true);
             girlGO.SetActive(false);
+            pageAnimator.SetTrigger("boy");
 
         }
     }

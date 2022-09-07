@@ -15,6 +15,12 @@ public class InteractionPage8Pt : MonoBehaviour
 
     [SerializeField] private GameObject boat;
 
+    [SerializeField] private GameObject boatToHide;
+
+    [SerializeField] private GameObject nightImage1;
+    [SerializeField] private GameObject nightImage2;
+
+
     private void Awake()
     {
 
@@ -38,7 +44,7 @@ public class InteractionPage8Pt : MonoBehaviour
         {
             yield return null;
         }
-
+        boatToHide.SetActive(false);
         if (gm.gender)
         {
             girlGO.transform.localScale = new Vector3(0.9f, 0.9f, 0.9f);
@@ -53,12 +59,30 @@ public class InteractionPage8Pt : MonoBehaviour
         }
 
 
-        boat.GetComponent<Walk8>().StartMovement();
+        boat.GetComponent<Walk8>().StartBoatMovement();
+
+        yield return new WaitForSeconds(5);
+        StartCoroutine(NightSequence());
 
         StartCoroutine(ui.Glow(1f));
 
     }
 
+    private IEnumerator NightSequence()
+    {
+        float elapsedTime = 0;
+        float totalTime = 2;
+
+        while(elapsedTime < totalTime)
+        {
+            elapsedTime += Time.deltaTime;
+
+            nightImage1.GetComponent<SpriteRenderer>().color = new Color(nightImage1.GetComponent<SpriteRenderer>().color.r, nightImage1.GetComponent<SpriteRenderer>().color.g, nightImage1.GetComponent<SpriteRenderer>().color.b, Mathf.Lerp(0, 1, elapsedTime / totalTime));
+            nightImage2.GetComponent<SpriteRenderer>().color = new Color(nightImage2.GetComponent<SpriteRenderer>().color.r, nightImage2.GetComponent<SpriteRenderer>().color.g, nightImage2.GetComponent<SpriteRenderer>().color.b, Mathf.Lerp(0, 1, elapsedTime / totalTime));
+
+            yield return null;
+        }
+    }
 
 
     private void SetCharacter()

@@ -21,7 +21,11 @@ public class Walk8 : MonoBehaviour
         StartCoroutine(WalkSequence());
 
     }
+    public void StartBoatMovement()
+    {
+        StartCoroutine(BoatSequence());
 
+    }
     private IEnumerator WalkSequence()
     {
         transform.position = initPos.position;
@@ -34,10 +38,34 @@ public class Walk8 : MonoBehaviour
 
         float elapsedTime = 0;
 
-        float time = 6;
+        float time = 6.4f;
         while (elapsedTime < time)
         {
             transform.position = Vector3.Lerp(initPos.position, finalPos.position, (elapsedTime / time));
+            elapsedTime += Time.deltaTime;
+
+            yield return null;
+        }
+
+    }
+
+    private IEnumerator BoatSequence()
+    {
+        transform.position = new Vector3(initPos.position.x, transform.position.y, transform.position.z);
+
+        if (characterAnimator)
+        {
+            characterAnimator.SetBool("isIdle", true);
+        }
+
+
+        float elapsedTime = 0;
+
+        float time = 6;
+        while (elapsedTime < time)
+        {
+            float xMove = Mathf.Lerp(initPos.position.x, finalPos.position.x, (elapsedTime / time));
+            transform.position = new Vector3(xMove, transform.position.y, transform.position.z);
             elapsedTime += Time.deltaTime;
 
             yield return null;

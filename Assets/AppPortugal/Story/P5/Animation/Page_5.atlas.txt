@@ -1,0 +1,111 @@
+
+Page_5.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_Beak_Down
+  rotate: false
+  xy: 404, 1386
+  size: 71, 38
+  orig: 73, 40
+  offset: 1, 1
+  index: -1
+1_Beak_Up
+  rotate: false
+  xy: 477, 1384
+  size: 73, 40
+  orig: 75, 43
+  offset: 1, 1
+  index: -1
+1_Body
+  rotate: false
+  xy: 1262, 1182
+  size: 251, 242
+  orig: 251, 242
+  offset: 0, 0
+  index: -1
+1_Head
+  rotate: false
+  xy: 552, 1381
+  size: 59, 43
+  orig: 61, 46
+  offset: 1, 2
+  index: -1
+1_Leg_L
+  rotate: true
+  xy: 2, 1407
+  size: 17, 111
+  orig: 17, 111
+  offset: 0, 0
+  index: -1
+1_Leg_R
+  rotate: true
+  xy: 115, 1407
+  size: 17, 112
+  orig: 17, 112
+  offset: 0, 0
+  index: -1
+1_Wing
+  rotate: false
+  xy: 828, 1275
+  size: 247, 149
+  orig: 247, 149
+  offset: 0, 0
+  index: -1
+2_Beak_Down
+  rotate: false
+  xy: 229, 1393
+  size: 59, 31
+  orig: 61, 33
+  offset: 1, 1
+  index: -1
+2_Beak_Up
+  rotate: false
+  xy: 290, 1389
+  size: 58, 35
+  orig: 60, 37
+  offset: 1, 1
+  index: -1
+2_Body
+  rotate: false
+  xy: 1077, 1241
+  size: 183, 183
+  orig: 183, 183
+  offset: 0, 0
+  index: -1
+2_Head
+  rotate: false
+  xy: 350, 1388
+  size: 52, 36
+  orig: 54, 38
+  offset: 1, 1
+  index: -1
+2_Wing
+  rotate: false
+  xy: 613, 1319
+  size: 213, 105
+  orig: 215, 107
+  offset: 1, 1
+  index: -1
+Background
+  rotate: false
+  xy: 2013, 344
+  size: 1888, 1080
+  orig: 1890, 1082
+  offset: 1, 1
+  index: -1
+BinoclesMask
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1080
+  orig: 1922, 1082
+  offset: 1, 1
+  index: -1
+Nest
+  rotate: false
+  xy: 1515, 1084
+  size: 496, 340
+  orig: 498, 342
+  offset: 1, 1
+  index: -1

@@ -619,7 +619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.93368876, y: 0.887}
   m_AnchorMax: {x: 0.9888963, y: 0.98100007}
-  m_AnchoredPosition: {x: -0.10003662, y: 0}
+  m_AnchoredPosition: {x: -0.099975586, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &745887532
@@ -773,7 +773,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: a4637a9ffc111c0468799369242a1762, type: 3}
+  m_Sprite: {fileID: 21300000, guid: af331a63f10f0164ab3b0a385fce6b40, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1668,6 +1668,7 @@ GameObject:
   - component: {fileID: 1661820921}
   - component: {fileID: 1661820920}
   - component: {fileID: 1661820923}
+  - component: {fileID: 1661820924}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1755,6 +1756,23 @@ MonoBehaviour:
   touchToMouse: 1
   allowSleep: 1
   ratio: 1.7777778
+--- !u!114 &1661820924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661820919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2ddf4d0d7116245912e45eadde8963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalFoV: 0
+  isTablet: 0
+  imageToScale: {fileID: 0}
+  exceptions: 0
+  text: {fileID: 0}
 --- !u!1 &1678670209
 GameObject:
   m_ObjectHideFlags: 0

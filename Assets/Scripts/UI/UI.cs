@@ -9,9 +9,16 @@ public class UI : MonoBehaviour
     public Animator glow;
     public Transform loader;
 
+
+    public void TheEnd()
+    {
+        SceneManager.LoadScene("TheEndScene");
+
+    }
+
     public void Next()
     {
-        print("nextt");
+        print("NEXT");
         int currentBuildIndex = SceneManager.GetActiveScene().buildIndex + 1;
         StartCoroutine(LoadAsyncOperation(currentBuildIndex));
     }
@@ -24,13 +31,13 @@ public class UI : MonoBehaviour
 
 
     public void Home(){
-        SceneManager.LoadScene("HomePage");
+        SceneManager.LoadScene("HomePage1");
         StartCoroutine(LoadAsyncOperation(0));
     }
 
     public void Chapters()
     {
-        SceneManager.LoadScene("ChaptersMenu");
+        SceneManager.LoadScene("ChaptersMenu 1");
     }
 
     public IEnumerator Glow(float time)

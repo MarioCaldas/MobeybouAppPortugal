@@ -1,0 +1,426 @@
+{
+"skeleton": {
+	"hash": "ZDdZxBEN35BlI3WmCFZAZZy2TnM",
+	"spine": "3.8.99",
+	"x": -1679.68,
+	"y": -862.48,
+	"width": 3438.02,
+	"height": 2710.56,
+	"images": "./images/",
+	"audio": "C:/Users/anapa/Dropbox/Mobeybou/App Cabo Verde/Page 11"
+},
+"bones": [
+	{ "name": "root" },
+	{
+		"name": "3",
+		"parent": "root",
+		"length": 140.14,
+		"rotation": 89.46,
+		"x": 1502.33,
+		"y": 1408.37,
+		"color": "f80808ff"
+	},
+	{
+		"name": "1",
+		"parent": "root",
+		"length": 167.91,
+		"rotation": 90.9,
+		"x": -1346.98,
+		"y": 862.09,
+		"color": "ffeb00ff"
+	},
+	{
+		"name": "4",
+		"parent": "root",
+		"length": 158.64,
+		"rotation": 90,
+		"x": 561.24,
+		"y": 1529.14,
+		"scaleX": 2,
+		"scaleY": 2,
+		"color": "18ff09ff"
+	},
+	{
+		"name": "2",
+		"parent": "root",
+		"length": 159.37,
+		"rotation": 89.01,
+		"x": 1443.63,
+		"y": -476.68,
+		"color": "0ef7f4ff"
+	},
+	{
+		"name": "5",
+		"parent": "root",
+		"length": 148.16,
+		"rotation": 92.05,
+		"x": -1422.02,
+		"y": -558.27,
+		"color": "0a23f4ff"
+	},
+	{
+		"name": "6",
+		"parent": "root",
+		"length": 148.79,
+		"rotation": 88.33,
+		"x": -52.78,
+		"y": -517.2,
+		"scaleX": 2,
+		"scaleY": 2,
+		"color": "d70df4ff"
+	}
+],
+"slots": [
+	{ "name": "3", "bone": "3", "attachment": "Boy_Turkey" },
+	{ "name": "6", "bone": "6", "attachment": "Boy_Germany" },
+	{ "name": "4", "bone": "4", "attachment": "Boy_CapeVerde" },
+	{ "name": "2", "bone": "2", "attachment": "Boy_Brazil" },
+	{ "name": "1", "bone": "1", "attachment": "Boy_India" },
+	{ "name": "5", "bone": "5", "attachment": "Boy_Angola" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"1": {
+				"Boy_India": {
+					"x": 23.05,
+					"y": 4.27,
+					"scaleX": 2,
+					"scaleY": 2,
+					"rotation": -90.9,
+					"width": 257,
+					"height": 310
+				},
+				"Girl_India": {
+					"x": 23.05,
+					"y": 4.27,
+					"scaleX": 2,
+					"scaleY": 2,
+					"rotation": -90.9,
+					"width": 257,
+					"height": 310
+				}
+			},
+			"2": {
+				"Boy_Brazil": {
+					"x": 38.58,
+					"y": 8.01,
+					"scaleX": 2,
+					"scaleY": 2,
+					"rotation": -89.01,
+					"width": 257,
+					"height": 310
+				},
+				"Girl_Brazil": {
+					"x": 38.58,
+					"y": 8.01,
+					"scaleX": 2,
+					"scaleY": 2,
+					"rotation": -89.01,
+					"width": 257,
+					"height": 310
+				}
+			},
+			"3": {
+				"Boy_Turkey": {
+					"x": -11.02,
+					"y": 0.88,
+					"scaleX": 2,
+					"scaleY": 2,
+					"rotation": -89.46,
+					"width": 257,
+					"height": 310
+				},
+				"Girl_Turkey": {
+					"x": -11.02,
+					"y": 0.88,
+					"scaleX": 2,
+					"scaleY": 2,
+					"rotation": -89.46,
+					"width": 257,
+					"height": 310
+				}
+			},
+			"4": {
+				"Boy_CapeVerde": { "x": 4.47, "y": 8.59, "rotation": -90, "width": 257, "height": 310 },
+				"Girl_CapeVerde": { "x": 4.47, "y": 8.59, "rotation": -90, "width": 257, "height": 310 }
+			},
+			"5": {
+				"Boy_Angola": {
+					"x": 5.82,
+					"y": 0.45,
+					"scaleX": 2,
+					"scaleY": 2,
+					"rotation": -92.05,
+					"width": 257,
+					"height": 310
+				},
+				"Girl_Angola": {
+					"x": 5.82,
+					"y": 0.45,
+					"scaleX": 2,
+					"scaleY": 2,
+					"rotation": -92.05,
+					"width": 257,
+					"height": 310
+				}
+			},
+			"6": {
+				"Boy_Germany": { "x": 14.81, "y": -8.23, "rotation": -88.33, "width": 257, "height": 310 },
+				"Girl_Germany": { "x": 14.81, "y": -8.23, "rotation": -88.33, "width": 257, "height": 310 }
+			}
+		}
+	}
+],
+"animations": {
+	"Boy Photos": {
+		"slots": {
+			"1": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff" }
+				]
+			},
+			"2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" }
+				]
+			},
+			"3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffff00" },
+					{ "time": 1.8333, "color": "ffffffff" }
+				]
+			},
+			"4": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 1.1667, "color": "ffffffff" }
+				]
+			},
+			"5": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.6667, "color": "ffffffff" }
+				]
+			},
+			"6": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"4": {
+				"rotate": [
+					{ "angle": 29.68, "curve": "stepped" },
+					{ "time": 0.5, "angle": 29.68 },
+					{ "time": 1.1667, "angle": -7.65 }
+				],
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 1.1667, "x": -303.54, "y": -1113.06 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "y": 6 }
+				]
+			},
+			"3": {
+				"rotate": [
+					{ "angle": -31.48, "curve": "stepped" },
+					{ "time": 1.1667, "angle": -31.48 },
+					{ "time": 1.8333, "angle": 28.05 }
+				],
+				"translate": [
+					{ "time": 1.1667 },
+					{ "time": 1.8333, "x": -856.73, "y": -686.87 }
+				]
+			},
+			"2": {
+				"rotate": [
+					{ "time": 0.8333 },
+					{ "time": 1.5, "angle": -20.6 }
+				],
+				"translate": [
+					{ "time": 0.8333 },
+					{ "time": 1.5, "x": -763.97, "y": 679.15 }
+				]
+			},
+			"5": {
+				"rotate": [
+					{ "angle": -26.04, "curve": "stepped" },
+					{ "time": 1, "angle": -26.04 },
+					{ "time": 1.6667, "angle": 21.32 }
+				],
+				"translate": [
+					{ "time": 1 },
+					{ "time": 1.6667, "x": 836.72, "y": 801.85 }
+				]
+			},
+			"6": {
+				"rotate": [
+					{ "time": 0.1667 },
+					{ "time": 0.8333, "angle": 13.33 }
+				],
+				"translate": [
+					{ "time": 0.1667 },
+					{ "time": 0.8333, "x": -134.68, "y": 997.39 }
+				]
+			},
+			"1": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "angle": -27.33 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.6667, "x": 693.79, "y": -141.91 }
+				]
+			}
+		}
+	},
+	"Girl Photos": {
+		"slots": {
+			"1": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Girl_India" }
+				]
+			},
+			"2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" },
+					{ "time": 1.5, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Girl_Brazil" }
+				]
+			},
+			"3": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffff00" },
+					{ "time": 1.8333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Girl_Turkey" }
+				]
+			},
+			"4": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 1.1667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Girl_CapeVerde" }
+				]
+			},
+			"5": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.6667, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Girl_Angola" }
+				]
+			},
+			"6": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "Girl_Germany" }
+				]
+			}
+		},
+		"bones": {
+			"4": {
+				"rotate": [
+					{ "angle": 29.68, "curve": "stepped" },
+					{ "time": 0.5, "angle": 29.68 },
+					{ "time": 1.1667, "angle": -7.65 }
+				],
+				"translate": [
+					{ "time": 0.5 },
+					{ "time": 1.1667, "x": -303.54, "y": -1113.06 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "y": 6 }
+				]
+			},
+			"3": {
+				"rotate": [
+					{ "angle": -31.48, "curve": "stepped" },
+					{ "time": 1.1667, "angle": -31.48 },
+					{ "time": 1.8333, "angle": 28.05 }
+				],
+				"translate": [
+					{ "time": 1.1667 },
+					{ "time": 1.8333, "x": -856.73, "y": -686.87 }
+				]
+			},
+			"2": {
+				"rotate": [
+					{ "time": 0.8333 },
+					{ "time": 1.5, "angle": -20.6 }
+				],
+				"translate": [
+					{ "time": 0.8333 },
+					{ "time": 1.5, "x": -763.97, "y": 679.15 }
+				]
+			},
+			"5": {
+				"rotate": [
+					{ "angle": -26.04, "curve": "stepped" },
+					{ "time": 1, "angle": -26.04 },
+					{ "time": 1.6667, "angle": 21.32 }
+				],
+				"translate": [
+					{ "time": 1 },
+					{ "time": 1.6667, "x": 836.72, "y": 801.85 }
+				]
+			},
+			"6": {
+				"rotate": [
+					{ "time": 0.1667 },
+					{ "time": 0.8333, "angle": 13.33 }
+				],
+				"translate": [
+					{ "time": 0.1667 },
+					{ "time": 0.8333, "x": -134.68, "y": 997.39 }
+				]
+			},
+			"1": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "angle": -27.33 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.6667, "x": 693.79, "y": -141.91 }
+				]
+			}
+		}
+	}
+}
+}

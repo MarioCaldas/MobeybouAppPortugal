@@ -1,0 +1,90 @@
+
+Page 11.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Boy_Angola
+  rotate: true
+  xy: 2, 261
+  size: 257, 310
+  orig: 257, 310
+  offset: 0, 0
+  index: -1
+Boy_Brazil
+  rotate: true
+  xy: 314, 261
+  size: 257, 310
+  orig: 257, 310
+  offset: 0, 0
+  index: -1
+Boy_CapeVerde
+  rotate: true
+  xy: 626, 261
+  size: 257, 310
+  orig: 257, 310
+  offset: 0, 0
+  index: -1
+Boy_Germany
+  rotate: true
+  xy: 938, 261
+  size: 257, 310
+  orig: 257, 310
+  offset: 0, 0
+  index: -1
+Boy_India
+  rotate: true
+  xy: 1250, 261
+  size: 257, 310
+  orig: 257, 310
+  offset: 0, 0
+  index: -1
+Boy_Turkey
+  rotate: true
+  xy: 1562, 261
+  size: 257, 310
+  orig: 257, 310
+  offset: 0, 0
+  index: -1
+Girl_Angola
+  rotate: true
+  xy: 2, 2
+  size: 257, 310
+  orig: 257, 310
+  offset: 0, 0
+  index: -1
+Girl_Brazil
+  rotate: true
+  xy: 314, 2
+  size: 257, 310
+  orig: 257, 310
+  offset: 0, 0
+  index: -1
+Girl_CapeVerde
+  rotate: true
+  xy: 626, 2
+  size: 257, 310
+  orig: 257, 310
+  offset: 0, 0
+  index: -1
+Girl_Germany
+  rotate: true
+  xy: 938, 2
+  size: 257, 310
+  orig: 257, 310
+  offset: 0, 0
+  index: -1
+Girl_India
+  rotate: true
+  xy: 1250, 2
+  size: 257, 310
+  orig: 257, 310
+  offset: 0, 0
+  index: -1
+Girl_Turkey
+  rotate: true
+  xy: 1562, 2
+  size: 257, 310
+  orig: 257, 310
+  offset: 0, 0
+  index: -1

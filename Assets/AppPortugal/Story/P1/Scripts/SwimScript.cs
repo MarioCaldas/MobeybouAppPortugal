@@ -18,28 +18,54 @@ public class SwimScript : MonoBehaviour
 
     float initScaleX;
 
+    float initPingValue;
+
+    int upOrDown;
+
     void Start()
     {
         initScaleX = transform.localScale.x;
 
         transform.position = initPos.position;
+
+        //transform.eulerAngles = new Vector3(0, 0, 0);
+        initPingValue = 0;
     }
 
     void Update()
     {
-       
-        float pingPong = Mathf.PingPong(Time.time * speed, 1);
-        float distanceToEnd = Vector3.Distance(transform.position, finalPos.position);
-        float distanceToInit = Vector3.Distance(transform.position, initPos.position);
-        if(Mathf.Abs(distanceToEnd) <= 0.1)
+        if(swim)
         {
-            transform.eulerAngles = new Vector3(0, -180,0);
-        }
-        if(Mathf.Abs(distanceToInit) <= 0.1)
-        {
-            transform.eulerAngles = new Vector3(0, 0, 0);
+            float pingPong = Mathf.PingPong(Time.time * speed, 1);
 
+            if(pingPong > initPingValue)
+            {
+                upOrDown = 1;
+                initPingValue = pingPong;
+                print("go up");
+            }
+            else if(pingPong < initPingValue)
+            {
+                upOrDown = 0;
+                initPingValue = pingPong;
+                print("go down");
+            }
+
+            float distanceToEnd = Vector3.Distance(transform.position, finalPos.position);
+            float distanceToInit = Vector3.Distance(transform.position, initPos.position);
+            if (upOrDown == 0)
+            {
+                transform.eulerAngles = new Vector3(0, -180, 0);
+            }
+            else 
+            {
+                transform.eulerAngles = new Vector3(0, 0, 0);
+
+            }
+            transform.position = Vector3.Lerp(initPos.position, finalPos.position, pingPong);
+           // print("pingPong " + pingPong);
         }
-        transform.position =  Vector3.Lerp(initPos.position, finalPos.position, pingPong);
+
+
     }
 }

@@ -28,7 +28,7 @@ public class DictionaryManager : MonoBehaviour
 
     public void OpenTab(int tabNumber)
     {
-        for (int i = 0; i < 9; i++)
+        for (int i = 0; i < 13; i++)
         {
             ColorBlock cb = buttons[i].colors;
 
@@ -60,7 +60,7 @@ public class DictionaryManager : MonoBehaviour
         if (tab == 6)
             prevBtn.SetActive(false);*/
 
-        if (tabNumber == 8){
+        if (tabNumber == 12){
             nextBtn.SetActive(false);
         }else if( tabNumber == 0){
             prevBtn.SetActive(false);
@@ -73,13 +73,13 @@ public class DictionaryManager : MonoBehaviour
 
     public void Close()
     {
-        SceneManager.LoadScene("Homepage");
+        SceneManager.LoadScene("HomePage1");
     }
 
     public void Next()
     {
         Debug.Log(tab);
-        if (tab == 12)
+        if (tab == 16)
             OpenTab(0);
         else
             OpenTab(tab + 1);
@@ -88,7 +88,7 @@ public class DictionaryManager : MonoBehaviour
     public void Previous()
     {
         if (tab == 0)
-            OpenTab(12);
+            OpenTab(16);
         else
             OpenTab(tab - 1);
     }

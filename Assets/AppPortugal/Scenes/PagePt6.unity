@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.76460993, g: 0.78578085, b: 0.80048364, a: 1}
+  m_IndirectSpecularColor: {r: 0.7646618, g: 0.7853176, b: 0.80144876, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -189,6 +189,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FreeCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149842519628128541, guid: 8f079d9160fd61b429a1714591708a68,
+        type: 3}
+      propertyPath: sensitivity
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f079d9160fd61b429a1714591708a68, type: 3}

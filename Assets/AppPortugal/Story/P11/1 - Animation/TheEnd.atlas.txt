@@ -1,0 +1,118 @@
+
+TheEnd.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2, 431
+  size: 812, 582
+  orig: 812, 582
+  offset: 0, 0
+  index: -1
+Ear
+  rotate: false
+  xy: 1755, 633
+  size: 227, 380
+  orig: 227, 380
+  offset: 0, 0
+  index: -1
+Expression_Iddle
+  rotate: false
+  xy: 1607, 79
+  size: 97, 185
+  orig: 97, 185
+  offset: 0, 0
+  index: -1
+Expression_happy
+  rotate: false
+  xy: 1706, 79
+  size: 97, 185
+  orig: 97, 185
+  offset: 0, 0
+  index: -1
+Flower1
+  rotate: false
+  xy: 1640, 266
+  size: 165, 155
+  orig: 165, 155
+  offset: 0, 0
+  index: -1
+Flower2
+  rotate: false
+  xy: 1824, 489
+  size: 131, 142
+  orig: 131, 142
+  offset: 0, 0
+  index: -1
+Flowers_L
+  rotate: false
+  xy: 876, 132
+  size: 328, 381
+  orig: 328, 381
+  offset: 0, 0
+  index: -1
+Flowers_R
+  rotate: false
+  xy: 525, 41
+  size: 349, 388
+  orig: 349, 388
+  offset: 0, 0
+  index: -1
+Front
+  rotate: false
+  xy: 1206, 291
+  size: 432, 130
+  orig: 432, 130
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 1280, 585
+  size: 473, 428
+  orig: 473, 428
+  offset: 0, 0
+  index: -1
+Porto
+  rotate: false
+  xy: 2, 2
+  size: 521, 427
+  orig: 521, 427
+  offset: 0, 0
+  index: -1
+The-end
+  rotate: false
+  xy: 1280, 423
+  size: 542, 160
+  orig: 542, 160
+  offset: 0, 0
+  index: -1
+Trunk
+  rotate: false
+  xy: 816, 515
+  size: 462, 498
+  orig: 462, 498
+  offset: 0, 0
+  index: -1
+Tusk_L
+  rotate: true
+  xy: 1502, 2
+  size: 287, 103
+  orig: 287, 103
+  offset: 0, 0
+  index: -1
+Tusk_R
+  rotate: false
+  xy: 876, 24
+  size: 293, 106
+  orig: 293, 106
+  offset: 0, 0
+  index: -1
+fim
+  rotate: false
+  xy: 1206, 87
+  size: 294, 202
+  orig: 294, 202
+  offset: 0, 0
+  index: -1

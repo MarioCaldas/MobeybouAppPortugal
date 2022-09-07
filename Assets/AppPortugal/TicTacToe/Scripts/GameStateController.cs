@@ -288,7 +288,11 @@ public class GameStateController : MonoBehaviour
                 winnerText.text = player2Name;
                 break;
         }
-        endGameState.SetActive(true);
+        XplayerOption.interactable = false;
+        OplayerOption.interactable = false;
+
+
+        //endGameState.SetActive(true);
         ToggleButtonState(false);
     }
 
@@ -301,7 +305,7 @@ public class GameStateController : MonoBehaviour
         moveCount = 0;
         playerTurn = whoPlaysFirst;
         ToggleButtonState(true);
-        endGameState.SetActive(false);
+        //endGameState.SetActive(false);
 
         // Loop though all tiles and reset them
         for (int i = 0; i < tileList.Length; i++)

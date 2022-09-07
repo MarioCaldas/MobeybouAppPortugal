@@ -30,6 +30,6 @@ public class CreditsPage : MonoBehaviour
 
     public void closeCredits()
     {
-        SceneManager.LoadScene("HomePage");
+        SceneManager.LoadScene("HomePage1");
     }
 }
