@@ -48,6 +48,10 @@ public class GameStateController : MonoBehaviour
     public PlayerOption XplayerOption;
     public PlayerOption OplayerOption;
 
+    [Header("Audio")]
+    [SerializeField] public AudioClip endSound;
+    [SerializeField] public AudioSource aS;
+
     /// <summary>
     /// Start is called on the first active frame
     /// </summary>
@@ -291,6 +295,7 @@ public class GameStateController : MonoBehaviour
         XplayerOption.interactable = false;
         OplayerOption.interactable = false;
 
+        aS.PlayOneShot(endSound);
 
         //endGameState.SetActive(true);
         ToggleButtonState(false);

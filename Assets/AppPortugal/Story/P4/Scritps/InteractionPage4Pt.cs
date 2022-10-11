@@ -19,6 +19,9 @@ public class InteractionPage4Pt : MonoBehaviour
 
     private UI ui;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip boyLaught1, boyLaught2, girlLaught1, girlLaught2, pan, food, girlOnRight;
+    [SerializeField] private AudioSource aS;
     private void Awake()
     {
         ui = FindObjectOfType<UI>();
@@ -71,6 +74,10 @@ public class InteractionPage4Pt : MonoBehaviour
         characterAnimator.SetTrigger("SitLaught");
         characterAnimator2.SetTrigger("Laught");
 
+        aS.PlayOneShot(pan);
+
+        LaughtSounds();
+
         yield return new WaitForSeconds(2);
 
         tacho.clicked = false;
@@ -85,6 +92,12 @@ public class InteractionPage4Pt : MonoBehaviour
         characterAnimator.SetTrigger("SitLaught");
         characterAnimator2.SetTrigger("Laught");
 
+
+        LaughtSounds();
+
+        aS.PlayOneShot(food);
+
+
         yield return new WaitForSeconds(2);
 
         tacho.clicked = false;
@@ -98,6 +111,10 @@ public class InteractionPage4Pt : MonoBehaviour
         characterAnimator.SetTrigger("SitLaught");
         characterAnimator2.SetTrigger("Laught");
 
+        aS.PlayOneShot(food);
+
+        LaughtSounds();
+
         yield return new WaitForSeconds(2);
 
         //tacho.clicked = false;
@@ -105,5 +122,31 @@ public class InteractionPage4Pt : MonoBehaviour
 
         StartCoroutine(ui.Glow(1f));
 
+    }
+
+    public void LaughtSounds()
+    {
+        int rand = Random.Range(0, 1);
+
+        if (gm.gender)//girl
+        {
+            if (rand == 0)
+                aS.PlayOneShot(girlLaught1);
+            else
+                aS.PlayOneShot(girlLaught2);
+
+            aS.PlayOneShot(girlOnRight);
+
+        }
+        else
+        {
+            if (rand == 0)
+                aS.PlayOneShot(boyLaught1);
+            else
+                aS.PlayOneShot(boyLaught2);
+
+            aS.PlayOneShot(girlOnRight);
+
+        }
     }
 }

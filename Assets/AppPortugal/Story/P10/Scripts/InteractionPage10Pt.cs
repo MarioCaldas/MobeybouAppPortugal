@@ -16,6 +16,9 @@ public class InteractionPage10Pt : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private Animator galoAnimator;
 
+    [Header("Audio")]
+    [SerializeField] public AudioClip girlLaught, boyLaught, animal, figures;
+    [SerializeField] public AudioSource aS;
     private void Awake()
     {
 
@@ -43,16 +46,23 @@ public class InteractionPage10Pt : MonoBehaviour
 
         animator.SetTrigger("Appear");
         yield return new WaitForSeconds(0.5f);
+        aS.PlayOneShot(figures);
 
         galoAnimator.SetTrigger("Scare");
+        aS.PlayOneShot(animal);
 
         if (gm.gender)
         {
             girlGO.GetComponentInChildren<Animator>().SetTrigger("Laught");
+
+            aS.PlayOneShot(girlLaught);
         }
         else
         {
             boyGO.GetComponentInChildren<Animator>().SetTrigger("Laught");
+
+            aS.PlayOneShot(boyLaught);
+
         }
         animator.SetTrigger("Dance");
 

@@ -462,6 +462,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1145609793}
+        m_TargetAssemblyTypeName: BttSoundController, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &282140243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1247,6 +1259,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1145609793}
+        m_TargetAssemblyTypeName: BttSoundController, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &909032918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1681,6 +1705,87 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087510461}
   m_CullTransparentMesh: 0
+--- !u!1001 &1145609792
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 977035305587201954, guid: 0af7f89ddbb3b3d458cf5e7a72c2696a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 977035305587201954, guid: 0af7f89ddbb3b3d458cf5e7a72c2696a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.554664
+      objectReference: {fileID: 0}
+    - target: {fileID: 977035305587201954, guid: 0af7f89ddbb3b3d458cf5e7a72c2696a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.0800743
+      objectReference: {fileID: 0}
+    - target: {fileID: 977035305587201954, guid: 0af7f89ddbb3b3d458cf5e7a72c2696a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.88131714
+      objectReference: {fileID: 0}
+    - target: {fileID: 977035305587201954, guid: 0af7f89ddbb3b3d458cf5e7a72c2696a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 977035305587201954, guid: 0af7f89ddbb3b3d458cf5e7a72c2696a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 977035305587201954, guid: 0af7f89ddbb3b3d458cf5e7a72c2696a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 977035305587201954, guid: 0af7f89ddbb3b3d458cf5e7a72c2696a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 977035305587201954, guid: 0af7f89ddbb3b3d458cf5e7a72c2696a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 977035305587201954, guid: 0af7f89ddbb3b3d458cf5e7a72c2696a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 977035305587201954, guid: 0af7f89ddbb3b3d458cf5e7a72c2696a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1077487203022901072, guid: 0af7f89ddbb3b3d458cf5e7a72c2696a,
+        type: 3}
+      propertyPath: m_Name
+      value: BttSoundController
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0af7f89ddbb3b3d458cf5e7a72c2696a, type: 3}
+--- !u!114 &1145609793 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4348117879526709753, guid: 0af7f89ddbb3b3d458cf5e7a72c2696a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1145609792}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9a9226f29f0584e8ce216dde426acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1242509065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1995,6 +2100,18 @@ MonoBehaviour:
       - m_Target: {fileID: 640200087}
         m_TargetAssemblyTypeName: 
         m_MethodName: Previous
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1145609793}
+        m_TargetAssemblyTypeName: BttSoundController, Assembly-CSharp
+        m_MethodName: PlaySound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

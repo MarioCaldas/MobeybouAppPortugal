@@ -15,6 +15,10 @@ public class InteractionPage2Pt : MonoBehaviour
 
     [SerializeField] private Animator doorAnimator;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip click, walk;
+    [SerializeField] private AudioSource aS;
+
     private void Awake()
     {
 
@@ -57,8 +61,10 @@ public class InteractionPage2Pt : MonoBehaviour
         {
             yield return null;
         }
+        aS.PlayOneShot(click);
 
         SetCharacter();
+        aS.PlayOneShot(walk);
 
         yield return new WaitForSeconds(6f);
 

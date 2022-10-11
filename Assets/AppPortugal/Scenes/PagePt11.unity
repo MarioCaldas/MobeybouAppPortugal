@@ -1971,6 +1971,101 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1981401082
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5812342255570530636, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: englishMale
+      value: 
+      objectReference: {fileID: 8300000, guid: 8489f7fcf22f89d4f9bf8ab2ab71a564, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: englishFemale
+      value: 
+      objectReference: {fileID: 8300000, guid: da8ad5cca05716e4db3b12191c7276b9, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: portugueseMale
+      value: 
+      objectReference: {fileID: 8300000, guid: dd21a30dfa807b3489064a9a4595c8ec, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: portugueseFemale
+      value: 
+      objectReference: {fileID: 8300000, guid: 3d2d9f57a15aaa84295a0aba86bce5d5, type: 3}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.554664
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.0800743
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.88131714
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa, type: 3}
+--- !u!82 &1981401083 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5812342255570530639, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 1981401082}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2007571720
 GameObject:
   m_ObjectHideFlags: 0
@@ -2086,6 +2181,9 @@ MonoBehaviour:
   girlGO: {fileID: 251608812}
   pageAnimator: {fileID: 538645042}
   theEndAnimator: {fileID: 0}
+  girlLaught: {fileID: 8300000, guid: 01914b48c7c89e848885ceb933f07115, type: 3}
+  boyLaught: {fileID: 8300000, guid: f0aabd13fe034fa449c6d82cfe1d6ba3, type: 3}
+  aS: {fileID: 1981401083}
 --- !u!4 &2074935811
 Transform:
   m_ObjectHideFlags: 0

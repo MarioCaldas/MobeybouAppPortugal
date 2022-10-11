@@ -695,6 +695,7 @@ MonoBehaviour:
   clicked: 0
   controller: {fileID: 2074935810}
   id: 1
+  interactionPage: {fileID: 2074935812}
 --- !u!65 &653381783
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -930,6 +931,8 @@ MonoBehaviour:
   horizontalFoV: 0
   isTablet: 0
   imageToScale: {fileID: 62428499}
+  exceptions: 0
+  text: {fileID: 0}
 --- !u!1 &1298469367
 GameObject:
   m_ObjectHideFlags: 0
@@ -1133,6 +1136,106 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c71a5efbed1fae4481deecd7e299f37, type: 3}
+--- !u!1001 &1757468907
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5812342255570530636, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: englishMale
+      value: 
+      objectReference: {fileID: 8300000, guid: be8ee9e28d963e345b718e9b6a9f1ace, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: englishFemale
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f6142e2856cfd847bcb2d8ebc4ea542, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: portugueseMale
+      value: 
+      objectReference: {fileID: 8300000, guid: 86729b3c1b44983429e52ad131d61b02, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: portugueseFemale
+      value: 
+      objectReference: {fileID: 8300000, guid: cb1987e4d247c8747bbf578bc2b16c6a, type: 3}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.554664
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.0800743
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.88131714
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530639, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 73d7c4c9104047346874b498efe0ac24, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa, type: 3}
+--- !u!82 &1757468908 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5812342255570530639, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 1757468907}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1792153429
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,6 +1329,7 @@ MonoBehaviour:
   clicked: 0
   controller: {fileID: 2074935810}
   id: 0
+  interactionPage: {fileID: 2074935812}
 --- !u!65 &1806927475
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1495,6 +1599,7 @@ GameObject:
   - component: {fileID: 2074935811}
   - component: {fileID: 2074935812}
   - component: {fileID: 2074935810}
+  - component: {fileID: 2074935813}
   m_Layer: 0
   m_Name: PageController
   m_TagString: Untagged
@@ -1520,6 +1625,8 @@ MonoBehaviour:
   boyPlaying: 0
   girlPlaying: 0
   AngolaBoyPlaying: 0
+  guitar: {fileID: 8300000, guid: f94fff628b2b49e45ba93ce21fc9749e, type: 3}
+  aS: {fileID: 2074935813}
 --- !u!4 &2074935811
 Transform:
   m_ObjectHideFlags: 0
@@ -1551,6 +1658,109 @@ MonoBehaviour:
   clickablePtAngolaBoy: {fileID: 2075882560}
   boyGO: {fileID: 1806927472}
   girlGO: {fileID: 653381780}
+  boyOnRight1: {fileID: 8300000, guid: 523226e9228e0c046ad611e4fab77900, type: 3}
+  boyOnRight2: {fileID: 8300000, guid: c6ef00a215a7755489384b3e4a825864, type: 3}
+  boyLaught1: {fileID: 8300000, guid: 5bfb49649f247f5459a4ae665b48293a, type: 3}
+  boyLaught2: {fileID: 8300000, guid: 27980d0633498ec4bb0b494479fad1fb, type: 3}
+  girlLaught1: {fileID: 8300000, guid: c21c004539f333a4783ba2b73b1db216, type: 3}
+  girlLaught2: {fileID: 8300000, guid: c351ef80b2446f1459e12f6267e8707d, type: 3}
+  aS: {fileID: 1757468908}
+--- !u!82 &2074935813
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074935809}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2075882559
 GameObject:
   m_ObjectHideFlags: 0
@@ -1584,6 +1794,7 @@ MonoBehaviour:
   clicked: 0
   controller: {fileID: 2074935810}
   id: 2
+  interactionPage: {fileID: 2074935812}
 --- !u!65 &2075882561
 BoxCollider:
   m_ObjectHideFlags: 0

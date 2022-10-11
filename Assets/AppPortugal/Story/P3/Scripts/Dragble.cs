@@ -17,6 +17,10 @@ public class Dragble : MonoBehaviour
 
     public InteractionPage3Pt interactionPageScript;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip fruit;
+    [SerializeField] private AudioSource aS;
+
     public void Update()
     {
         if (currentDrag)
@@ -35,6 +39,7 @@ public class Dragble : MonoBehaviour
 
                 interactionPageScript.currentFruits++;
 
+                aS.PlayOneShot(fruit);
             }
 
         }

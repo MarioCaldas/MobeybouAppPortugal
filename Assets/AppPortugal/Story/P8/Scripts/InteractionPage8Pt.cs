@@ -20,6 +20,12 @@ public class InteractionPage8Pt : MonoBehaviour
     [SerializeField] private GameObject nightImage1;
     [SerializeField] private GameObject nightImage2;
 
+    [Header("Audio")]
+    [SerializeField] public AudioClip boatSound, click;
+    [SerializeField] public AudioSource aS;
+
+    [SerializeField] public AudioSource aSAmbiente;
+    [SerializeField] public AudioClip nightSound, daySound;
 
     private void Awake()
     {
@@ -33,6 +39,7 @@ public class InteractionPage8Pt : MonoBehaviour
 
         StartCoroutine(Sequence());
 
+        aSAmbiente.PlayOneShot(daySound);
     }
     private IEnumerator Sequence()
     {
@@ -44,6 +51,8 @@ public class InteractionPage8Pt : MonoBehaviour
         {
             yield return null;
         }
+        aS.PlayOneShot(click);
+
         boatToHide.SetActive(false);
         if (gm.gender)
         {
@@ -58,11 +67,14 @@ public class InteractionPage8Pt : MonoBehaviour
 
         }
 
+        aS.PlayOneShot(boatSound);
 
         boat.GetComponent<Walk8>().StartBoatMovement();
 
         yield return new WaitForSeconds(5);
         StartCoroutine(NightSequence());
+
+        aSAmbiente.PlayOneShot(nightSound);
 
         StartCoroutine(ui.Glow(1f));
 

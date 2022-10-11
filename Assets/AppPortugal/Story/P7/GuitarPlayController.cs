@@ -12,7 +12,9 @@ public class GuitarPlayController : MonoBehaviour
     public bool girlPlaying;
     public bool AngolaBoyPlaying;
 
-
+    [Header("Audio")]
+    [SerializeField] private AudioClip guitar;
+    [SerializeField] private AudioSource aS;
     void Start()
     {
     }
@@ -28,6 +30,9 @@ public class GuitarPlayController : MonoBehaviour
 
             aBoyAnimator.SetBool("isIdle", true);
             girlAnimator.SetBool("isIdle", true);
+
+            if (!aS.isPlaying)
+                aS.PlayOneShot(guitar);
         }
         else if(girlPlaying)
         {
@@ -38,6 +43,9 @@ public class GuitarPlayController : MonoBehaviour
             boyAnimator.ResetTrigger("PlayGuitar");
             boyAnimator.SetBool("isIdle", true);
             aBoyAnimator.SetBool("isIdle", true);
+
+            if(!aS.isPlaying)
+                aS.PlayOneShot(guitar);
 
         }
         else if (AngolaBoyPlaying)
@@ -51,6 +59,9 @@ public class GuitarPlayController : MonoBehaviour
             girlAnimator.ResetTrigger("PlayGuitar");
             boyAnimator.SetBool("isIdle", true);
             girlAnimator.SetBool("isIdle", true);
+
+            if (!aS.isPlaying)
+                aS.PlayOneShot(guitar);
 
         }
     }

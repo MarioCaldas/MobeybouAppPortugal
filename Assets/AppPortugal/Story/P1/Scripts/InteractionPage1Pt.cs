@@ -25,6 +25,10 @@ public class InteractionPage1Pt : MonoBehaviour
 
     public Animator characterAnimator;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip openMap1, openMap2;
+    [SerializeField] private AudioSource aS;
+
     private void Awake()
     {
 
@@ -91,6 +95,14 @@ public class InteractionPage1Pt : MonoBehaviour
             panoAnimatorUK.gameObject.SetActive(true);
         else
             panoAnimatorPt.gameObject.SetActive(true);
+
+
+        int rand = Random.Range(0, 1);
+        if (rand == 0)
+            aS.PlayOneShot(openMap1);
+        else
+            aS.PlayOneShot(openMap2);
+
 
         yield return new WaitForSeconds(1f);
 

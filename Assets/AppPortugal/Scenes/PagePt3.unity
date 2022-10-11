@@ -123,6 +123,106 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &12680452
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5812342255570530636, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: englishMale
+      value: 
+      objectReference: {fileID: 8300000, guid: b9b9463de40627d42894941477e8913c, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: englishFemale
+      value: 
+      objectReference: {fileID: 8300000, guid: ac7e2804ff295574da8f79b6e1323137, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: portugueseMale
+      value: 
+      objectReference: {fileID: 8300000, guid: 484b4c5037ea4304c832f4bfc8cf1def, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: portugueseFemale
+      value: 
+      objectReference: {fileID: 8300000, guid: 0efe747bcbcadb64c894b4fffe81ef24, type: 3}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.554664
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.0800743
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.88131714
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530639, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0605bb6640cb14d4c8399c52cd7973cd, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa, type: 3}
+--- !u!82 &12680453 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5812342255570530639, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 12680452}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &40846765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1865,6 +1965,8 @@ MonoBehaviour:
   basketFruits: {fileID: 563969493}
   currentDragScript: {fileID: 0}
   interactionPageScript: {fileID: 1904885527}
+  fruit: {fileID: 8300000, guid: d116ce66266661245b25eae4907a9ff5, type: 3}
+  aS: {fileID: 12680453}
 --- !u!1 &1005216291
 GameObject:
   m_ObjectHideFlags: 0

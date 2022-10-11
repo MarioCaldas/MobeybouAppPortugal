@@ -797,6 +797,100 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c71a5efbed1fae4481deecd7e299f37, type: 3}
+--- !u!1001 &1633937270
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5812342255570530636, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_Name
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: englishMale
+      value: 
+      objectReference: {fileID: 8300000, guid: 265ce9b8a18166749bbcbaf7c591f9c3, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: englishFemale
+      value: 
+      objectReference: {fileID: 8300000, guid: 257d110c275bebd4481df63f076b8732, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: portugueseMale
+      value: 
+      objectReference: {fileID: 8300000, guid: d2dc5e7413029c842aea5a5a336be593, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: portugueseFemale
+      value: 
+      objectReference: {fileID: 8300000, guid: c8e139f1fcc15554f8ac3f2d0ca84fe7, type: 3}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.554664
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.0800743
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.88131714
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530639, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d4bc9dd0c1057784c8c6dd3d617c979b, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa, type: 3}
 --- !u!1 &1792153429
 GameObject:
   m_ObjectHideFlags: 0

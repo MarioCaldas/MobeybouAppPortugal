@@ -48,9 +48,18 @@ public class AudioMaster : MonoBehaviour
     public void Toggle()//music toggle
     {
         if (gm.music)
+        {
             gm.music = false;
+
+            AudioListener.volume = 0f;
+        }
         else
+        {
             gm.music = true;
+
+            AudioListener.volume = 1f;
+
+        }
         Refresh();
     }
 

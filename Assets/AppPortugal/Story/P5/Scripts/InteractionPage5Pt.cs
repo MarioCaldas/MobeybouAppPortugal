@@ -14,6 +14,11 @@ public class InteractionPage5Pt : MonoBehaviour
     [SerializeField] public GameObject mask;
 
     private UI ui;
+
+    [Header("Audio")]
+    [SerializeField] private AudioClip cegonha, click;
+    [SerializeField] private AudioSource aS;
+
     private void Awake()
     {
 
@@ -37,8 +42,11 @@ public class InteractionPage5Pt : MonoBehaviour
         {
             yield return null;
         }
+        aS.PlayOneShot(click);
 
         mask.SetActive(true);
+
+        aS.PlayOneShot(cegonha);
 
         StartCoroutine(ui.Glow(1f));
     }

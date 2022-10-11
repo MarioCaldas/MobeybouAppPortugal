@@ -46,17 +46,35 @@ public class Walk9 : MonoBehaviour
         }
 
         interactionPage.runDone = true;
+
+        if(GetComponent<AudioSource>())
+        {
+            GetComponent<AudioSource>().loop = false;
+        }
     }
     public void Run()
     {
         GetComponent<Animator>().SetTrigger("Run");
     }
+
+    bool jumpSoundPlayed;
+
     public void Jump()
     {
         GetComponent<Animator>().SetBool("Jump", true);
+
+        if(!jumpSoundPlayed)
+        {
+            interactionPage.aS.PlayOneShot(interactionPage.jump);
+
+            jumpSoundPlayed = true;
+        }
     }
     public void ResetJump()
     {
         GetComponent<Animator>().SetBool("Jump", false);
+
+        jumpSoundPlayed = false;
+
     }
 }

@@ -15,7 +15,9 @@ public class InteractionPage11Pt : MonoBehaviour
 
     [SerializeField] private Animator theEndAnimator;
 
-
+    [Header("Audio")]
+    [SerializeField] public AudioClip girlLaught, boyLaught;
+    [SerializeField] public AudioSource aS;
     private void Awake()
     {
 
@@ -49,12 +51,16 @@ public class InteractionPage11Pt : MonoBehaviour
             girlGO.SetActive(true);
 
             pageAnimator.SetTrigger("girl");
+
+            aS.PlayOneShot(girlLaught);
         }
         else
         {
             boyGO.SetActive(true);
             girlGO.SetActive(false);
             pageAnimator.SetTrigger("boy");
+
+            aS.PlayOneShot(boyLaught);
 
         }
     }
