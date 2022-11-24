@@ -37,6 +37,8 @@ public class Dragble : MonoBehaviour
                 currentDragScript.inPlace = true;
                 currentDrag = null;
 
+                currentDragScript.glow.StopGlow();
+
                 interactionPageScript.currentFruits++;
 
                 aS.PlayOneShot(fruit);

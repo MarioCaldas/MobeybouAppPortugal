@@ -6,11 +6,71 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes 1/Homepage.unity
-    guid: e6f8635ae7c82dc46bfed3293968d516
+    path: Assets/AppPortugal/Scenes/Homepage1.unity
+    guid: c195ab3f8795fbf4d8eede417e565439
   - enabled: 1
-    path: Assets/Scenes 1/StartMenu.unity
-    guid: c9f3b19b5549dba4c929d84f7bfb7ab7
+    path: Assets/AppPortugal/Scenes/StartMenu 1.unity
+    guid: 80b9e2c2c3829754e9e10877eb125bb3
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/PagePt1.unity
+    guid: 18eb2dca14298944e90f8be6ecfa3dc9
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/PagePt2.unity
+    guid: 5808357691758174a9106096830a9274
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/PagePt3.unity
+    guid: ea4e25cc7d7ff6d4892b4a9e4de110cc
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/PagePt4.unity
+    guid: a330c7c3a4e020e4294594cce1b3f180
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/PagePt5.unity
+    guid: 6c7e1d6d7bd8777448ab16eff61f133d
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/PagePt6.unity
+    guid: 2981fe3de8c226a489b51d4d5ceb1ad7
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/PagePt7.unity
+    guid: 2c14a492e0e73684eadf2fd702d09ec6
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/PagePt8.unity
+    guid: 29f89b7a659d6d24a82884f74b3ff57c
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/PagePt9.unity
+    guid: 669a8cb5c6d103445a14def7bd9c12f7
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/PagePt10.unity
+    guid: 71da20f3fb18eed458d87e72986980d6
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/PagePt11.unity
+    guid: e92916ab31a10364eae7512d71360e6c
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/TheEndScene.unity
+    guid: 0785057154bba864ba04a9a2032cc48e
+  - enabled: 1
+    path: Assets/Scenes 1/ARMenu.unity
+    guid: a525322414379ef4f88b0db6677f7801
+  - enabled: 1
+    path: Assets/Scenes 1/Page12.unity
+    guid: 4da72834a6a045d479bb7f93bc138eac
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/ChaptersMenu 1.unity
+    guid: 5a82599c98c48154590ad77ff356a89d
+  - enabled: 1
+    path: Assets/Scenes 1/CreditsMenu.unity
+    guid: 002483d85e738bb489904f10c793c62d
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/Dictionary 1.unity
+    guid: 9178092d938fee2429fc80d9555ce3d9
+  - enabled: 1
+    path: Assets/Scenes 1/Dictionary.unity
+    guid: 021a02ff82d2b5b4598edc6f52a94ce5
+  - enabled: 1
+    path: Assets/memorygameassets/Scenes/MemoryGame.unity
+    guid: 81b9e2bd42f13aa439138b422762dd4e
+  - enabled: 1
+    path: Assets/AppPortugal/Scenes/TicTacToeGame.unity
+    guid: 6673b9916122c544d9a41d6ec1e7aad9
   - enabled: 1
     path: Assets/Scenes 1/Page1.unity
     guid: 7d2911a1d91dd114a82f2d2a3a385bef
@@ -45,24 +105,6 @@ EditorBuildSettings:
     path: Assets/Scenes 1/Page11.unity
     guid: b0c6c0bdb344cf54983f23e0d32b1238
   - enabled: 1
-    path: Assets/Scenes 1/ARMenu.unity
-    guid: a525322414379ef4f88b0db6677f7801
-  - enabled: 1
-    path: Assets/Scenes 1/Page12.unity
-    guid: 4da72834a6a045d479bb7f93bc138eac
-  - enabled: 1
     path: Assets/Scenes 1/ChaptersMenu.unity
     guid: 41b5e82b4d6db9a49b7506e9fb4f7990
-  - enabled: 1
-    path: Assets/Scenes 1/CreditsMenu.unity
-    guid: 002483d85e738bb489904f10c793c62d
-  - enabled: 1
-    path: Assets/Scenes 1/Dictionary.unity
-    guid: 021a02ff82d2b5b4598edc6f52a94ce5
-  - enabled: 1
-    path: Assets/memorygameassets/Scenes/MemoryGame.unity
-    guid: 81b9e2bd42f13aa439138b422762dd4e
-  - enabled: 1
-    path: Assets/AppPortugal/Scenes/TicTacToeGame.unity
-    guid: 6673b9916122c544d9a41d6ec1e7aad9
   m_configObjects: {}

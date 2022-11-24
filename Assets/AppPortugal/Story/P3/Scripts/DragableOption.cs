@@ -12,6 +12,16 @@ public class DragableOption : MonoBehaviour
 
     public Vector3 finalPos;
 
+    public Glower glow;
+
+    private Vector3 initPos;
+
+
+    private void Start()
+    {
+        initPos = sprite.transform.position;
+    }
+
     private void OnMouseDown()
     {
         if(!inPlace)
@@ -23,7 +33,10 @@ public class DragableOption : MonoBehaviour
 
     private void OnMouseUp()
     {
-        //if (!inPlace)
-           // dragble.currentDrag = null;
+        if (!inPlace)
+        {
+            dragble.currentDrag = null;
+            sprite.transform.position = initPos;
+        }
     }
 }

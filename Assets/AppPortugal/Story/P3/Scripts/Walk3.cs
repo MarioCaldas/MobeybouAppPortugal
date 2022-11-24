@@ -16,11 +16,18 @@ public class Walk3 : MonoBehaviour
 
     public Dragble currentDragScript;
 
+    [SerializeField] private List<GameObject> basket;
+
     private void Start()
     {
         characterAnimator = GetComponentInChildren<Animator>();
 
         StartCoroutine(WalkSequence(4));
+
+        foreach (var item in basket)
+        {
+            item.gameObject.SetActive(false);
+        }
     }
 
 
@@ -30,7 +37,7 @@ public class Walk3 : MonoBehaviour
 
         characterAnimator.SetBool("isIdle", false);
         //characterAnimator.SetBool("isWalk", true);
-        characterAnimator.SetTrigger("isWalk");
+        characterAnimator.SetTrigger("WalkWithBasketEmpty");
         float elapsedTime = 0;
 
 
@@ -41,8 +48,14 @@ public class Walk3 : MonoBehaviour
 
             yield return null;
         }
-        characterAnimator.ResetTrigger("isWalk");
+        characterAnimator.ResetTrigger("WalkWithBasketEmpty");
         characterAnimator.SetBool("isIdle", true);
+        yield return new WaitForSeconds(0.3f);
+        foreach (var item in basket)
+        {
+            item.gameObject.SetActive(true);
+        }
+
 
         while (!interactionPageScript.FullBasket())
         {
@@ -60,6 +73,7 @@ public class Walk3 : MonoBehaviour
 
         characterAnimator.SetTrigger("WalkWithBasket");
 
+        time = 6;
         elapsedTime = 0;
         while (elapsedTime < time)
         {

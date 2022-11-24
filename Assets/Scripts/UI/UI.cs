@@ -48,8 +48,8 @@ public class UI : MonoBehaviour
 
     public IEnumerator LoadAsyncOperation(int name)
     {
-        loader.transform.GetChild(0).gameObject.SetActive(true);
-        loader.transform.GetChild(1).gameObject.SetActive(true);
+        //loader.transform.GetChild(0).gameObject.SetActive(true);
+        //loader.transform.GetChild(1).gameObject.SetActive(true);
         AsyncOperation gameLevel = SceneManager.LoadSceneAsync(name);
         Debug.Log(gameLevel.progress);
         yield return new WaitForEndOfFrame();

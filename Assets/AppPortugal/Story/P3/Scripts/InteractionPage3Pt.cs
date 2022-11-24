@@ -36,7 +36,7 @@ public class InteractionPage3Pt : MonoBehaviour
     {
         SetCharacter();
 
-        animator.SetBool("glow", true);
+        //animator.SetBool("glow", true);
 
 
         /*while (!clickable.clicked)

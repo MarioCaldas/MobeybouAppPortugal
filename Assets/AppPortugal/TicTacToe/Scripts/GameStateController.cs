@@ -317,6 +317,32 @@ public class GameStateController : MonoBehaviour
         {
             tileList[i].GetComponentInParent<TileController>().ResetTile();
         }
+
+        playerTurn = whoPlaysFirst;
+        if (playerTurn == "X")
+        {
+            XplayerOption.GetComponent<Image>().color = activePlayerColor;
+            OplayerOption.GetComponent<Image>().color = inactivePlayerColor;
+            playerOIcon.color = inactivePlayerColor;
+            XplayerOption.interactable = true;
+        }
+        else
+        {
+            XplayerOption.GetComponent<Image>().color = inactivePlayerColor;
+            OplayerOption.GetComponent<Image>().color = activePlayerColor;
+            playerXIcon.color = inactivePlayerColor;
+            OplayerOption.interactable = true;
+
+        }
+
+
+        //Adds a listener to the name input fields and invokes a method when the value changes. This is a callback.
+        player1InputField.onValueChanged.AddListener(delegate { OnPlayer1NameChanged(); });
+        player2InputField.onValueChanged.AddListener(delegate { OnPlayer2NameChanged(); });
+
+        // Set the default values to what tthe inputField text is
+        player1Name = player1InputField.text;
+        player2Name = player2InputField.text;
     }
 
     /// <summary>
