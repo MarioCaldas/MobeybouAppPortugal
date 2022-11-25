@@ -13,6 +13,8 @@ public class InteractionPage5Pt : MonoBehaviour
 
     [SerializeField] public GameObject mask;
 
+    [SerializeField] private GameObject cegonhas;
+
     private UI ui;
 
     [Header("Audio")]
@@ -42,6 +44,7 @@ public class InteractionPage5Pt : MonoBehaviour
         {
             yield return null;
         }
+        cegonhas.SetActive(false);
         aS.PlayOneShot(click);
 
         mask.SetActive(true);

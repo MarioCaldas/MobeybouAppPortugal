@@ -1,3 +1,4 @@
+using Spine.Unity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,7 @@ public class InteractionPage8Pt : MonoBehaviour
 
     [SerializeField] public GameObject boyGO;
     [SerializeField] public GameObject girlGO;
+    [SerializeField] public GameObject marceloGO;
 
     private UI ui;
 
@@ -59,11 +61,18 @@ public class InteractionPage8Pt : MonoBehaviour
             girlGO.transform.localScale = new Vector3(0.9f, 0.9f, 0.9f);
 
             girlGO.GetComponent<Walk8>().StartMovement();
+
+            marceloGO.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+            marceloGO.GetComponent<Walk8>().StartMovement();
+
         }
         else
         {
             boyGO.transform.localScale = new Vector3(0.9f, 0.9f, 0.9f);
             boyGO.GetComponent<Walk8>().StartMovement();
+
+            marceloGO.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+            marceloGO.GetComponent<Walk8>().StartMovement();
 
         }
 

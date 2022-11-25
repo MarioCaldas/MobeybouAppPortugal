@@ -19,6 +19,10 @@ public class InteractionPage4Pt : MonoBehaviour
 
     private UI ui;
 
+    [SerializeField] private GameObject plate1, plate2, plate3;
+
+    [SerializeField] private GameObject smoke;
+
     [Header("Audio")]
     [SerializeField] private AudioClip boyLaught1, boyLaught2, girlLaught1, girlLaught2, pan, food, girlOnRight;
     [SerializeField] private AudioSource aS;
@@ -38,6 +42,13 @@ public class InteractionPage4Pt : MonoBehaviour
         characterAnimator.SetTrigger("SitIdle");
 
         characterAnimator2 = brazilianGirl.GetComponent<Animator>();
+
+
+        plate1.SetActive(false);
+        plate2.SetActive(false);
+        plate3.SetActive(false);
+
+        smoke.SetActive(false);
 
     }
 
@@ -69,7 +80,13 @@ public class InteractionPage4Pt : MonoBehaviour
             yield return null;
 
         }
-        
+
+        plate1.SetActive(true);
+        plate2.SetActive(false);
+        plate3.SetActive(false);
+
+        smoke.SetActive(true);
+
         sceneAnimator.SetTrigger("Full");
         characterAnimator.SetTrigger("SitLaught");
         characterAnimator2.SetTrigger("Laught");
@@ -88,6 +105,11 @@ public class InteractionPage4Pt : MonoBehaviour
             yield return null;
 
         }
+
+        plate1.SetActive(false);
+        plate2.SetActive(true);
+        plate3.SetActive(false);
+
         sceneAnimator.SetTrigger("Half");
         characterAnimator.SetTrigger("SitLaught");
         characterAnimator2.SetTrigger("Laught");
@@ -107,6 +129,9 @@ public class InteractionPage4Pt : MonoBehaviour
             yield return null;
 
         }
+        plate1.SetActive(false);
+        plate2.SetActive(false);
+        plate3.SetActive(true);
         sceneAnimator.SetTrigger("Empty");
         characterAnimator.SetTrigger("SitLaught");
         characterAnimator2.SetTrigger("Laught");

@@ -458,27 +458,27 @@ PrefabInstance:
     - target: {fileID: 7164013350635787529, guid: 968f9e046943a8647b154389ce4226fa,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.0163155
+      value: 1.7541945
       objectReference: {fileID: 0}
     - target: {fileID: 7164013350635787529, guid: 968f9e046943a8647b154389ce4226fa,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.0163152
+      value: 1.7541943
       objectReference: {fileID: 0}
     - target: {fileID: 7164013350635787529, guid: 968f9e046943a8647b154389ce4226fa,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.0163152
+      value: 1.7541943
       objectReference: {fileID: 0}
     - target: {fileID: 7164013350635787529, guid: 968f9e046943a8647b154389ce4226fa,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.14719
+      value: -0.14973
       objectReference: {fileID: 0}
     - target: {fileID: 7164013350635787529, guid: 968f9e046943a8647b154389ce4226fa,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.43
+      value: -3.1862
       objectReference: {fileID: 0}
     - target: {fileID: 7164013350635787529, guid: 968f9e046943a8647b154389ce4226fa,
         type: 3}
@@ -1024,6 +1024,21 @@ PrefabInstance:
       value: "Em Coimbra, a cidade dos estudantes,\r\nJoana visitou a universidade
         mais antiga do pa\xEDs, \rcontemplou o Rio Mondego e ouviu o Fado.\r\n\n\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 4076695465006717709, guid: 1c71a5efbed1fae4481deecd7e299f37,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.157916
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076695465006717709, guid: 1c71a5efbed1fae4481deecd7e299f37,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.157916
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076695465006717709, guid: 1c71a5efbed1fae4481deecd7e299f37,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.157916
+      objectReference: {fileID: 0}
     - target: {fileID: 4076695465786519907, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1383,17 +1398,17 @@ PrefabInstance:
     - target: {fileID: 7646867102666024140, guid: ec5372608c4e3f64ca3911acf35ffc66,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.8523775
+      value: 1.7041874
       objectReference: {fileID: 0}
     - target: {fileID: 7646867102666024140, guid: ec5372608c4e3f64ca3911acf35ffc66,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.8523773
+      value: 1.7041872
       objectReference: {fileID: 0}
     - target: {fileID: 7646867102666024140, guid: ec5372608c4e3f64ca3911acf35ffc66,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.8523773
+      value: 1.7041872
       objectReference: {fileID: 0}
     - target: {fileID: 7646867102666024140, guid: ec5372608c4e3f64ca3911acf35ffc66,
         type: 3}
@@ -1403,7 +1418,7 @@ PrefabInstance:
     - target: {fileID: 7646867102666024140, guid: ec5372608c4e3f64ca3911acf35ffc66,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.97
+      value: -3.81
       objectReference: {fileID: 0}
     - target: {fileID: 7646867102666024140, guid: ec5372608c4e3f64ca3911acf35ffc66,
         type: 3}
@@ -1551,7 +1566,7 @@ Transform:
   m_GameObject: {fileID: 1999764749}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -2.4099998, z: 0}
-  m_LocalScale: {x: 1.494839, y: 1.494839, z: 1.494839}
+  m_LocalScale: {x: 1.420097, y: 1.420097, z: 1.420097}
   m_Children: []
   m_Father: {fileID: 62428499}
   m_RootOrder: 6
@@ -1816,8 +1831,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075882559}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.4132, y: -3.72, z: -0.07063}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.4156, y: -3.5458, z: -0.07063}
+  m_LocalScale: {x: 0.90586, y: 0.90586, z: 0.90586}
   m_Children:
   - {fileID: 15043174}
   m_Father: {fileID: 62428499}
