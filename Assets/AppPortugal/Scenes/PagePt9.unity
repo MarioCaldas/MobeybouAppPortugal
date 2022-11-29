@@ -138,6 +138,8 @@ GameObject:
   - component: {fileID: 33979440}
   - component: {fileID: 33979439}
   - component: {fileID: 33979445}
+  - component: {fileID: 33979447}
+  - component: {fileID: 33979446}
   m_Layer: 0
   m_Name: Spine Mecanim GameObject (Pt_Girl)
   m_TagString: Untagged
@@ -152,7 +154,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33979438}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19879cdab3d7d65409700f2e18226b4d, type: 3}
   m_Name: 
@@ -164,7 +166,41 @@ MonoBehaviour:
   jump: 0
   jump2: 0
   interactionPage: {fileID: 2074935810}
-  time: 10
+  jumpCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0041656494
+      value: 0
+      inSlope: 2.016811
+      outSlope: 2.016811
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.49166667
+      value: 1
+      inSlope: 0.025997937
+      outSlope: 0.025997937
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9958191
+      value: 0.009433746
+      inSlope: -1.964815
+      outSlope: -1.964815
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  camController: {fileID: 1012399215}
+  time: 12
 --- !u!114 &33979440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,8 +314,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33979438}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.99, y: -4.32, z: 0}
-  m_LocalScale: {x: 0.58757, y: 0.58757, z: 0.58757}
+  m_LocalPosition: {x: -10.01, y: -3.9939, z: 0}
+  m_LocalScale: {x: 0.46394527, y: 0.46394527, z: 0.46394527}
   m_Children: []
   m_Father: {fileID: 1346539892}
   m_RootOrder: 12
@@ -291,7 +327,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33979438}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33aabe1a2dec93349b06e6e5dc51bc06, type: 3}
   m_Name: 
@@ -299,6 +335,35 @@ MonoBehaviour:
   pathCreator: {fileID: 1367891936}
   endOfPathInstruction: 2
   speed: 4.3
+--- !u!54 &33979446
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33979438}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &33979447
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33979438}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8624015, y: 6.07, z: 8.11}
+  m_Center: {x: -0.15543485, y: 2.6379, z: 0}
 --- !u!1 &360846874
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,9 +404,10 @@ GameObject:
   m_Component:
   - component: {fileID: 363284108}
   - component: {fileID: 363284107}
+  - component: {fileID: 363284109}
   m_Layer: 0
   m_Name: P9_Obsctacle1 (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -405,12 +471,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 363284106}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.56, y: -3.31, z: -0.2}
+  m_LocalPosition: {x: 23.56, y: -3.31, z: -0.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1346539892}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &363284109
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363284106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.94, y: 1.58, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &369326365
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,9 +500,10 @@ GameObject:
   m_Component:
   - component: {fileID: 369326367}
   - component: {fileID: 369326366}
+  - component: {fileID: 369326368}
   m_Layer: 0
   m_Name: P9_Obsctacle1
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -487,12 +567,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369326365}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.080905, y: -3.31, z: -0.20000023}
+  m_LocalPosition: {x: 2.080905, y: -3.31, z: -0.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1346539892}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &369326368
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369326365}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.18, y: 1.58, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &572565561
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,7 +610,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572565561}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.1, y: -3.02, z: 0}
+  m_LocalPosition: {x: 36.1, y: -2.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2051798476}
@@ -912,6 +1005,13 @@ MonoBehaviour:
   jump: 1
   jump2: 0
   interactionPage: {fileID: 2074935810}
+  jumpCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  camController: {fileID: 0}
   time: 12
 --- !u!212 &666052486
 SpriteRenderer:
@@ -1294,6 +1394,13 @@ MonoBehaviour:
   jump: 0
   jump2: 0
   interactionPage: {fileID: 2074935810}
+  jumpCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  camController: {fileID: 0}
   time: 10
 --- !u!114 &925888032
 MonoBehaviour:
@@ -1604,7 +1711,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298469367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.89, y: -3.02, z: 0}
+  m_LocalPosition: {x: -3.89, y: -2.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2051798476}
@@ -1869,6 +1976,8 @@ GameObject:
   - component: {fileID: 1610613210}
   - component: {fileID: 1610613209}
   - component: {fileID: 1610613215}
+  - component: {fileID: 1610613217}
+  - component: {fileID: 1610613216}
   m_Layer: 0
   m_Name: Spine Mecanim GameObject (Pt_Boy)
   m_TagString: Untagged
@@ -1883,7 +1992,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610613208}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19879cdab3d7d65409700f2e18226b4d, type: 3}
   m_Name: 
@@ -1895,7 +2004,41 @@ MonoBehaviour:
   jump: 0
   jump2: 0
   interactionPage: {fileID: 2074935810}
-  time: 10
+  jumpCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0041656494
+      value: 0
+      inSlope: 2.016811
+      outSlope: 2.016811
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.49166667
+      value: 1
+      inSlope: 0.025997937
+      outSlope: 0.025997937
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9958191
+      value: 0.009433746
+      inSlope: -1.964815
+      outSlope: -1.964815
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  camController: {fileID: 1012399215}
+  time: 12
 --- !u!114 &1610613210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2009,8 +2152,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610613208}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.99, y: -4.32, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -9.9921, y: -4.1065, z: 0}
+  m_LocalScale: {x: 0.85586, y: 0.85586, z: 0.85586}
   m_Children: []
   m_Father: {fileID: 1346539892}
   m_RootOrder: 11
@@ -2022,7 +2165,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610613208}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33aabe1a2dec93349b06e6e5dc51bc06, type: 3}
   m_Name: 
@@ -2030,6 +2173,35 @@ MonoBehaviour:
   pathCreator: {fileID: 1367891936}
   endOfPathInstruction: 2
   speed: 4.3
+--- !u!54 &1610613216
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610613208}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1610613217
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610613208}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4300003, y: 3.84, z: 5.02}
+  m_Center: {x: -0.014238596, y: 1.4808341, z: 0}
 --- !u!1 &1792153429
 GameObject:
   m_ObjectHideFlags: 0
@@ -2209,9 +2381,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1865565323}
   - component: {fileID: 1865565322}
+  - component: {fileID: 1865565324}
   m_Layer: 0
   m_Name: P9_Obsctacle1 (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2275,12 +2448,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865565321}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.939999, y: -3.31, z: -0.20000023}
+  m_LocalPosition: {x: 11.939999, y: -3.31, z: -0.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1346539892}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1865565324
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865565321}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.83, y: 1.58, z: 0.2}
+  m_Center: {x: -0.06, y: 0, z: 0}
 --- !u!1 &1979085853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2461,6 +2647,13 @@ MonoBehaviour:
   jump: 0
   jump2: 0
   interactionPage: {fileID: 2074935810}
+  jumpCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  camController: {fileID: 0}
   time: 10
 --- !u!114 &2045509680
 MonoBehaviour:
@@ -2617,7 +2810,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051798475}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.03, y: 0.110000014, z: -2.336465}
+  m_LocalPosition: {x: -6.03, y: 0.110000014, z: -0.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1298469368}

@@ -16,6 +16,11 @@ public class Walk9 : MonoBehaviour
     [SerializeField] private bool jump2;
 
     [SerializeField] private InteractionPage9Pt interactionPage;
+
+    [SerializeField] private AnimationCurve jumpCurve;
+
+    [SerializeField] private CamController camController;
+
     void Start()
     {
         walk = true;
@@ -30,17 +35,13 @@ public class Walk9 : MonoBehaviour
 
         float elapsedTime = 0;
 
-
+        Run();
 
         //transform.eulerAngles = new Vector3(0, -180, 0);
         while (elapsedTime < time)
         {
             transform.position = Vector3.Lerp(initPos.position, finalPos.position, (elapsedTime / time));
             elapsedTime += Time.deltaTime;
-
-
-            if (jump)
-                transform.position = new Vector3(transform.position.x, Mathf.PingPong((elapsedTime * 3), 1), transform.position.z);
 
             yield return null;
         }
@@ -52,6 +53,7 @@ public class Walk9 : MonoBehaviour
             GetComponent<AudioSource>().loop = false;
         }
     }
+
     public void Run()
     {
         GetComponent<Animator>().SetTrigger("Run");
@@ -61,20 +63,65 @@ public class Walk9 : MonoBehaviour
 
     public void Jump()
     {
-        GetComponent<Animator>().SetBool("Jump", true);
-
-        if(!jumpSoundPlayed)
+        if(GetComponent<Animator>())
         {
-            interactionPage.aS.PlayOneShot(interactionPage.jump);
+            GetComponent<BoxCollider>().enabled = false;
 
-            jumpSoundPlayed = true;
+            GetComponent<Animator>().SetBool("Jump", true);
+
+            if (!jumpSoundPlayed)
+            {
+                interactionPage.aS.PlayOneShot(interactionPage.jump);
+
+                jumpSoundPlayed = true;
+            }
+            
+            jump = true;
+
+            StartCoroutine(ResetJump());
         }
+
     }
-    public void ResetJump()
+    public IEnumerator ResetJump()
     {
+        yield return new WaitForSeconds(1);
+
         GetComponent<Animator>().SetBool("Jump", false);
 
         jumpSoundPlayed = false;
 
+        yield return new WaitForSeconds(0.5f);
+
+        GetComponent<BoxCollider>().enabled = true;
+
+    }
+
+    private void Update()
+    {
+        if(Input.GetMouseButtonDown(0))
+        {
+            print("jump");
+            Jump();
+
+            //transform.position = new Vector3(transform.position.x, transform.position.y + 8, transform.position.z);
+        }
+    }
+
+    /*private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("Obstacle"))
+        {
+            print("obstacle");
+        }
+    }*/
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Obstacle"))
+        {
+            StopAllCoroutines();
+            StartCoroutine(WalkSequence());
+            camController.ResetCamera();
+        }
     }
 }

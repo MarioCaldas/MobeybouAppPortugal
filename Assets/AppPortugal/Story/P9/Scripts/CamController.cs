@@ -28,7 +28,7 @@ public class CamController : MonoBehaviour
 
         float elapsedTime = 0;
 
-        float time = 8;
+        float time = 9.6f;
         while (elapsedTime < time)
         {
             transform.position = Vector3.Lerp(initPos.position, finalPos.position, (elapsedTime / time) * speed);
@@ -37,5 +37,11 @@ public class CamController : MonoBehaviour
             yield return null;
         }
 
+    }
+
+    public void ResetCamera()
+    {
+        StopAllCoroutines();
+        StartCoroutine(WalkSequence());
     }
 }

@@ -15,6 +15,7 @@ public class InteractionPage10Pt : MonoBehaviour
 
     [SerializeField] private Animator animator;
     [SerializeField] private Animator galoAnimator;
+    [SerializeField] private GameObject hiddenGalo;
 
     [Header("Audio")]
     [SerializeField] public AudioClip girlLaught, boyLaught, animal, figures;
@@ -27,6 +28,9 @@ public class InteractionPage10Pt : MonoBehaviour
     }
     private void Start()
     {
+        galoAnimator.gameObject.SetActive(false);
+        hiddenGalo.gameObject.SetActive(true);
+
         gm = FindObjectOfType<GameManager>();
 
         StartCoroutine(Sequence());
@@ -47,6 +51,9 @@ public class InteractionPage10Pt : MonoBehaviour
         animator.SetTrigger("Appear");
         yield return new WaitForSeconds(0.5f);
         aS.PlayOneShot(figures);
+
+        galoAnimator.gameObject.SetActive(true);
+        hiddenGalo.gameObject.SetActive(false);
 
         galoAnimator.SetTrigger("Scare");
         aS.PlayOneShot(animal);
