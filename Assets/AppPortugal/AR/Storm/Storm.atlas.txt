@@ -1,0 +1,90 @@
+
+Storm.png
+size: 1974,1740
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BL_1
+  rotate: true
+  xy: 1497, 350
+  size: 500, 465
+  orig: 506, 471
+  offset: 3, 3
+  index: -1
+BL_2
+  rotate: true
+  xy: 995, 2
+  size: 364, 465
+  orig: 369, 467
+  offset: 3, 2
+  index: -1
+BL_3
+  rotate: true
+  xy: 987, 368
+  size: 482, 508
+  orig: 488, 514
+  offset: 3, 3
+  index: -1
+C_1
+  rotate: true
+  xy: 1846, 1153
+  size: 585, 74
+  orig: 587, 76
+  offset: 1, 1
+  index: -1
+C_2
+  rotate: true
+  xy: 1922, 1285
+  size: 453, 50
+  orig: 455, 52
+  offset: 1, 1
+  index: -1
+C_3
+  rotate: false
+  xy: 1462, 271
+  size: 421, 77
+  orig: 423, 79
+  offset: 1, 1
+  index: -1
+FL1_1
+  rotate: false
+  xy: 705, 886
+  size: 611, 852
+  orig: 612, 855
+  offset: 0, 3
+  index: -1
+FL1_2
+  rotate: false
+  xy: 2, 813
+  size: 701, 925
+  orig: 1055, 928
+  offset: 351, 3
+  index: -1
+FL1_3
+  rotate: false
+  xy: 1318, 852
+  size: 526, 886
+  orig: 533, 889
+  offset: 4, 3
+  index: -1
+FL2_1
+  rotate: true
+  xy: 2, 35
+  size: 161, 991
+  orig: 165, 994
+  offset: 2, 3
+  index: -1
+FL2_2
+  rotate: true
+  xy: 2, 198
+  size: 230, 941
+  orig: 234, 944
+  offset: 2, 3
+  index: -1
+FL2_3
+  rotate: true
+  xy: 2, 430
+  size: 381, 983
+  orig: 386, 986
+  offset: 2, 3
+  index: -1

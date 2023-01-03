@@ -22,6 +22,8 @@ public class InteractionPage8Pt : MonoBehaviour
     [SerializeField] private GameObject nightImage1;
     [SerializeField] private GameObject nightImage2;
 
+    [SerializeField] private GameObject boatGlow;
+
     [Header("Audio")]
     [SerializeField] public AudioClip boatSound, click;
     [SerializeField] public AudioSource aS;
@@ -54,7 +56,7 @@ public class InteractionPage8Pt : MonoBehaviour
             yield return null;
         }
         aS.PlayOneShot(click);
-
+        boatGlow.SetActive(false);
         boatToHide.SetActive(false);
         if (gm.gender)
         {

@@ -14,6 +14,6 @@ public class ARMenuManager : MonoBehaviour
 
     public void Play()
     {
-        StartCoroutine(UI.GetComponent<UI>().LoadAsyncOperation(14));
+        StartCoroutine(UI.GetComponent<UI>().LoadAsyncOperation());
     }
 }

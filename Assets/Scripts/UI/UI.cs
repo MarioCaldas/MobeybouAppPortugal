@@ -54,4 +54,15 @@ public class UI : MonoBehaviour
         Debug.Log(gameLevel.progress);
         yield return new WaitForEndOfFrame();
     }
+
+    public IEnumerator LoadAsyncOperation()
+    {
+        //loader.transform.GetChild(0).gameObject.SetActive(true);
+        //loader.transform.GetChild(1).gameObject.SetActive(true);
+        /*AsyncOperation gameLevel = SceneManager.LoadSceneAsync(name);
+        Debug.Log(gameLevel.progress);*/
+        SceneManager.LoadScene("Page12");
+        yield return new WaitForEndOfFrame();
+    }
+
 }

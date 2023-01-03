@@ -1,0 +1,47 @@
+
+Page_8.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Background_Day
+  rotate: false
+  xy: 2, 2
+  size: 1920, 958
+  orig: 1922, 960
+  offset: 1, 1
+  index: -1
+Boat
+  rotate: false
+  xy: 2, 1023
+  size: 719, 497
+  orig: 722, 499
+  offset: 1, 1
+  index: -1
+Boat_Glow
+  rotate: false
+  xy: 723, 962
+  size: 779, 558
+  orig: 786, 566
+  offset: 3, 3
+  index: -1
+Foreground_Day
+  rotate: false
+  xy: 2, 1522
+  size: 1919, 211
+  orig: 1921, 213
+  offset: 1, 1
+  index: -1
+
+Page_82.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Background_Night
+  rotate: false
+  xy: 2, 2
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1

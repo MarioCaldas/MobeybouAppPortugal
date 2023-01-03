@@ -1,0 +1,27 @@
+
+Page_8.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Boat
+  rotate: false
+  xy: 783, 63
+  size: 719, 497
+  orig: 722, 499
+  offset: 1, 1
+  index: -1
+Boat_Glow
+  rotate: false
+  xy: 2, 2
+  size: 779, 558
+  orig: 786, 566
+  offset: 3, 3
+  index: -1
+Foreground_Day
+  rotate: false
+  xy: 2, 562
+  size: 1919, 211
+  orig: 1921, 213
+  offset: 1, 1
+  index: -1

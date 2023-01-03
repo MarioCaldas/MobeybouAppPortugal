@@ -7,7 +7,7 @@ using System;
 public class AREntity : MonoBehaviour
 {
     public Animator animator;
-    public string[] state = { "isIdle", "isLaughing", "isDancing", "isThunder" };
+    public string[] state = { "isIdle", "", "", "" };
     public int animationIndex = 0;
     public bool isAnimal = false;
     public bool isCharacter = false;
@@ -17,23 +17,38 @@ public class AREntity : MonoBehaviour
     private int rand = 0;
     public int touchCount = 0;
 
+    [SerializeField] private Animator stormAnim;
+
     private void Awake()
     {
         //this is a character entity (Kaué or Iara)
-        if (this.name.Contains("Luanna") || this.name.Contains("Marcelo"))
+        if (this.name.Contains("Girl"))
         {
+            state[1] = "isPlaying";
+            state[2] = "isDancing";
+            state[3] = "isBasket";
             //isCharacter = true;
+        }
+        else if (this.name.Contains("Boy"))
+        {
+            state[1] = "isPlaying";
+            state[2] = "isDancing";
+            state[3] = "isBasket";
         }
         //this is the animal
         else if (this.name.Contains("Animal"))
         {
             isAnimal = true;
             state[1] = "isAttacking";
+            state[2] = "isDancing";
+            state[3] = "isThunder";
         }
         //this is the antagonist
         else
         {
-            state[1] = "isScared";
+            state[1] = "isAttacking";
+            state[2] = "isDancing";
+            state[3] = "isThunder";
         }
 
         //start idle animation
@@ -41,6 +56,11 @@ public class AREntity : MonoBehaviour
 
         //laugh and dance animations are no longer on loop
         Animation animation = animator.GetComponent<Animation>();
+
+        if(stormAnim)
+        {
+            stormAnim.gameObject.SetActive(false);
+        }
     }
 
     private void Update()
@@ -72,7 +92,7 @@ public class AREntity : MonoBehaviour
 
                 //start antagonist idle animation
                 if (!isAnimal && !isCharacter)
-                    StartCoroutine(WaitAnim(0.5f));
+                    StartCoroutine(WaitAnim(2.5f));
 
                 //start animal & antagonist idle animation
                 else 
@@ -124,9 +144,16 @@ public class AREntity : MonoBehaviour
                 //play thunder sound
                 aS.PlayOneShot(aC[animationIndex]);
 
+                if(stormAnim)
+                {
+                    stormAnim.gameObject.SetActive(true);
+
+                    stormAnim.SetBool("Thunder", true);
+                }
+                Debug.Log("3º");
 
                 //start idle anim
-                StartCoroutine(WaitAnim(1));
+                StartCoroutine(WaitAnim(1.5f));
             }
 
             Debug.Log("4º");
@@ -142,15 +169,24 @@ public class AREntity : MonoBehaviour
     private IEnumerator WaitAnim(float t)
     {
         //last animation was thunder - the bull makes a scared sound
-        if(animationIndex == 3)
-            aS.PlayOneShot(aC[1]);
+        /*if(animationIndex == 3)
+            aS.PlayOneShot(aC[1]);*/
 
         yield return new WaitForSeconds(t);
+        aS.Stop();
+
         //cancel previous animation
         animator.SetBool(state[animationIndex], false);
         //start idle animation
         animationIndex = 0;
         animator.SetBool(state[animationIndex], true);
+
+        if (stormAnim)
+        {
+            stormAnim.SetBool("Thunder", false);
+            stormAnim.gameObject.SetActive(false);
+
+        }
     }
 }
 

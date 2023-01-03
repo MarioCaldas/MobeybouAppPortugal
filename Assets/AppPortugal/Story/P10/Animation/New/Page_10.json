@@ -1,0 +1,458 @@
+{
+"skeleton": {
+	"hash": "CXV4ONkx/EIJy8AGFwkGHBpjpd8",
+	"spine": "3.8.99",
+	"x": -965,
+	"y": -1,
+	"width": 1922,
+	"height": 750,
+	"images": "./images/",
+	"audio": "C:/Users/anapa/Dropbox/Jobs/Mobeybou/App PT/P10"
+},
+"bones": [
+	{ "name": "root" },
+	{
+		"name": "Devil",
+		"parent": "root",
+		"length": 246.36,
+		"rotation": 90,
+		"x": -462.21,
+		"y": 55,
+		"color": "009cffff"
+	},
+	{
+		"name": "Lady",
+		"parent": "root",
+		"length": 243.3,
+		"rotation": 90,
+		"x": -282.11,
+		"y": 39.73,
+		"color": "57f409ff"
+	},
+	{
+		"name": "Musician",
+		"parent": "root",
+		"length": 222.94,
+		"rotation": 90,
+		"x": -107.79,
+		"y": 51.95,
+		"color": "fb00d1ff"
+	},
+	{
+		"name": "Devil2",
+		"parent": "root",
+		"length": 246.36,
+		"rotation": 90,
+		"x": 96.45,
+		"y": 55,
+		"color": "009cffff"
+	},
+	{
+		"name": "Lady2",
+		"parent": "root",
+		"length": 243.3,
+		"rotation": 90,
+		"x": 269.75,
+		"y": 39.73,
+		"color": "57f409ff"
+	},
+	{
+		"name": "Musician2",
+		"parent": "root",
+		"length": 222.94,
+		"rotation": 90,
+		"x": 439.52,
+		"y": 51.95,
+		"color": "fb00d1ff"
+	}
+],
+"slots": [
+	{ "name": "Cruzeiro_Glow", "bone": "root", "blend": "additive" },
+	{ "name": "Cruzeiro", "bone": "root", "attachment": "Cruzeiro" },
+	{ "name": "Musician", "bone": "Musician", "attachment": "Musician" },
+	{ "name": "Musician2", "bone": "Musician2", "attachment": "Musician" },
+	{ "name": "Devil", "bone": "Devil", "attachment": "Devil" },
+	{ "name": "Devil2", "bone": "Devil2", "attachment": "Devil" },
+	{ "name": "Lady", "bone": "Lady", "attachment": "Lady" },
+	{ "name": "Lady2", "bone": "Lady2", "attachment": "Lady" },
+	{ "name": "Foreground", "bone": "root", "attachment": "Foreground" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Cruzeiro": {
+				"Cruzeiro": { "x": -209.5, "y": 540, "width": 203, "height": 418 }
+			},
+			"Cruzeiro_Glow": {
+				"Cruzeiro_Glow": { "x": -209, "y": 539, "width": 298, "height": 516 }
+			},
+			"Devil": {
+				"Devil": { "x": 120, "y": 3.97, "rotation": -90, "width": 162, "height": 266 }
+			},
+			"Devil2": {
+				"Devil": { "x": 120, "y": 3.97, "rotation": -90, "width": 162, "height": 266 }
+			},
+			"Foreground": {
+				"Foreground": { "x": -4, "y": 222.5, "width": 1922, "height": 447 }
+			},
+			"Lady": {
+				"Lady": { "x": 141.27, "y": -4.48, "rotation": -90, "width": 158, "height": 292 }
+			},
+			"Lady2": {
+				"Lady": { "x": 141.27, "y": -4.48, "rotation": -90, "width": 158, "height": 292 }
+			},
+			"Musician": {
+				"Musician": { "x": 154.05, "y": 0.56, "rotation": -90, "width": 172, "height": 316 }
+			},
+			"Musician2": {
+				"Musician": { "x": 154.05, "y": 0.56, "rotation": -90, "width": 172, "height": 316 }
+			}
+		}
+	}
+],
+"animations": {
+	"figurado-appears": {
+		"slots": {
+			"Devil": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.8667, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffff" }
+				]
+			},
+			"Devil2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffff00" },
+					{ "time": 0.9667, "color": "ffffffff" }
+				]
+			},
+			"Lady": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.5, "color": "ffffff00" },
+					{ "time": 1.6667, "color": "ffffffff" }
+				]
+			},
+			"Lady2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"Musician": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 0.6667, "color": "ffffffff" }
+				]
+			},
+			"Musician2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"Devil": {
+				"translate": [
+					{ "y": 47.85, "curve": "stepped" },
+					{ "time": 1.8667, "y": 47.85 },
+					{ "time": 2, "y": -2.04 },
+					{ "time": 2.0667, "y": 8.14 },
+					{ "time": 2.1667, "y": -2.04 }
+				]
+			},
+			"Lady": {
+				"translate": [
+					{ "time": 1.5, "y": 58.03 },
+					{ "time": 1.6667 },
+					{ "time": 1.7333, "y": 14.25 },
+					{ "time": 1.8333 }
+				]
+			},
+			"Musician": {
+				"translate": [
+					{},
+					{ "time": 0.5, "y": 44.79 },
+					{ "time": 0.6667 },
+					{ "time": 0.7333, "y": 20.36 },
+					{ "time": 0.8333 }
+				]
+			},
+			"Devil2": {
+				"translate": [
+					{ "y": 47.85, "curve": "stepped" },
+					{ "time": 0.8333, "y": 47.85 },
+					{ "time": 0.9667, "y": -2.04 },
+					{ "time": 1.0333, "y": 8.14 },
+					{ "time": 1.1333, "y": -2.04 }
+				]
+			},
+			"Lady2": {
+				"translate": [
+					{ "time": 0.3333, "y": 58.03 },
+					{ "time": 0.5 },
+					{ "time": 0.5667, "y": 14.25 },
+					{ "time": 0.6667 }
+				]
+			},
+			"Musician2": {
+				"translate": [
+					{ "time": 0.6667 },
+					{ "time": 1.1667, "y": 44.79 },
+					{ "time": 1.3333 },
+					{ "time": 1.4, "y": 20.36 },
+					{ "time": 1.5 }
+				]
+			}
+		}
+	},
+	"figurado-dance": {
+		"bones": {
+			"Devil": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": 8.5 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "angle": -6.11 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "angle": 8.5 },
+					{ "time": 1 },
+					{ "time": 1.1667, "angle": -6.11 },
+					{ "time": 1.3333 },
+					{ "time": 1.5, "angle": 8.5 },
+					{ "time": 1.6667 },
+					{ "time": 1.8333, "angle": -6.11 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1667, "y": 33.52 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "y": 33.52 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "y": 33.52 },
+					{ "time": 1 },
+					{ "time": 1.1667, "y": 33.52 },
+					{ "time": 1.3333 },
+					{ "time": 1.5, "y": 33.52 },
+					{ "time": 1.6667 },
+					{ "time": 1.8333, "y": 33.52 },
+					{ "time": 2 }
+				]
+			},
+			"Lady": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": -4.95 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "angle": 9.5 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "angle": -4.95 },
+					{ "time": 1 },
+					{ "time": 1.1667, "angle": 9.5 },
+					{ "time": 1.3333 },
+					{ "time": 1.5, "angle": -4.95 },
+					{ "time": 1.6667 },
+					{ "time": 1.8333, "angle": 9.5 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1667, "y": 15.03 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "y": 19.65 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "y": 15.03 },
+					{ "time": 1 },
+					{ "time": 1.1667, "y": 19.65 },
+					{ "time": 1.3333 },
+					{ "time": 1.5, "y": 15.03 },
+					{ "time": 1.6667 },
+					{ "time": 1.8333, "y": 19.65 },
+					{ "time": 2 }
+				]
+			},
+			"Musician": {
+				"rotate": [
+					{},
+					{ "time": 0.2333, "angle": 6.08 },
+					{ "time": 0.3333 },
+					{ "time": 0.5667, "angle": -8.61 },
+					{ "time": 0.6667 },
+					{ "time": 0.9, "angle": 6.08 },
+					{ "time": 1 },
+					{ "time": 1.2333, "angle": -8.61 },
+					{ "time": 1.3333 },
+					{ "time": 1.5667, "angle": 6.08 },
+					{ "time": 1.6667 },
+					{ "time": 1.9, "angle": -8.61 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1667, "y": 16.18 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "y": 25.43 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "y": 16.18 },
+					{ "time": 1 },
+					{ "time": 1.1667, "y": 25.43 },
+					{ "time": 1.3333 },
+					{ "time": 1.5, "y": 16.18 },
+					{ "time": 1.6667 },
+					{ "time": 1.8333, "y": 25.43 },
+					{ "time": 2 }
+				]
+			},
+			"Devil2": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": 8.5 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "angle": -6.11 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "angle": 8.5 },
+					{ "time": 1 },
+					{ "time": 1.1667, "angle": -6.11 },
+					{ "time": 1.3333 },
+					{ "time": 1.5, "angle": 8.5 },
+					{ "time": 1.6667 },
+					{ "time": 1.8333, "angle": -6.11 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1667, "y": 33.52 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "y": 33.52 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "y": 33.52 },
+					{ "time": 1 },
+					{ "time": 1.1667, "y": 33.52 },
+					{ "time": 1.3333 },
+					{ "time": 1.5, "y": 33.52 },
+					{ "time": 1.6667 },
+					{ "time": 1.8333, "y": 33.52 },
+					{ "time": 2 }
+				]
+			},
+			"Lady2": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "angle": -4.95 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "angle": 9.5 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "angle": -4.95 },
+					{ "time": 1 },
+					{ "time": 1.1667, "angle": 9.5 },
+					{ "time": 1.3333 },
+					{ "time": 1.5, "angle": -4.95 },
+					{ "time": 1.6667 },
+					{ "time": 1.8333, "angle": 9.5 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1667, "y": 15.03 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "y": 19.65 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "y": 15.03 },
+					{ "time": 1 },
+					{ "time": 1.1667, "y": 19.65 },
+					{ "time": 1.3333 },
+					{ "time": 1.5, "y": 15.03 },
+					{ "time": 1.6667 },
+					{ "time": 1.8333, "y": 19.65 },
+					{ "time": 2 }
+				]
+			},
+			"Musician2": {
+				"rotate": [
+					{},
+					{ "time": 0.2333, "angle": 6.08 },
+					{ "time": 0.3333 },
+					{ "time": 0.5667, "angle": -8.61 },
+					{ "time": 0.6667 },
+					{ "time": 0.9, "angle": 6.08 },
+					{ "time": 1 },
+					{ "time": 1.2333, "angle": -8.61 },
+					{ "time": 1.3333 },
+					{ "time": 1.5667, "angle": 6.08 },
+					{ "time": 1.6667 },
+					{ "time": 1.9, "angle": -8.61 },
+					{ "time": 2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1667, "y": 16.18 },
+					{ "time": 0.3333 },
+					{ "time": 0.5, "y": 25.43 },
+					{ "time": 0.6667 },
+					{ "time": 0.8333, "y": 16.18 },
+					{ "time": 1 },
+					{ "time": 1.1667, "y": 25.43 },
+					{ "time": 1.3333 },
+					{ "time": 1.5, "y": 16.18 },
+					{ "time": 1.6667 },
+					{ "time": 1.8333, "y": 25.43 },
+					{ "time": 2 }
+				]
+			}
+		}
+	},
+	"glow-cruzeiro": {
+		"slots": {
+			"Cruzeiro_Glow": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffff85" },
+					{ "time": 3.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Cruzeiro_Glow" }
+				]
+			},
+			"Devil": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Devil2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Lady": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Lady2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Musician": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"Musician2": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	}
+}
+}
