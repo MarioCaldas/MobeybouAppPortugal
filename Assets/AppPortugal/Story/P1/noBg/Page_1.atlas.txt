@@ -1,0 +1,62 @@
+
+Page_1.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Handkerchief_Glow
+  rotate: false
+  xy: 2, 1606
+  size: 1931, 1048
+  orig: 1931, 1048
+  offset: 0, 0
+  index: -1
+P1_Bottle
+  rotate: false
+  xy: 3857, 2365
+  size: 213, 289
+  orig: 215, 292
+  offset: 1, 2
+  index: -1
+P1_Bottle_glow
+  rotate: true
+  xy: 2, 394
+  size: 382, 457
+  orig: 398, 466
+  offset: 8, 1
+  index: -1
+P1_Foreground
+  rotate: true
+  xy: 3584, 2
+  size: 1920, 486
+  orig: 1922, 488
+  offset: 1, 1
+  index: -1
+P1_Handkerchief
+  rotate: false
+  xy: 1935, 1094
+  size: 1647, 828
+  orig: 1647, 828
+  offset: 0, 0
+  index: -1
+P1_Message_EN
+  rotate: false
+  xy: 2, 778
+  size: 1645, 826
+  orig: 1645, 826
+  offset: 0, 0
+  index: -1
+P1_Message_PT
+  rotate: false
+  xy: 1649, 266
+  size: 1645, 826
+  orig: 1645, 826
+  offset: 0, 0
+  index: -1
+P1_Sea_Filter
+  rotate: false
+  xy: 1935, 1924
+  size: 1920, 730
+  orig: 1922, 732
+  offset: 1, 1
+  index: -1

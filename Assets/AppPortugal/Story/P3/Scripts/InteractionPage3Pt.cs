@@ -19,6 +19,26 @@ public class InteractionPage3Pt : MonoBehaviour
 
     [SerializeField] private Animator animator;
 
+    [SerializeField] public bool isDragging;
+
+    [SerializeField] private List<GameObject> dragables;
+
+    [Header("Audio")]
+    [SerializeField] private AudioClip fruit;
+    [SerializeField] private AudioSource aS;
+
+    public void DragablesDisabler(GameObject currentDrag, bool value)
+    {
+        print("disable");
+        foreach (var item in dragables)
+        {
+            if(item != currentDrag && !item.GetComponent<Drag>().inPlace)
+            {
+                item.SetActive(value);
+            }
+        }
+    }
+
     private void Awake()
     {
 
@@ -78,5 +98,10 @@ public class InteractionPage3Pt : MonoBehaviour
             boyGO.SetActive(true);
             girlGO.SetActive(false);
         }
+    }
+
+    public void PlayFruitSound()
+    {
+        aS.PlayOneShot(fruit);
     }
 }

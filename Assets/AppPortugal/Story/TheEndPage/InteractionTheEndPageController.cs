@@ -8,6 +8,10 @@ public class InteractionTheEndPageController : MonoBehaviour
 
     private GameManager gm;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip elefante;
+    [SerializeField] private AudioSource aS;
+
     private void Start()
     {
         gm = FindObjectOfType<GameManager>();
@@ -16,6 +20,13 @@ public class InteractionTheEndPageController : MonoBehaviour
             animator.SetTrigger("en");
         else
             animator.SetTrigger("pt");
+
+        Invoke("ElefanteSound", 1.5f);
     }
 
+
+    private void ElefanteSound()
+    {
+        aS.PlayOneShot(elefante);
+    }
 }

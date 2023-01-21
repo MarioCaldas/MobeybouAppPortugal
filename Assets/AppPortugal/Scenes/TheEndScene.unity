@@ -1922,6 +1922,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1108513961}
+  elefante: {fileID: 8300000, guid: 575452b659c55c34bb3af8a9116fb5e6, type: 3}
+  aS: {fileID: 60484690}
 --- !u!4 &2074935811
 Transform:
   m_ObjectHideFlags: 0

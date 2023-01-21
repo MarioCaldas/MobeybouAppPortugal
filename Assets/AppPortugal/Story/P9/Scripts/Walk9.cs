@@ -1,3 +1,4 @@
+using PathCreation.Examples;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,27 +22,37 @@ public class Walk9 : MonoBehaviour
 
     [SerializeField] private CamController camController;
 
+    [SerializeField] private PathFollower careto;
+
+    private float currentElapsedTime;
+
+    private float testeValue;
+
     void Start()
     {
         walk = true;
 
-        StartCoroutine(WalkSequence());
+        testeValue = 1;
+
+        StartCoroutine(WalkSequence(currentElapsedTime));
     }
     [SerializeField] float time = 0;
 
-    private IEnumerator WalkSequence()
+    private IEnumerator WalkSequence(float _currentElapsedTime)
     {
         transform.position = initPos.position;
 
-        float elapsedTime = 0;
+        float elapsedTime = _currentElapsedTime;
 
         Run();
 
-        //transform.eulerAngles = new Vector3(0, -180, 0);
         while (elapsedTime < time)
         {
+            elapsedTime += Time.deltaTime * testeValue;
+
             transform.position = Vector3.Lerp(initPos.position, finalPos.position, (elapsedTime / time));
-            elapsedTime += Time.deltaTime;
+
+            currentElapsedTime = elapsedTime;
 
             yield return null;
         }
@@ -56,8 +67,10 @@ public class Walk9 : MonoBehaviour
 
     public void Run()
     {
-        GetComponent<Animator>().SetTrigger("Run");
+        if(GetComponent<Animator>())
+            GetComponent<Animator>().SetTrigger("Run");
     }
+
 
     bool jumpSoundPlayed;
 
@@ -94,14 +107,23 @@ public class Walk9 : MonoBehaviour
 
         GetComponent<BoxCollider>().enabled = true;
 
+        GetComponent<Animator>().SetTrigger("Run");
+
     }
 
     private void Update()
     {
         if(Input.GetMouseButtonDown(0))
         {
-            print("jump");
+            GetComponent<Animator>().ResetTrigger("isIdle");
+            //StartCoroutine(WalkSequence(currentElapsedTime));
+
             Jump();
+            careto.speed = 2.9f;
+
+            testeValue = 1;
+
+            camController.speedValue = 1;
 
             //transform.position = new Vector3(transform.position.x, transform.position.y + 8, transform.position.z);
         }
@@ -119,9 +141,14 @@ public class Walk9 : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Obstacle"))
         {
-            StopAllCoroutines();
-            StartCoroutine(WalkSequence());
-            camController.ResetCamera();
+            //StopAllCoroutines();
+            GetComponent<Animator>().SetTrigger("isIdle");
+            testeValue = 0;
+            //StartCoroutine(WalkSequence());
+            //camController.ResetCamera();
+            //careto.RestartRun();
+            camController.speedValue = 0;
+            careto.speed = 0;
         }
     }
 }

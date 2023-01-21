@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject boyGO;
     [SerializeField] private GameObject girlGO;
 
+    [SerializeField] public int storyChapterNumber;
+
 
     void Awake()
     {

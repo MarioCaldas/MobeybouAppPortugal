@@ -9,6 +9,13 @@ public class UI : MonoBehaviour
     public Animator glow;
     public Transform loader;
 
+    public GameManager gm;
+
+    private void Start()
+    {
+        gm = FindObjectOfType<GameManager>();
+
+    }
 
     public void TheEnd()
     {
@@ -20,12 +27,14 @@ public class UI : MonoBehaviour
     {
         print("NEXT");
         int currentBuildIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        gm.storyChapterNumber = currentBuildIndex - 2;
         StartCoroutine(LoadAsyncOperation(currentBuildIndex));
     }
 
     public void Previous()
     {
         int currentBuildIndex = SceneManager.GetActiveScene().buildIndex - 1;
+        gm.storyChapterNumber = currentBuildIndex - 2;
         StartCoroutine(LoadAsyncOperation(currentBuildIndex));
     }
 
@@ -48,7 +57,7 @@ public class UI : MonoBehaviour
 
     public IEnumerator LoadAsyncOperation(int name)
     {
-        //loader.transform.GetChild(0).gameObject.SetActive(true);
+        loader.transform.GetChild(0).gameObject.SetActive(true);
         //loader.transform.GetChild(1).gameObject.SetActive(true);
         AsyncOperation gameLevel = SceneManager.LoadSceneAsync(name);
         Debug.Log(gameLevel.progress);

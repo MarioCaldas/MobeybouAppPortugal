@@ -8,7 +8,7 @@ namespace PathCreation.Examples
     {
         public PathCreator pathCreator;
         public EndOfPathInstruction endOfPathInstruction;
-        public float speed = 5;
+        public float speed = 3;
         float distanceTravelled;
 
         void Start() {
@@ -18,7 +18,8 @@ namespace PathCreation.Examples
                 pathCreator.pathUpdated += OnPathChanged;
             }
 
-            GetComponent<Walk9>().Run();
+            if(GetComponent<Walk9>())
+                GetComponent<Walk9>().Run();
 
         }
 
@@ -29,7 +30,6 @@ namespace PathCreation.Examples
                 distanceTravelled += speed * Time.deltaTime;
                 transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled, endOfPathInstruction);
 
-                print(distanceTravelled);
 
                 if(distanceTravelled >= 8 && distanceTravelled <= 12f)
                 {
@@ -56,6 +56,11 @@ namespace PathCreation.Examples
         // is as close as possible to its position on the old path
         void OnPathChanged() {
             distanceTravelled = pathCreator.path.GetClosestDistanceAlongPath(transform.position);
+        }
+
+        public void RestartRun()
+        {
+            distanceTravelled = 0;
         }
     }
 }

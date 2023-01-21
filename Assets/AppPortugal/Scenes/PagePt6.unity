@@ -190,6 +190,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FreeCamera
       objectReference: {fileID: 0}
+    - target: {fileID: 5420752376418021281, guid: 8f079d9160fd61b429a1714591708a68,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6149842519628128541, guid: 8f079d9160fd61b429a1714591708a68,
         type: 3}
       propertyPath: sensitivity
@@ -578,6 +583,7 @@ GameObject:
   - component: {fileID: 1012399214}
   - component: {fileID: 1012399213}
   - component: {fileID: 1012399212}
+  - component: {fileID: 1012399215}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -650,6 +656,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1012399215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012399211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc8fa5d1e5867947bc9eaa1f77063be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3.5
 --- !u!1001 &1451508964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -684,6 +703,11 @@ PrefabInstance:
       value: "Na sua viagem por Portugal continental, Joana chegou a Lisboa.\r\nSaboreou
         os past\xE9is de nata\r\ne ficou encantada com a arquitetura e a vista para
         o rio Tejo.\r\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076695465786519906, guid: 1c71a5efbed1fae4481deecd7e299f37,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465786519907, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}

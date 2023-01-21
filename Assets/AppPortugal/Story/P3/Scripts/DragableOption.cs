@@ -19,7 +19,7 @@ public class DragableOption : MonoBehaviour
 
     private void Start()
     {
-        initPos = sprite.transform.position;
+        initPos = sprite.transform.localPosition;
     }
 
     private void OnMouseDown()
@@ -36,7 +36,7 @@ public class DragableOption : MonoBehaviour
         if (!inPlace)
         {
             dragble.currentDrag = null;
-            sprite.transform.position = initPos;
+            sprite.transform.localPosition = initPos;
         }
     }
 }

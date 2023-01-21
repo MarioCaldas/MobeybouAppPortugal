@@ -12,10 +12,15 @@ public class CamController : MonoBehaviour
     [SerializeField] private Transform finalPos;
 
     private Vector3 initScale;
-    
+
+    public float speedValue;
+
     void Start()
     {
         walk = true;
+        speedValue = 1;
+
+
         StartCoroutine(WalkSequence());
 
     }
@@ -32,7 +37,7 @@ public class CamController : MonoBehaviour
         while (elapsedTime < time)
         {
             transform.position = Vector3.Lerp(initPos.position, finalPos.position, (elapsedTime / time) * speed);
-            elapsedTime += Time.deltaTime;
+            elapsedTime += Time.deltaTime * speedValue;
 
             yield return null;
         }

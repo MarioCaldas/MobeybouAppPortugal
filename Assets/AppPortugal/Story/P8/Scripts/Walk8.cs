@@ -38,7 +38,7 @@ public class Walk8 : MonoBehaviour
 
         float elapsedTime = 0;
 
-        float time = 6.4f;
+        float time = 13f;
         while (elapsedTime < time)
         {
             transform.position = Vector3.Lerp(initPos.position, finalPos.position, (elapsedTime / time));
@@ -61,7 +61,7 @@ public class Walk8 : MonoBehaviour
 
         float elapsedTime = 0;
 
-        float time = 6;
+        float time = 12.1f;
         while (elapsedTime < time)
         {
             float xMove = Mathf.Lerp(initPos.position.x, finalPos.position.x, (elapsedTime / time));

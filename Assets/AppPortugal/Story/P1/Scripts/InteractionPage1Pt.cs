@@ -29,6 +29,9 @@ public class InteractionPage1Pt : MonoBehaviour
     [SerializeField] private AudioClip openMap1, openMap2;
     [SerializeField] private AudioSource aS;
 
+
+    [SerializeField] private GameObject narrationText;
+
     private void Awake()
     {
 
@@ -96,6 +99,10 @@ public class InteractionPage1Pt : MonoBehaviour
         else
             panoAnimatorPt.gameObject.SetActive(true);
 
+
+        narrationText.SetActive(false);
+        boyGO.SetActive(false);
+        girlGO.SetActive(false);
 
         int rand = Random.Range(0, 1);
         if (rand == 0)
