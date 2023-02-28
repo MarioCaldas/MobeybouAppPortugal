@@ -27,6 +27,7 @@ public class InteractionPage11Pt : MonoBehaviour
     private void Start()
     {
         gm = FindObjectOfType<GameManager>();
+        gm.onStoryMode?.Invoke();
 
         SetCharacter();
 
@@ -36,10 +37,11 @@ public class InteractionPage11Pt : MonoBehaviour
     private IEnumerator Sequence()
     {
 
-        yield return new WaitForSeconds(4);
- 
+        yield return new WaitForSeconds(6);
 
-        StartCoroutine(ui.Glow(1f));
+        ui.TheEnd();
+
+        //StartCoroutine(ui.Glow(1f));
 
     }
 

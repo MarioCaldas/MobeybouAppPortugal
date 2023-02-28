@@ -15,7 +15,7 @@ public class InteractionPage7Pt : MonoBehaviour
     private UI ui;
 
     [Header("Audio")]
-    [SerializeField] public AudioClip boyOnRight1, boyOnRight2, boyLaught1, boyLaught2, girlLaught1, girlLaught2;
+    //[SerializeField] public AudioClip boyOnRight1, boyOnRight2, boyLaught1, boyLaught2, girlLaught1, girlLaught2;
     [SerializeField] public AudioSource aS;
     private void Awake()
     {
@@ -26,6 +26,7 @@ public class InteractionPage7Pt : MonoBehaviour
     private void Start()
     {
         gm = FindObjectOfType<GameManager>();
+        gm.onStoryMode?.Invoke();
 
         StartCoroutine(Sequence());
 

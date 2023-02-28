@@ -1872,7 +1872,7 @@ MonoBehaviour:
   girlGO: {fileID: 1984388495}
   mask: {fileID: 1713970634}
   cegonhas: {fileID: 374240040}
-  cegonha: {fileID: 8300000, guid: e115efa06c45aad428ae5f7fdd2a24bb, type: 3}
+  cegonha: {fileID: 8300000, guid: 9a0e91bec78cf55439be15d2e71a14e1, type: 3}
   click: {fileID: 8300000, guid: ad2feb36afe2bba4a9b9bcbbc8180a49, type: 3}
   aS: {fileID: 1923462873}
 --- !u!4 &2005148053

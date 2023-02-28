@@ -7,6 +7,8 @@ public class DragController : MonoBehaviour
     [SerializeField] private PlayerOption currentDrag;
     [SerializeField] private TileController currentTile;
 
+    [SerializeField] private BttSoundController bttSound;
+
     void Start()
     {
         
@@ -26,6 +28,8 @@ public class DragController : MonoBehaviour
     {
         currentDrag.ResetDrag();
         currentDrag = null;
+        bttSound.PlaySound();
+
     }
     public PlayerOption GetCurrentDrag()
     {
@@ -39,6 +43,7 @@ public class DragController : MonoBehaviour
     public void ResetCurrentTile()
     {
         currentTile = null;
+
     }
     public TileController GetCurrentTile()
     {

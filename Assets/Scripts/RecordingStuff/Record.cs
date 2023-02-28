@@ -152,7 +152,6 @@ public class Record : MonoBehaviour
             //    so we make a new one with the appropriate length
             AudioClip newClip = AudioClip.Create(recordedClip.name, position, recordedClip.channels, recordedClip.frequency, false);
             newClip.SetData(newData, 0);        //Give it the data from the old clip
-            Debug.Log(newClip.length);
             //Replace the old clip
             AudioClip.Destroy(recordedClip);
             recording = newClip;

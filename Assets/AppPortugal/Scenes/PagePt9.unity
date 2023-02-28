@@ -336,6 +336,8 @@ MonoBehaviour:
   pathCreator: {fileID: 1367891936}
   endOfPathInstruction: 2
   speed: 4.3
+  antagonist: {fileID: 0}
+  aS: {fileID: 0}
 --- !u!54 &33979446
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -472,7 +474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 363284106}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.56, y: -1.9, z: -0.52}
+  m_LocalPosition: {x: 23.56, y: -2.31, z: -0.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -489,7 +491,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.17, y: 1.58, z: 0.2}
+  m_Size: {x: 1.11, y: 1.58, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &369326365
 GameObject:
@@ -568,7 +570,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369326365}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.080905, y: -1.9, z: -0.52}
+  m_LocalPosition: {x: 2.080905, y: -2.31, z: -0.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -585,7 +587,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.18, y: 1.58, z: 0.2}
+  m_Size: {x: 1.03, y: 1.58, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &572565561
 GameObject:
@@ -807,7 +809,7 @@ PrefabInstance:
     - target: {fileID: 5812342255570530639, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
         type: 3}
       propertyPath: m_Volume
-      value: 0.783
+      value: 0.598
       objectReference: {fileID: 0}
     - target: {fileID: 5812342255570530639, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
         type: 3}
@@ -1219,11 +1221,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3ad3ec1692369bb4b86aadc5a7ab789c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d164a27648816d24fb5d2c6809e67c21, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.795
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1320,6 +1322,8 @@ MonoBehaviour:
   pathCreator: {fileID: 1367891936}
   endOfPathInstruction: 2
   speed: 2.9
+  antagonist: {fileID: 8300000, guid: d164a27648816d24fb5d2c6809e67c21, type: 3}
+  aS: {fileID: 666052488}
 --- !u!1 &901875375
 GameObject:
   m_ObjectHideFlags: 0
@@ -2013,7 +2017,7 @@ PrefabInstance:
     - target: {fileID: 4076695465006717709, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -229
+      value: -183.32
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465786519906, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
@@ -2355,6 +2359,8 @@ MonoBehaviour:
   pathCreator: {fileID: 1367891936}
   endOfPathInstruction: 2
   speed: 4.3
+  antagonist: {fileID: 0}
+  aS: {fileID: 0}
 --- !u!54 &1610613216
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2630,7 +2636,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865565321}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.939999, y: -1.9, z: -0.52}
+  m_LocalPosition: {x: 11.939999, y: -2.31, z: -0.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2647,7 +2653,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.83, y: 1.58, z: 0.2}
+  m_Size: {x: 0.72, y: 1.58, z: 0.2}
   m_Center: {x: -0.06, y: 0, z: 0}
 --- !u!1 &1979085853
 GameObject:
@@ -2955,7 +2961,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2047982995}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.03, y: 1.52, z: -2.336465}
+  m_LocalPosition: {x: -6.03, y: 0.83, z: -2.336465}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 911665791}
@@ -2987,7 +2993,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051798475}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.03, y: 0.87, z: -0.99}
+  m_LocalPosition: {x: -6.03, y: 0.51, z: -0.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1298469368}

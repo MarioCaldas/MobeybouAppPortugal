@@ -30,6 +30,7 @@ public class InteractionPage5Pt : MonoBehaviour
     private void Start()
     {
         gm = FindObjectOfType<GameManager>();
+        gm.onStoryMode?.Invoke();
 
         SetCharacter();
 

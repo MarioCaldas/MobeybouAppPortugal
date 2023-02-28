@@ -15,6 +15,7 @@ public class InteractionTheEndPageController : MonoBehaviour
     private void Start()
     {
         gm = FindObjectOfType<GameManager>();
+        gm.onStoryMode?.Invoke();
 
         if (gm.language == 0)
             animator.SetTrigger("en");

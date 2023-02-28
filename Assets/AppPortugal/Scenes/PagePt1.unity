@@ -2293,12 +2293,17 @@ MonoBehaviour:
   panoAnimatorUK: {fileID: 1172540172}
   panoAnimatorPt: {fileID: 453358554}
   mapAnimator: {fileID: 885137134}
+  seaFilter: {fileID: 118538193}
   boyGO: {fileID: 779079040}
   girlGO: {fileID: 289936595}
   characterAnimator: {fileID: 0}
   openMap1: {fileID: 8300000, guid: 5ce0fcb9278d56b45aa4b808dd8d91b5, type: 3}
   openMap2: {fileID: 8300000, guid: 679e22d8ad58ff14d9c59ef9051b0322, type: 3}
   aS: {fileID: 297320587}
+  englishFemale: {fileID: 8300000, guid: 26c4629425eb00e43915ceef77388799, type: 3}
+  englishMale: {fileID: 8300000, guid: d5c1522d5bdb91545a3ee536a1d82104, type: 3}
+  portugueseFemale: {fileID: 8300000, guid: 2769e653f106c2d4fbeb8392b7c38c04, type: 3}
+  portugueseMale: {fileID: 8300000, guid: d5ef4f43841c39d4eb020a4e928cc96e, type: 3}
   narrationText: {fileID: 4076695465286182347}
 --- !u!224 &2133802685 stripped
 RectTransform:
@@ -2542,6 +2547,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Audio
       objectReference: {fileID: 0}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: englishMale
+      value: 
+      objectReference: {fileID: 8300000, guid: ec05f29b35e9f3849828ff74e71c438b, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: englishFemale
+      value: 
+      objectReference: {fileID: 8300000, guid: 5bb0658afb85cf044868658600c4ed88, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: portugueseMale
+      value: 
+      objectReference: {fileID: 8300000, guid: a3cf84d829df2b84abccfac343efc4ec, type: 3}
+    - target: {fileID: 5812342255570530637, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
+        type: 3}
+      propertyPath: portugueseFemale
+      value: 
+      objectReference: {fileID: 8300000, guid: 0bd1bc14bd0089d449224c9e0970cd89, type: 3}
     - target: {fileID: 5812342255570530638, guid: 3d12c6fc8a5aae44b91b1a0efd1c40aa,
         type: 3}
       propertyPath: m_RootOrder

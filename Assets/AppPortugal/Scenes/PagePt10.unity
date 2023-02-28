@@ -1165,32 +1165,28 @@ PrefabInstance:
       propertyPath: englishMale
       value: "In the distance, something caught his eye. \r\nThe Figurado de Barcelos
         led her straight to the Pa\xE7o dos Condes.  \r\nPedro knew that there was
-        a special resident there. Where was it?\r\nThe music started to play and
-        everyone had fun!\r"
+        a special resident there. \nWhere was it?\r"
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465006717696, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
       propertyPath: englishFemale
       value: "In the distance, something caught her eye. \r\nThe Figurado de Barcelos
         led her straight to the Pa\xE7o dos Condes.  \r\nJoana knew that there was
-        a special resident there. Where was it?\r\nThe music started to play and
-        everyone had fun!\r\n"
+        a special resident there. \nWhere was it?\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465006717696, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
       propertyPath: portugueseMale
       value: "Ao longe, algo chamou sua aten\xE7\xE3o.\r\nO Figurado de Barcelos
         levou-o diretamente ao Pa\xE7o dos Condes.  \r\nPedro sabia que havia ali
-        um morador especial. Onde \xE9 que ele  estaria?\r\n A m\xFAsica come\xE7ou
-        a tocar e todos se divertiram!\r"
+        um morador especial. \nOnde \xE9 que ele  estaria?\r"
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465006717696, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
       propertyPath: portugueseFemale
       value: "Ao longe, algo chamou sua aten\xE7\xE3o.\r\nO Figurado de Barcelos
         levou-a diretamente ao Pa\xE7o dos Condes.  \r\nJoana sabia que havia ali
-        um morador especial. Onde \xE9 que ele estaria?\r\nA m\xFAsica come\xE7ou
-        a tocar e todos se divertiram!\r\n"
+        um morador especial. \nOnde \xE9 que ele estaria?\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465786519906, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
@@ -1836,6 +1832,7 @@ MonoBehaviour:
   animal: {fileID: 8300000, guid: a865c8ba8f0e4624c8fc76ad98b677a8, type: 3}
   figures: {fileID: 8300000, guid: c2cdad353a788dd499320e2d8808bfd0, type: 3}
   aS: {fileID: 2058896472}
+  lastSongAS: {fileID: 6989655505797052377}
 --- !u!4 &2074935811
 Transform:
   m_ObjectHideFlags: 0
@@ -1989,3 +1986,78 @@ Transform:
   m_Father: {fileID: 2049637838}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6244780323148514025
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4010970281358079281, guid: 25191d19e01784e40a5b386822f1cf33,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010970281358079281, guid: 25191d19e01784e40a5b386822f1cf33,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.554664
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010970281358079281, guid: 25191d19e01784e40a5b386822f1cf33,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.0800743
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010970281358079281, guid: 25191d19e01784e40a5b386822f1cf33,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.88131714
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010970281358079281, guid: 25191d19e01784e40a5b386822f1cf33,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010970281358079281, guid: 25191d19e01784e40a5b386822f1cf33,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010970281358079281, guid: 25191d19e01784e40a5b386822f1cf33,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010970281358079281, guid: 25191d19e01784e40a5b386822f1cf33,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010970281358079281, guid: 25191d19e01784e40a5b386822f1cf33,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010970281358079281, guid: 25191d19e01784e40a5b386822f1cf33,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010970281358079281, guid: 25191d19e01784e40a5b386822f1cf33,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010970281358079283, guid: 25191d19e01784e40a5b386822f1cf33,
+        type: 3}
+      propertyPath: m_Name
+      value: LastSong
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25191d19e01784e40a5b386822f1cf33, type: 3}
+--- !u!82 &6989655505797052377 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4010970281358079280, guid: 25191d19e01784e40a5b386822f1cf33,
+    type: 3}
+  m_PrefabInstance: {fileID: 6244780323148514025}
+  m_PrefabAsset: {fileID: 0}

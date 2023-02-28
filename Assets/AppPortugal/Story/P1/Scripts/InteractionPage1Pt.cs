@@ -15,6 +15,8 @@ public class InteractionPage1Pt : MonoBehaviour
 
     [SerializeField] private Animator mapAnimator;
 
+    [SerializeField] private GameObject seaFilter;
+
     private GameManager gm;
 
 
@@ -28,7 +30,8 @@ public class InteractionPage1Pt : MonoBehaviour
     [Header("Audio")]
     [SerializeField] private AudioClip openMap1, openMap2;
     [SerializeField] private AudioSource aS;
-
+    public AudioClip englishFemale, englishMale;
+    public AudioClip portugueseFemale, portugueseMale;
 
     [SerializeField] private GameObject narrationText;
 
@@ -48,15 +51,15 @@ public class InteractionPage1Pt : MonoBehaviour
 
     private void Start()
     {
-        print("start");
         gm = FindObjectOfType<GameManager>();
 
-        print(gm);
         SetCharacter();
 
         StartCoroutine(Sequence());
 
         characterAnimator.SetTrigger("Swim");
+
+        gm.onStoryMode?.Invoke();
 
     }
     private void SetCharacter()
@@ -79,6 +82,8 @@ public class InteractionPage1Pt : MonoBehaviour
     }
     private IEnumerator Sequence()
     {
+        bottleAnimator.enabled = false;
+
         if (gm.gender)
         {
             girlGO.GetComponent<SwimScript>().swim = true;
@@ -88,9 +93,14 @@ public class InteractionPage1Pt : MonoBehaviour
             boyGO.GetComponent<SwimScript>().swim = true;
         }
 
+        yield return new WaitForSeconds(7);
+
+        bottleAnimator.enabled = true;
+
         bottleAnimator.SetTrigger("bottleGlow");
 
-        while(!bottle.clicked)
+
+        while (!bottle.clicked)
         {
             yield return null;
         }
@@ -99,6 +109,22 @@ public class InteractionPage1Pt : MonoBehaviour
         else
             panoAnimatorPt.gameObject.SetActive(true);
 
+        seaFilter.SetActive(false);
+
+        if (gm.gender)//girl
+        {
+            if (gm.language == 0)//uk
+                aS.PlayOneShot(englishFemale);
+            else
+                aS.PlayOneShot(portugueseFemale);
+        }
+        else
+        {
+            if (gm.language == 0)//uk
+                aS.PlayOneShot(englishMale);
+            else
+                aS.PlayOneShot(portugueseMale);
+        }
 
         narrationText.SetActive(false);
         boyGO.SetActive(false);

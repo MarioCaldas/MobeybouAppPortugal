@@ -31,7 +31,7 @@ public class InteractionPage2Pt : MonoBehaviour
         print("start");
         gm = FindObjectOfType<GameManager>();
 
-        print(gm);
+        gm.onStoryMode?.Invoke();
 
         StartCoroutine(Sequence());
 
@@ -61,10 +61,13 @@ public class InteractionPage2Pt : MonoBehaviour
         {
             yield return null;
         }
+        doorAnimator.ResetTrigger("glow");
+
+        aS.PlayOneShot(walk);
+
         aS.PlayOneShot(click);
 
         SetCharacter();
-        aS.PlayOneShot(walk);
 
         yield return new WaitForSeconds(6f);
 

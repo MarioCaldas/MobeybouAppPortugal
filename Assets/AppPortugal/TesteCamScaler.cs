@@ -48,17 +48,12 @@ public class TesteCamScaler : MonoBehaviour
                 if (imageToScale)
                     imageToScale.localScale = new Vector3(valueScale, valueScale, 1);
             }
-            print("is a tablet");
         }
         else
         {
             isTablet = false;
-            print("not a tablet");
         }
 
-        print("-----------------------------");
-        print("Screen.width " + Screen.width);
-        print("Screen.height " + Screen.height);
         horizontalFoV = GetComponent<Camera>().fieldOfView;
     }
     // ...

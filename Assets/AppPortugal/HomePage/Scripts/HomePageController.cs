@@ -19,7 +19,6 @@ public class HomePageController : MonoBehaviour
 
         SetPageLanguage();
 
-        print("ataooo ze");
     }
 
     public void SetPageLanguage()

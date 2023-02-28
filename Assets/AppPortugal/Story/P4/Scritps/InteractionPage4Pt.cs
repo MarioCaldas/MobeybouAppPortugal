@@ -34,6 +34,7 @@ public class InteractionPage4Pt : MonoBehaviour
     private void Start()
     {
         gm = FindObjectOfType<GameManager>();
+        gm.onStoryMode?.Invoke();
 
         StartCoroutine(Sequence());
 
@@ -148,14 +149,13 @@ public class InteractionPage4Pt : MonoBehaviour
         StartCoroutine(ui.Glow(1f));
 
     }
-
+    int currentLaughtSound;
     public void LaughtSounds()
     {
-        int rand = Random.Range(0, 1);
 
         if (gm.gender)//girl
         {
-            if (rand == 0)
+            if (currentLaughtSound == 0)
                 aS.PlayOneShot(girlLaught1);
             else
                 aS.PlayOneShot(girlLaught2);
@@ -165,13 +165,22 @@ public class InteractionPage4Pt : MonoBehaviour
         }
         else
         {
-            if (rand == 0)
+            if (currentLaughtSound == 0)
                 aS.PlayOneShot(boyLaught1);
             else
                 aS.PlayOneShot(boyLaught2);
 
             aS.PlayOneShot(girlOnRight);
 
+        }
+
+        if(currentLaughtSound == 0)
+        {
+            currentLaughtSound = 1;
+        }
+        else
+        {
+            currentLaughtSound = 0;
         }
     }
 }

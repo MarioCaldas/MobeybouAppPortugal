@@ -19,6 +19,8 @@ public class AREntity : MonoBehaviour
 
     [SerializeField] private Animator stormAnim;
 
+    private GameManager gm;
+
     private void Awake()
     {
         //this is a character entity (Kaué or Iara)
@@ -61,6 +63,10 @@ public class AREntity : MonoBehaviour
         {
             stormAnim.gameObject.SetActive(false);
         }
+
+        gm = FindObjectOfType<GameManager>();
+        gm.onStoryMode?.Invoke();
+
     }
 
     private void Update()

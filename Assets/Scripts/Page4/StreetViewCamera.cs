@@ -7,6 +7,8 @@ public class StreetViewCamera : MonoBehaviour
     private float Y;
     private Quaternion offset = Quaternion.identity;
 
+    private GameManager gm;
+
     private void Start()
     {
         if (SystemInfo.supportsGyroscope)
@@ -14,6 +16,9 @@ public class StreetViewCamera : MonoBehaviour
             Input.gyro.enabled = true;
             offset = Quaternion.Euler(90f, 0, 0);
         }
+
+        gm = FindObjectOfType<GameManager>();
+        gm.onStoryMode?.Invoke();
     }
 
     void Update()

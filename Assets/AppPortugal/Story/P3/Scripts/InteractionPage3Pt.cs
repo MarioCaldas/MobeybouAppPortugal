@@ -24,7 +24,7 @@ public class InteractionPage3Pt : MonoBehaviour
     [SerializeField] private List<GameObject> dragables;
 
     [Header("Audio")]
-    [SerializeField] private AudioClip fruit;
+    [SerializeField] private AudioClip fruit, finalFruit;
     [SerializeField] private AudioSource aS;
 
     public void DragablesDisabler(GameObject currentDrag, bool value)
@@ -48,6 +48,7 @@ public class InteractionPage3Pt : MonoBehaviour
     private void Start()
     {
         gm = FindObjectOfType<GameManager>();
+        gm.onStoryMode?.Invoke();
 
         StartCoroutine(Sequence());
 
@@ -67,9 +68,10 @@ public class InteractionPage3Pt : MonoBehaviour
 
         while (!FullBasket())
         {
-            print(currentFruits);
             yield return null;
         }
+
+        aS.PlayOneShot(finalFruit);
 
         animator.SetBool("glow", false);
 

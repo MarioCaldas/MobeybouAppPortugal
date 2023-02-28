@@ -26,10 +26,13 @@ public class InteractionPage9Pt : MonoBehaviour
     private void Start()
     {
         gm = FindObjectOfType<GameManager>();
+        gm.onStoryMode?.Invoke();
 
         StartCoroutine(Sequence());
 
         aS.PlayOneShot(chocalhos);
+
+        aS.volume = 0.6f;
     }
     private IEnumerator Sequence()
     {

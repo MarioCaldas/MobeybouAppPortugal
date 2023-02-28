@@ -385,36 +385,36 @@ PrefabInstance:
         type: 3}
       propertyPath: englishMale
       value: "The first stop was at Madeira Island.\r\nAt the colourful Farmers'
-        Market in Funchal, \r\nPedro saw bolo do caco, bananas, candy necklaces...
+        Market in Funchal, \r\nPedro saw bolo do caco, bananas, \ncandy necklaces...
         What a delight!\r"
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465006717696, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
       propertyPath: englishFemale
       value: "The first stop was at Madeira Island.\r\nAt the colourful Farmers'
-        Market in Funchal, \r\nJoana saw bolo do caco, bananas, candy necklaces...
+        Market in Funchal, \r\nJoana saw bolo do caco, bananas, \ncandy necklaces...
         What a delight!\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465006717696, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
       propertyPath: portugueseMale
       value: "A primeira paragem foi na Ilha da Madeira.\r\nNo colorido Mercado dos
-        Lavradores do Funchal, \r\nPedro encontrou bolo do caco, bananas, colar de
-        rebu\xE7ados\u2026 Que del\xEDcia!\r\n"
+        Lavradores do Funchal, \r\nPedro encontrou bolo do caco, bananas, \ncolar
+        de rebu\xE7ados\u2026 Que del\xEDcia!\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465006717696, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
       propertyPath: portugueseFemale
       value: "A primeira paragem foi na Ilha da Madeira.\r\nNo colorido Mercado dos
-        Lavradores do Funchal, \r\nJoana encontrou bolo do caco, bananas, colar de
-        rebu\xE7ados\u2026 Que del\xEDcia!\r\n"
+        Lavradores do Funchal, \r\nJoana encontrou bolo do caco, bananas, \ncolar
+        de rebu\xE7ados\u2026 Que del\xEDcia!\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465006717698, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
       propertyPath: m_Text
       value: "A primeira paragem foi na Ilha da Madeira.\r\nNo colorido Mercado dos
-        Lavradores do Funchal, \r\nPedro encontrou bolo do caco, bananas, colar de
-        rebu\xE7ados\u2026 Que del\xEDcia!\r"
+        Lavradores do Funchal, \r\nPedro encontrou bolo do caco, bananas, \ncolar
+        de rebu\xE7ados\u2026 Que del\xEDcia!\r"
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465006717708, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
@@ -1053,7 +1053,7 @@ Transform:
   m_GameObject: {fileID: 289936595}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5, y: 1.9300001, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalScale: {x: -1.2458354, y: 1.2458354, z: 1.2458354}
   m_Children:
   - {fileID: 863184376}
   m_Father: {fileID: 0}
@@ -2278,7 +2278,7 @@ Transform:
   m_GameObject: {fileID: 779079040}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -5, y: 1.9300001, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalScale: {x: -1.2458354, y: 1.2458354, z: 1.2458354}
   m_Children:
   - {fileID: 504072151}
   m_Father: {fileID: 0}
@@ -5201,6 +5201,7 @@ MonoBehaviour:
   - {fileID: 805500205}
   - {fileID: 1309533595}
   fruit: {fileID: 8300000, guid: d116ce66266661245b25eae4907a9ff5, type: 3}
+  finalFruit: {fileID: 8300000, guid: b63a8ed814d17e9458e477e85adb0610, type: 3}
   aS: {fileID: 12680453}
 --- !u!4 &1904885528
 Transform:

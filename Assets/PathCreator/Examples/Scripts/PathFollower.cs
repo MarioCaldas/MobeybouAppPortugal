@@ -11,6 +11,11 @@ namespace PathCreation.Examples
         public float speed = 3;
         float distanceTravelled;
 
+        [SerializeField] public AudioClip antagonist;
+        [SerializeField] public AudioSource aS;
+
+        float auxTimer = 4;
+
         void Start() {
             if (pathCreator != null)
             {
@@ -49,6 +54,17 @@ namespace PathCreation.Examples
 
                 }
                 //transform.rotation = pathCreator.path.GetRotationAtDistance(distanceTravelled, endOfPathInstruction);
+            }
+
+            if(auxTimer <= 0)
+            {
+                auxTimer = 4;
+                print("mongol");
+                aS.PlayOneShot(antagonist);
+            }
+            else
+            {
+                auxTimer -= Time.deltaTime;
             }
         }
 

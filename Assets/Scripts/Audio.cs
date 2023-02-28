@@ -15,7 +15,6 @@ public class Audio : MonoBehaviour
         aS = GetComponent<AudioSource>();
         gm = FindObjectOfType<GameManager>();
 
-
         if (!gm.customNarration)
         {
             if (gm.narrations)

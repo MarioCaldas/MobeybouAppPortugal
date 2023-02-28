@@ -66,8 +66,8 @@ public class Walk3 : MonoBehaviour
        
         currentDragScript.basketFruits.SetActive(false);
 
-        interactionPageScript.girlGO.transform.localScale = new Vector3(1, 1, 1);
-        interactionPageScript.boyGO.transform.localScale = new Vector3(1, 1, 1);
+        interactionPageScript.girlGO.transform.localScale = new Vector3(-interactionPageScript.girlGO.transform.localScale.x, interactionPageScript.girlGO.transform.localScale.y, interactionPageScript.girlGO.transform.localScale.z);
+        interactionPageScript.boyGO.transform.localScale = new Vector3(-interactionPageScript.boyGO.transform.localScale.x, interactionPageScript.boyGO.transform.localScale.y, interactionPageScript.boyGO.transform.localScale.z);
 
         characterAnimator.SetBool("isIdle", false);
 

@@ -40,6 +40,7 @@ public class InteractionPage8Pt : MonoBehaviour
     private void Start()
     {
         gm = FindObjectOfType<GameManager>();
+        gm.onStoryMode?.Invoke();
 
         StartCoroutine(Sequence());
 
@@ -85,6 +86,7 @@ public class InteractionPage8Pt : MonoBehaviour
         yield return new WaitForSeconds(5);
         StartCoroutine(NightSequence());
 
+        aSAmbiente.Stop();
         aSAmbiente.PlayOneShot(nightSound);
 
         StartCoroutine(ui.Glow(1f));

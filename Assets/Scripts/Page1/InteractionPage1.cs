@@ -11,9 +11,14 @@ public class InteractionPage1 : MonoBehaviour
 
     private UI ui;
 
+    private GameManager gm;
+
     private void Start()
     {
         ui = FindObjectOfType<UI>();
+
+        gm = FindObjectOfType<GameManager>();
+
     }
 
     public void ClickOnBook()

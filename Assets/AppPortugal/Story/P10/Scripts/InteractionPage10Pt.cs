@@ -20,6 +20,8 @@ public class InteractionPage10Pt : MonoBehaviour
     [Header("Audio")]
     [SerializeField] public AudioClip girlLaught, boyLaught, animal, figures;
     [SerializeField] public AudioSource aS;
+    [SerializeField] public AudioSource lastSongAS;
+
     private void Awake()
     {
 
@@ -32,6 +34,7 @@ public class InteractionPage10Pt : MonoBehaviour
         hiddenGalo.gameObject.SetActive(true);
 
         gm = FindObjectOfType<GameManager>();
+        gm.onStoryMode?.Invoke();
 
         StartCoroutine(Sequence());
 
@@ -74,6 +77,7 @@ public class InteractionPage10Pt : MonoBehaviour
         animator.SetTrigger("Dance");
 
         yield return new WaitForSeconds(1.5f);
+        lastSongAS.Play();
         if (gm.gender)
         {
             girlGO.GetComponentInChildren<Animator>().SetTrigger("Dance");

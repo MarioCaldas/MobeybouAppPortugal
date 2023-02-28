@@ -25,10 +25,15 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] public int storyChapterNumber;
 
+    [SerializeField] private GameObject menuAudioSource;
 
+    public Action onStoryMode;
+    public Action offStoryMode;
+
+    public bool onStoryModeBool;
     void Awake()
     {
-
+        print("game manager start");
         DontDestroyOnLoad(this);
 
         if (FindObjectsOfType(GetType()).Length > 1)
@@ -38,6 +43,10 @@ public class GameManager : MonoBehaviour
 
 
         Permission.RequestUserPermission(Permission.Microphone);
+
+        onStoryMode += StopMenuMusic;
+        offStoryMode += PlayMenuMusic;
+
     }
 
     public void Save()
@@ -103,5 +112,24 @@ public class GameManager : MonoBehaviour
                 // Show in-game pop-up message stating that the user can change permissions in Android Application Settings
                 // if he changes his mind (also required by Google Featuring program)
             }));
+    }
+
+    private void StopMenuMusic()
+    {
+        menuAudioSource.GetComponent<AudioSource>().Pause();
+
+        onStoryModeBool = true;
+    }
+    private void PlayMenuMusic()
+    {
+        menuAudioSource.GetComponent<AudioSource>().UnPause();
+
+        onStoryModeBool = false;
+
+        if(FindObjectOfType<PersistentAudioSource2>())
+        {
+            Destroy(FindObjectOfType<PersistentAudioSource2>().gameObject);
+            print("destrou sound");
+        }
     }
 }

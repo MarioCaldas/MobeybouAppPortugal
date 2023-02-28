@@ -42,13 +42,11 @@ public class SwimScript : MonoBehaviour
             {
                 upOrDown = 1;
                 initPingValue = pingPong;
-                print("go up");
             }
             else if(pingPong < initPingValue)
             {
                 upOrDown = 0;
                 initPingValue = pingPong;
-                print("go down");
             }
 
             float distanceToEnd = Vector3.Distance(transform.position, finalPos.position);
