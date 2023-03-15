@@ -23,7 +23,6 @@ public class HomePageController : MonoBehaviour
 
     public void SetPageLanguage()
     {
-        print(gm.language);
         if(gm.language == 0)
         {
             titlePt.SetActive(false);

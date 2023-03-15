@@ -50,6 +50,8 @@ public class InteractionPage3Pt : MonoBehaviour
         gm = FindObjectOfType<GameManager>();
         gm.onStoryMode?.Invoke();
 
+        aS.volume = 0.8f;
+
         StartCoroutine(Sequence());
 
     }

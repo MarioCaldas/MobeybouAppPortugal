@@ -15,6 +15,11 @@ public class GuitarPlayer : MonoBehaviour
     [Header("Audio")]
     [SerializeField] public AudioClip laught1, laught2;
 
+    private void Start()
+    {
+        GetComponentInChildren<Animator>().SetTrigger("glow");
+    }
+
     private void OnMouseDown()
     {
         clicked = true;
@@ -75,6 +80,10 @@ public class GuitarPlayer : MonoBehaviour
         }
 
         controller.UpdatePlayer();
+
+        GetComponentInChildren<Animator>().ResetTrigger("glow");
+        //GetComponentInChildren<Animator>().SetTrigger("isIdle");
+
     }
 
 

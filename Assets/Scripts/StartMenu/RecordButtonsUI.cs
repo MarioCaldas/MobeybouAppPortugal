@@ -36,8 +36,6 @@ public class RecordButtonsUI : MonoBehaviour, IPointerClickHandler
 
             sMUI.records[r].GetComponent<Image>().sprite = sMUI.on;
 
-            Debug.Log(sMUI.records[i]);
-            Debug.Log(sMUI.records[i].transform.childCount);
 
             if (sMUI.records[r].transform.childCount > 2) //input field is on
             {

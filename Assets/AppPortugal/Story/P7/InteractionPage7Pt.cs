@@ -17,35 +17,30 @@ public class InteractionPage7Pt : MonoBehaviour
     [Header("Audio")]
     //[SerializeField] public AudioClip boyOnRight1, boyOnRight2, boyLaught1, boyLaught2, girlLaught1, girlLaught2;
     [SerializeField] public AudioSource aS;
+
     private void Awake()
     {
-
         ui = FindObjectOfType<UI>();
-
     }
+
     private void Start()
     {
         gm = FindObjectOfType<GameManager>();
         gm.onStoryMode?.Invoke();
 
         StartCoroutine(Sequence());
-
     }
 
     private IEnumerator Sequence()
     {
-
         while (!clickablePtBoy.clicked || !clickablePtGirl.clicked || !clickablePtAngolaBoy.clicked)
         {
-
             yield return null;
         }
 
-       
-
         StartCoroutine(ui.Glow(1f));
-
     }
+
     private void SetCharacter()
     {
         if (gm.gender)

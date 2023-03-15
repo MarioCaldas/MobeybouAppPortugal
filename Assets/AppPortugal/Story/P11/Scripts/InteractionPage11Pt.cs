@@ -37,7 +37,7 @@ public class InteractionPage11Pt : MonoBehaviour
     private IEnumerator Sequence()
     {
 
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(16);
 
         ui.TheEnd();
 

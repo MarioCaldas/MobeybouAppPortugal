@@ -50,10 +50,10 @@ public class InteractionPage10Pt : MonoBehaviour
         {
             yield return null;
         }
+        aS.PlayOneShot(figures);
 
         animator.SetTrigger("Appear");
         yield return new WaitForSeconds(0.5f);
-        aS.PlayOneShot(figures);
 
         galoAnimator.gameObject.SetActive(true);
         hiddenGalo.gameObject.SetActive(false);

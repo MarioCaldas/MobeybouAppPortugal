@@ -33,7 +33,6 @@ public class GameManager : MonoBehaviour
     public bool onStoryModeBool;
     void Awake()
     {
-        print("game manager start");
         DontDestroyOnLoad(this);
 
         if (FindObjectsOfType(GetType()).Length > 1)

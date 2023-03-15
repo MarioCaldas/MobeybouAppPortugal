@@ -14,7 +14,7 @@ namespace PathCreation.Examples
         [SerializeField] public AudioClip antagonist;
         [SerializeField] public AudioSource aS;
 
-        float auxTimer = 4;
+        float auxTimer = 6;
 
         void Start() {
             if (pathCreator != null)
@@ -58,8 +58,7 @@ namespace PathCreation.Examples
 
             if(auxTimer <= 0)
             {
-                auxTimer = 4;
-                print("mongol");
+                auxTimer = 6;
                 aS.PlayOneShot(antagonist);
             }
             else
