@@ -6,7 +6,11 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Assets/AppPortugal/Story/P8/new/new/Boat_glow.anim
   m_Name: Boat_glow
+========
+  m_Name: glow
+>>>>>>>> ceb895569508cdf0cc5126a22b32aae8e3bf6e58:Assets/AppPortugal/Characters - Animations/Pt_Boy/glow.anim
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -30,7 +34,11 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
+<<<<<<<< HEAD:Assets/AppPortugal/Story/P8/new/new/Boat_glow.anim
         time: 4
+========
+        time: 2
+>>>>>>>> ceb895569508cdf0cc5126a22b32aae8e3bf6e58:Assets/AppPortugal/Characters - Animations/Pt_Boy/glow.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -52,6 +60,7 @@ AnimationClip:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
+<<<<<<<< HEAD:Assets/AppPortugal/Story/P8/new/new/Boat_glow.anim
     genericBindings:
     - serializedVersion: 2
       path: 0
@@ -60,13 +69,20 @@ AnimationClip:
       typeID: 1
       customType: 0
       isPPtrCurve: 0
+========
+    genericBindings: []
+>>>>>>>> ceb895569508cdf0cc5126a22b32aae8e3bf6e58:Assets/AppPortugal/Characters - Animations/Pt_Boy/glow.anim
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
+<<<<<<<< HEAD:Assets/AppPortugal/Story/P8/new/new/Boat_glow.anim
     m_StopTime: 4
+========
+    m_StopTime: 2
+>>>>>>>> ceb895569508cdf0cc5126a22b32aae8e3bf6e58:Assets/AppPortugal/Characters - Animations/Pt_Boy/glow.anim
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/AppPortugal/Characters - Animations/PT_Girl/binocles-glow.anim.meta
 guid: ac0e59954e2aa83478b8f3bc1e361f8c
+========
+guid: 464c0ca10de20cf469227ea0802d8b38
+>>>>>>>> ceb895569508cdf0cc5126a22b32aae8e3bf6e58:Assets/AppPortugal/Characters - Animations/new/glow.anim.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000

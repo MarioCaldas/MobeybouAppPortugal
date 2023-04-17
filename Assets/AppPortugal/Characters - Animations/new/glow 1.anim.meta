@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/AppPortugal/Characters - Animations/new/glow 1.anim.meta
 guid: cdb42d11f164faf45be1c84b49714032
+========
+guid: 53a11e3090c8da04a9fd5701f01fc681
+>>>>>>>> ceb895569508cdf0cc5126a22b32aae8e3bf6e58:Assets/AppPortugal/Story/P8/new/new/Boat_glow.anim.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000

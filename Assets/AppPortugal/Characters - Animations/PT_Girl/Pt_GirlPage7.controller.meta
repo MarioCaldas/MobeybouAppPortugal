@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/AppPortugal/Characters - Animations/PT_Girl/Pt_GirlPage7.controller.meta
 guid: 06a06fdd0b35fc84eaa3116f89441aeb
+========
+guid: eed02ba5b95a3d647a442d0a117c954d
+>>>>>>>> ceb895569508cdf0cc5126a22b32aae8e3bf6e58:Assets/AppPortugal/Story/P6/birds_white_0.controller.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000

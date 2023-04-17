@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/AppPortugal/Story/P2/Animations/New.meta
 guid: 6a0c2787b9c16cc4da2ee12a59e183a1
+========
+guid: 124ad650a48bbc04dacb761daf8b6bb8
+>>>>>>>> ceb895569508cdf0cc5126a22b32aae8e3bf6e58:Assets/AppPortugal/Story/P8/new/new.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

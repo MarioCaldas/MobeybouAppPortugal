@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/AppPortugal/Story/P6/birds_white_0.controller.meta
 guid: eed02ba5b95a3d647a442d0a117c954d
+========
+guid: bfa704bed964dd346933a61b705bc205
+>>>>>>>> ceb895569508cdf0cc5126a22b32aae8e3bf6e58:Assets/AppPortugal/Story/P8/new/new/Page_8_Controller.controller.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000
