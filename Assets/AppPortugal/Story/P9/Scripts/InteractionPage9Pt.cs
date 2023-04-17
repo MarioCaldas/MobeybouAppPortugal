@@ -15,7 +15,7 @@ public class InteractionPage9Pt : MonoBehaviour
 
     [Header("Audio")]
     [SerializeField] public AudioClip chocalhos, jump;
-    [SerializeField] public AudioSource aS;
+    [SerializeField] public AudioSource aS, aS2;
 
     private void Awake()
     {
@@ -32,7 +32,8 @@ public class InteractionPage9Pt : MonoBehaviour
 
         aS.PlayOneShot(chocalhos);
 
-        aS.volume = 0.6f;
+        aS.volume = 0.8f;
+        aS2.volume = 0.3f;
     }
     private IEnumerator Sequence()
     {

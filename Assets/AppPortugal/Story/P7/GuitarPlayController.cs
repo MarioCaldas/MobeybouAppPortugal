@@ -11,28 +11,43 @@ public class GuitarPlayController : MonoBehaviour
     public bool boyPlaying;
     public bool girlPlaying;
     public bool AngolaBoyPlaying;
+    private UI ui;
+
 
     [Header("Audio")]
     [SerializeField] private AudioClip guitar;
     [SerializeField] private AudioSource aS;
     void Start()
     {
+        ui = FindObjectOfType<UI>();
+
     }
 
     public void UpdatePlayer()
     {
         if(boyPlaying)
         {
+
             print("boyPlaying");
             boyAnimator.SetBool("isIdle", false);
 
             boyAnimator.SetTrigger("PlayGuitar");
 
-            aBoyAnimator.SetBool("isIdle", true);
-            girlAnimator.SetBool("isIdle", true);
+            aBoyAnimator.SetBool("isIdle", false);
+            girlAnimator.SetBool("isIdle", false);
+
+            aBoyAnimator.SetBool("Dance", true);
+            girlAnimator.SetBool("Dance", true);
 
             if (!aS.isPlaying)
+            {
                 aS.PlayOneShot(guitar);
+
+                Invoke("StopAnim", guitar.length);
+            }
+
+
+
         }
         else if(girlPlaying)
         {
@@ -65,5 +80,21 @@ public class GuitarPlayController : MonoBehaviour
 
         }
     }
-    
+
+    private void StopAnim()
+    {
+        print("stop anim");
+        boyAnimator.ResetTrigger("PlayGuitar");
+        boyAnimator.SetBool("isIdle", true);
+
+        aBoyAnimator.ResetTrigger("Dance");
+        aBoyAnimator.SetBool("isIdle", true);
+        girlAnimator.ResetTrigger("Dance");
+        girlAnimator.SetBool("isIdle", true);
+
+        StartCoroutine(ui.Glow(1f));
+
+        boyAnimator.GetComponentInParent<GuitarPlayer>().SwitchMeshes(false);
+    }
+
 }

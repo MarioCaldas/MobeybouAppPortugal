@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class Walk9 : MonoBehaviour
 {
-    public bool walk;
     public float speed;
 
     [SerializeField] private Transform initPos;
@@ -28,18 +27,28 @@ public class Walk9 : MonoBehaviour
 
     private float testeValue;
 
+    bool isRunning;
+
     void Start()
     {
-        walk = true;
-
         testeValue = 1;
 
+        //GetComponent<Animator>().SetTrigger("glow9");
         StartCoroutine(WalkSequence(currentElapsedTime));
     }
     [SerializeField] float time = 0;
 
+
     private IEnumerator WalkSequence(float _currentElapsedTime)
     {
+        /*if(!isRunning)
+        {
+            GameObject.FindGameObjectWithTag("Careto").GetComponent<PathFollower>().canGo = true; 
+
+            yield return new WaitForSeconds(1.2f);
+            isRunning = true;
+        }*/
+
         transform.position = initPos.position;
 
         float elapsedTime = _currentElapsedTime;
@@ -65,6 +74,7 @@ public class Walk9 : MonoBehaviour
         }
     }
 
+
     public void Run()
     {
         if(GetComponent<Animator>())
@@ -78,9 +88,14 @@ public class Walk9 : MonoBehaviour
     {
         if(GetComponent<Animator>())
         {
+
             GetComponent<BoxCollider>().enabled = false;
 
             GetComponent<Animator>().SetBool("Jump", true);
+
+            //StartCoroutine(JumpSequence());
+
+            //GetComponent<Rigidbody>().AddForce(Vector3.up * 7, ForceMode.Impulse);
 
             if (!jumpSoundPlayed)
             {
@@ -92,6 +107,11 @@ public class Walk9 : MonoBehaviour
             jump = true;
 
             StartCoroutine(ResetJump());
+
+            if (!isRunning)
+            {
+                StartCoroutine(WalkSequence(currentElapsedTime));
+            }
         }
 
     }
@@ -116,32 +136,30 @@ public class Walk9 : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             GetComponent<Animator>().ResetTrigger("isIdle");
-            //StartCoroutine(WalkSequence(currentElapsedTime));
 
             Jump();
             careto.speed = 2.9f;
 
             testeValue = 1;
+            GameObject.FindGameObjectWithTag("Careto").GetComponent<PathFollower>().canGo = true;
 
             camController.speedValue = 1;
 
-            //transform.position = new Vector3(transform.position.x, transform.position.y + 8, transform.position.z);
+        }
+
+        if(transform.position.y <= -3f)
+        {
+            //transform.position = new Vector3(transform.position.x, -2.5f, transform.position.z);
         }
     }
 
-    /*private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.CompareTag("Obstacle"))
-        {
-            print("obstacle");
-        }
-    }*/
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Obstacle"))
         {
-            //StopAllCoroutines();
+            GameObject.FindGameObjectWithTag("Careto").GetComponent<PathFollower>().canGo = false;
+
             GetComponent<Animator>().SetTrigger("isIdle");
             testeValue = 0;
             //StartCoroutine(WalkSequence());
@@ -149,6 +167,8 @@ public class Walk9 : MonoBehaviour
             //careto.RestartRun();
             camController.speedValue = 0;
             careto.speed = 0;
+
+            //isRunning = false;
         }
     }
 }

@@ -41,10 +41,16 @@ public class InteractionPage5Pt : MonoBehaviour
     {
         SetCharacter();
 
+
         while (!clickable.clicked)
         {
             yield return null;
         }
+        girlGO.GetComponentInChildren<Animator>().SetTrigger("BinoclesUse");
+        boyGO.GetComponentInChildren<Animator>().SetTrigger("BinoclesUse");
+
+        yield return new WaitForSeconds(1);
+
         cegonhas.SetActive(false);
         aS.PlayOneShot(click);
 
@@ -61,11 +67,13 @@ public class InteractionPage5Pt : MonoBehaviour
         {
             boyGO.SetActive(false);
             girlGO.SetActive(true);
+            girlGO.GetComponentInChildren<Animator>().SetTrigger("Binocles");
         }
         else
         {
             boyGO.SetActive(true);
             girlGO.SetActive(false);
+            boyGO.GetComponentInChildren<Animator>().SetTrigger("Binocles");
         }
     }
 }

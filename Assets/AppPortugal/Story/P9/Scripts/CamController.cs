@@ -27,7 +27,7 @@ public class CamController : MonoBehaviour
 
     private IEnumerator WalkSequence()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
 
         transform.position = initPos.position;
 

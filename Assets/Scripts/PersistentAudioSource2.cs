@@ -32,5 +32,17 @@ public class PersistentAudioSource2 : MonoBehaviour
         {
             //Destroy(gameObject);
         }
+        GetComponent<AudioSource>().volume = 0.7f;
+    }
+
+    public void Stop()
+    {
+        GetComponent<AudioSource>().Stop();
+    }
+    private void Update()
+    {
+
+        GetComponent<AudioSource>().volume = 0.7f;
+
     }
 }

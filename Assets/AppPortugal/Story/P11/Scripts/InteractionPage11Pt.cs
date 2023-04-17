@@ -37,11 +37,14 @@ public class InteractionPage11Pt : MonoBehaviour
     private IEnumerator Sequence()
     {
 
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(13);
+
+        StartCoroutine(ui.Glow(1f));
+
+        yield return new WaitForSeconds(7);
 
         ui.TheEnd();
 
-        //StartCoroutine(ui.Glow(1f));
 
     }
 

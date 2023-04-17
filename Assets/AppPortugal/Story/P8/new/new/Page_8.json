@@ -1,0 +1,64 @@
+{
+"skeleton": {
+	"hash": "XOz2G7IGgRNvB1BRX8bWEH2MQOM",
+	"spine": "3.8.99",
+	"x": -956,
+	"y": -1,
+	"width": 1921,
+	"height": 693,
+	"images": "./images/",
+	"audio": "C:/Users/anapa/Dropbox/Jobs/Mobeybou/App PT/P8"
+},
+"bones": [
+	{ "name": "root" },
+	{
+		"name": "Boat",
+		"parent": "root",
+		"length": 106.67,
+		"rotation": 88.85,
+		"x": -472.73,
+		"y": 244.19,
+		"color": "f30ad5ff"
+	}
+],
+"slots": [
+	{ "name": "Boat", "bone": "Boat", "attachment": "Boat" },
+	{ "name": "Foreground_Day", "bone": "root", "attachment": "Foreground_Day" },
+	{ "name": "Boat_Glow3", "bone": "root", "color": "dfcc0ca9", "attachment": "Boat_Glow3" },
+	{ "name": "Boat_Glow2", "bone": "root", "attachment": "Boat_Glow2", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Boat": {
+				"Boat": { "x": 198.87, "y": -25.76, "rotation": -88.85, "width": 722, "height": 499 }
+			},
+			"Boat_Glow2": {
+				"Boat_Glow2": { "x": -482.35, "y": 462.18, "width": 642, "height": 435 }
+			},
+			"Boat_Glow3": {
+				"Boat_Glow3": { "x": -482.35, "y": 462.18, "width": 627, "height": 420 }
+			},
+			"Foreground_Day": {
+				"Foreground_Day": { "x": 4.5, "y": 105.5, "width": 1921, "height": 213 }
+			}
+		}
+	}
+],
+"animations": {
+	"Boat_glow": {
+		"slots": {
+			"Boat_Glow2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffff00" },
+					{ "time": 2, "color": "ffffffff" },
+					{ "time": 3.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 4, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

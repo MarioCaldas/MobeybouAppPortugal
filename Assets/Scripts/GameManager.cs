@@ -33,7 +33,6 @@ public class GameManager : MonoBehaviour
     public bool onStoryModeBool;
     void Awake()
     {
-        print("game manager start");
         DontDestroyOnLoad(this);
 
         if (FindObjectsOfType(GetType()).Length > 1)
@@ -114,13 +113,13 @@ public class GameManager : MonoBehaviour
             }));
     }
 
-    private void StopMenuMusic()
+    public void StopMenuMusic()
     {
         menuAudioSource.GetComponent<AudioSource>().Pause();
 
         onStoryModeBool = true;
     }
-    private void PlayMenuMusic()
+    public void PlayMenuMusic()
     {
         menuAudioSource.GetComponent<AudioSource>().UnPause();
 

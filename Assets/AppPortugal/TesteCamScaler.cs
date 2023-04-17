@@ -22,9 +22,7 @@ public class TesteCamScaler : MonoBehaviour
     {
         if (IsTablet())
         {
-            print(imageToScale);
             float valueScale = biggestScreenHeight / smallestScreenHeight;
-            print(valueScale);
 
             if(exceptions == Exceptions.page3)
             {
@@ -87,7 +85,6 @@ public class TesteCamScaler : MonoBehaviour
 
         if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
         {
-            print("aqui ze");
             float screenWidth = Screen.width / Screen.dpi;
             float screenHeight = Screen.height / Screen.dpi;
             float size = Mathf.Sqrt(Mathf.Pow(screenWidth, 2) + Mathf.Pow(screenHeight, 2));

@@ -15,6 +15,11 @@ public class GuitarPlayer : MonoBehaviour
     [Header("Audio")]
     [SerializeField] public AudioClip laught1, laught2;
 
+    private void Start()
+    {
+        //GetComponentInChildren<Animator>().SetTrigger("glow");
+    }
+
     private void OnMouseDown()
     {
         clicked = true;
@@ -25,17 +30,17 @@ public class GuitarPlayer : MonoBehaviour
             controller.girlPlaying = false;
             controller.AngolaBoyPlaying = false;
 
-            int rand = Random.Range(0, 1);
-            if (rand == 0)
-            {
+            //int rand = Random.Range(0, 1);
+            //if (rand == 0)
+            //{
                 interactionPage.aS.PlayOneShot(laught1);
-            }
-            else
-            {
+            //}
+            //else
+            //{
                 interactionPage.aS.PlayOneShot(laught2);
-            }
+            //}
 
-
+            StartCoroutine(RandomLaughts());
 
         }
         else if(id == 1)
@@ -74,8 +79,41 @@ public class GuitarPlayer : MonoBehaviour
 
         }
 
+        SwitchMeshes(true);
+
         controller.UpdatePlayer();
+
+     
+
+        GetComponentInChildren<Animator>().ResetTrigger("glow");
+        //GetComponentInChildren<Animator>().SetTrigger("isIdle");
+
+    }
+    public GameObject guitarFix;
+    public GameObject guitarFixOrigin;
+
+
+    IEnumerator RandomLaughts()
+    {
+        yield return new WaitForSeconds(Random.Range(4, 8));
+
+        interactionPage.aS.PlayOneShot(laught1);
+
+        interactionPage.aS.PlayOneShot(laught2);
+
+        StartCoroutine(RandomLaughts());
     }
 
+
+    public void SwitchMeshes(bool value)
+    {
+        guitarFix.SetActive(!value);
+        guitarFixOrigin.SetActive(value);
+
+        if(!value)
+        {
+            StopAllCoroutines();
+        }
+    }
 
 }

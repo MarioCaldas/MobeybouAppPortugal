@@ -1,0 +1,97 @@
+
+Page_2.png
+size: 1024,583
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bird1
+  rotate: true
+  xy: 804, 13
+  size: 197, 217
+  orig: 197, 217
+  offset: 0, 0
+  index: -1
+Bird1_Beak_Down
+  rotate: false
+  xy: 966, 568
+  size: 50, 13
+  orig: 52, 15
+  offset: 1, 1
+  index: -1
+Bird1_Beak_Up
+  rotate: false
+  xy: 964, 382
+  size: 57, 24
+  orig: 57, 27
+  offset: 0, 3
+  index: -1
+Bird2
+  rotate: false
+  xy: 2, 3
+  size: 301, 162
+  orig: 301, 163
+  offset: 0, 1
+  index: -1
+Bird2_Beak_Down
+  rotate: false
+  xy: 975, 530
+  size: 41, 12
+  orig: 43, 15
+  offset: 1, 2
+  index: -1
+Bird2_Beak_Up
+  rotate: false
+  xy: 966, 544
+  size: 48, 23
+  orig: 49, 23
+  offset: 0, 0
+  index: -1
+Cagarros_Shadow
+  rotate: false
+  xy: 506, 91
+  size: 300, 64
+  orig: 302, 66
+  offset: 1, 1
+  index: -1
+P2_Background
+  rotate: false
+  xy: 484, 393
+  size: 480, 188
+  orig: 482, 190
+  offset: 1, 1
+  index: -1
+P2_Door
+  rotate: false
+  xy: 807, 157
+  size: 143, 234
+  orig: 145, 236
+  offset: 1, 1
+  index: -1
+P2_Door_Glow
+  rotate: true
+  xy: 484, 162
+  size: 229, 321
+  orig: 236, 327
+  offset: 3, 3
+  index: -1
+P2_Foreground
+  rotate: false
+  xy: 2, 311
+  size: 480, 270
+  orig: 482, 272
+  offset: 1, 1
+  index: -1
+P2_Middleground
+  rotate: false
+  xy: 2, 166
+  size: 470, 143
+  orig: 472, 145
+  offset: 1, 1
+  index: -1
+P2_Wall
+  rotate: false
+  xy: 305, 61
+  size: 199, 99
+  orig: 201, 101
+  offset: 1, 1
+  index: -1

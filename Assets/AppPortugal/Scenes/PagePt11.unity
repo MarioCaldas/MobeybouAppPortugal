@@ -778,8 +778,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538645040}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.84, z: 0}
-  m_LocalScale: {x: 0.88369405, y: 0.88369405, z: 0.88369405}
+  m_LocalPosition: {x: 0.0094076, y: -4.82, z: 0}
+  m_LocalScale: {x: 0.7828292, y: 0.7828292, z: 0.7828292}
   m_Children: []
   m_Father: {fileID: 1800269758}
   m_RootOrder: 1
@@ -1610,21 +1610,21 @@ PrefabInstance:
       propertyPath: englishMale
       value: "Upon hearing the rooster crowing, Pedro remembered how his adventure
         had begun. \r\nThe invitation written on the scarf led him to get to know
-        Portugal better.\r\nHe now wanted to travel the world and make new discoveries!\r\n"
+        Portugal better.\r\nHe now wanted to travel the world and make new discoveries!\r\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465006717696, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
       propertyPath: englishFemale
       value: "Upon hearing the rooster crowing, Joana remembered how her adventure
         had begun. \r\nThe invitation written on the scarf led her to get to know
-        Portugal better.\r\nShe now wanted to travel the world and make new discoveries!\r\n"
+        Portugal better.\r\nShe now wanted to travel the world and make new discoveries!\r\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465006717696, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
       propertyPath: portugueseMale
-      value: "Ao ouvir o cantar do galo, Pedro lembrou-se como come\xE7ara \r\na
-        sua aventura.\r\nO convite escrito no len\xE7o levou-o a conhecer melhor
-        Portugal.\r\nEle queria agora viajar pelo mundo para fazer novas descobertas!\r\n"
+      value: "Ao ouvir o cantar do galo, Pedro lembrou-se da descoberta\r\nque fizera
+        a sua aventura come\xE7ar.\nO convite escrito no len\xE7o levou-o a conhecer
+        melhor Portugal.\r\nEle queria agora viajar pelo mundo para fazer novas descobertas!\r\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465006717696, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
@@ -1635,18 +1635,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465006717709, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.6749973
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076695465006717709, guid: 1c71a5efbed1fae4481deecd7e299f37,
+        type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8176355
+      value: 1.1688161
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465006717709, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8176355
+      value: 1.1688161
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465006717709, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8176355
+      value: 1.1688161
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076695465006717709, guid: 1c71a5efbed1fae4481deecd7e299f37,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -28.337524
       objectReference: {fileID: 0}
     - target: {fileID: 4076695465786519906, guid: 1c71a5efbed1fae4481deecd7e299f37,
         type: 3}

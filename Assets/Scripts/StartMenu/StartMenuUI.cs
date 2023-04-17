@@ -85,11 +85,16 @@ public class StartMenuUI : MonoBehaviour
 
     public void DeleteSave(int saveFile)
     {
-        for (int i = 1; i <= 12; i++)
+        /*for (int i = 1; i <= 12; i++)
         {
             string path = Application.persistentDataPath + "/" + saveFile + "Page"+i + ".wav";
             File.Delete(path);
-        }
+        }*/
+        string path = Application.persistentDataPath + "/" + saveFile + "Page";
+        print(path);
+        print(saveFile + "Page");
+        File.Delete(path);
+
         deletes[saveFile-1].GetComponent<Button>().interactable = false;
         records[saveFile-1].text = "";
         records[saveFile-1].enabled = true;

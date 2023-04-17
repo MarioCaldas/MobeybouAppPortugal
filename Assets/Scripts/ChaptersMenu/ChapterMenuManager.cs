@@ -23,7 +23,7 @@ public class ChapterMenuManager : MonoBehaviour
     private void Start()
     {
         gm = FindObjectOfType<GameManager>();
-        gm.offStoryMode?.Invoke();
+        //gm.offStoryMode?.Invoke();
 
         if (gm.storyChapterNumber >= 6) //secondPage active
         {

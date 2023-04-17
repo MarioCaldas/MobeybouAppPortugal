@@ -9,12 +9,14 @@ namespace PathCreation.Examples
         public PathCreator pathCreator;
         public EndOfPathInstruction endOfPathInstruction;
         public float speed = 3;
-        float distanceTravelled;
+        [SerializeField] float distanceTravelled;
 
         [SerializeField] public AudioClip antagonist;
         [SerializeField] public AudioSource aS;
 
-        float auxTimer = 4;
+        float auxTimer = 6;
+
+        public bool canGo;
 
         void Start() {
             if (pathCreator != null)
@@ -35,31 +37,35 @@ namespace PathCreation.Examples
                 distanceTravelled += speed * Time.deltaTime;
                 transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled, endOfPathInstruction);
 
+                GetComponent<Animator>().ResetTrigger("Idle");
+                GetComponent<Animator>().SetTrigger("Run");
 
-                if(distanceTravelled >= 8 && distanceTravelled <= 12f)
+                if (distanceTravelled >= 12.5f && distanceTravelled <= 14f)
                 {
-                    GetComponent<Walk9>().Jump();
+                    GetComponent<Animator>().SetTrigger("Jump");
                 }
-                else if (distanceTravelled >= 19 && distanceTravelled <= 24f)
+                else if (distanceTravelled >= 24 && distanceTravelled <= 26f)
                 {
-                    GetComponent<Walk9>().Jump();
+                    GetComponent<Animator>().SetTrigger("Jump");
                 }
-                else if (distanceTravelled >= 30 && distanceTravelled <= 38f)
+                else if (distanceTravelled >= 36.5 && distanceTravelled <= 38f)
                 {
-                    GetComponent<Walk9>().Jump();
+                    GetComponent<Animator>().SetTrigger("Jump");
                 }
                 else
                 {
-                    GetComponent<Walk9>().ResetJump();
-
+                    GetComponent<Animator>().ResetTrigger("Jump");
                 }
-                //transform.rotation = pathCreator.path.GetRotationAtDistance(distanceTravelled, endOfPathInstruction);
+            }
+            else
+            {
+                GetComponent<Animator>().SetTrigger("Idle");
+
             }
 
-            if(auxTimer <= 0)
+            if (auxTimer <= 0)
             {
-                auxTimer = 4;
-                print("mongol");
+                auxTimer = 6;
                 aS.PlayOneShot(antagonist);
             }
             else

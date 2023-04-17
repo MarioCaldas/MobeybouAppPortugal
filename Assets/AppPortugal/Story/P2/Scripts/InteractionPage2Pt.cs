@@ -63,6 +63,8 @@ public class InteractionPage2Pt : MonoBehaviour
         }
         doorAnimator.ResetTrigger("glow");
 
+        doorAnimator.SetTrigger("Idle");
+
         aS.PlayOneShot(walk);
 
         aS.PlayOneShot(click);

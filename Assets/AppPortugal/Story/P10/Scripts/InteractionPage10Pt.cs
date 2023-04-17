@@ -20,7 +20,8 @@ public class InteractionPage10Pt : MonoBehaviour
     [Header("Audio")]
     [SerializeField] public AudioClip girlLaught, boyLaught, animal, figures;
     [SerializeField] public AudioSource aS;
-    [SerializeField] public AudioSource lastSongAS;
+    [SerializeField] public PersistentAudioSource2 lastSongAS;
+ 
 
     private void Awake()
     {
@@ -36,6 +37,8 @@ public class InteractionPage10Pt : MonoBehaviour
         gm = FindObjectOfType<GameManager>();
         gm.onStoryMode?.Invoke();
 
+        lastSongAS = FindObjectOfType<PersistentAudioSource2>();
+
         StartCoroutine(Sequence());
 
 
@@ -50,10 +53,11 @@ public class InteractionPage10Pt : MonoBehaviour
         {
             yield return null;
         }
+        aS.PlayOneShot(figures);
+        yield return new WaitForSeconds(0.3f);
 
         animator.SetTrigger("Appear");
         yield return new WaitForSeconds(0.5f);
-        aS.PlayOneShot(figures);
 
         galoAnimator.gameObject.SetActive(true);
         hiddenGalo.gameObject.SetActive(false);
@@ -75,9 +79,9 @@ public class InteractionPage10Pt : MonoBehaviour
 
         }
         animator.SetTrigger("Dance");
-
         yield return new WaitForSeconds(1.5f);
-        lastSongAS.Play();
+
+        lastSongAS.GetComponent<AudioSource>().Play();
         if (gm.gender)
         {
             girlGO.GetComponentInChildren<Animator>().SetTrigger("Dance");
@@ -105,5 +109,10 @@ public class InteractionPage10Pt : MonoBehaviour
             girlGO.SetActive(false);
 
         }
+    }
+
+    public void DestrouLastAudioSource()
+    {
+        Destroy(lastSongAS.gameObject);
     }
 }

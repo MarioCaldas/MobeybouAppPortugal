@@ -73,8 +73,11 @@ public class AudioMaster : MonoBehaviour
         Refresh();
     }
 
+    float audioInitValue;
+
     public void Refresh()
     {
+
         if (audio != null)
         {
             if (gm.narrations)
@@ -97,12 +100,12 @@ public class AudioMaster : MonoBehaviour
                 {
                     if (aS != audio.GetComponent<AudioSource>())
                     {
-                        aS.volume = 0.8f;
+                        //aS.enabled = true;
                     }
                 }
                 else
                 {
-                    aS.volume = 0.8f;
+                    //aS.enabled = true;
                 }
             }
             button2.GetComponent<Image>().sprite = muteOff;
@@ -115,12 +118,13 @@ public class AudioMaster : MonoBehaviour
                 {
                     if (aS != audio.GetComponent<AudioSource>())
                     {
-                        aS.volume = 0f;
+                        //aS.enabled = false;
+
                     }
                 }
                 else
                 {
-                    aS.volume = 0f;
+                    //aS.enabled = false;
                 }
             }
             button2.GetComponent<Image>().sprite = muteOn;

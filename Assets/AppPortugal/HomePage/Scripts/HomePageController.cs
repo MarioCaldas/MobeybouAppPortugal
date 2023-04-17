@@ -19,11 +19,11 @@ public class HomePageController : MonoBehaviour
 
         SetPageLanguage();
 
+        gm.PlayMenuMusic();
     }
 
     public void SetPageLanguage()
     {
-        print(gm.language);
         if(gm.language == 0)
         {
             titlePt.SetActive(false);

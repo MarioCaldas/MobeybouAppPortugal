@@ -130,11 +130,11 @@ public class InteractionPage1Pt : MonoBehaviour
         boyGO.SetActive(false);
         girlGO.SetActive(false);
 
-        int rand = Random.Range(0, 1);
-        if (rand == 0)
+       // int rand = Random.Range(0, 1);
+       // if (rand == 0)
             aS.PlayOneShot(openMap1);
-        else
-            aS.PlayOneShot(openMap2);
+        //else
+           // aS.PlayOneShot(openMap2);
 
 
         yield return new WaitForSeconds(1f);
@@ -157,7 +157,7 @@ public class InteractionPage1Pt : MonoBehaviour
             yield return null;
         }
         mapAnimator.gameObject.SetActive(true);
-
+        aS.PlayOneShot(openMap2);
 
         StartCoroutine(ui.Glow(1f));
 
