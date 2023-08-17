@@ -42,10 +42,12 @@ public class GameManager : MonoBehaviour
 
 
         Permission.RequestUserPermission(Permission.Microphone);
+        Permission.RequestUserPermission(Permission.Camera);
 
         onStoryMode += StopMenuMusic;
         offStoryMode += PlayMenuMusic;
 
+        //StartCoroutine(StartTeste());
     }
 
     public void Save()
@@ -131,4 +133,5 @@ public class GameManager : MonoBehaviour
             print("destrou sound");
         }
     }
+
 }

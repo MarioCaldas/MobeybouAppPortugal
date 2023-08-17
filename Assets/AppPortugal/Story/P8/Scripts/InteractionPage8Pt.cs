@@ -59,6 +59,9 @@ public class InteractionPage8Pt : MonoBehaviour
         aS.PlayOneShot(click);
         boatGlow.SetActive(false);
         boatToHide.SetActive(false);
+
+        boat.GetComponent<SpriteRenderer>().sortingOrder = 5;
+
         if (gm.gender)
         {
             girlGO.transform.localScale = new Vector3(0.9f, 0.9f, 0.9f);
@@ -67,7 +70,6 @@ public class InteractionPage8Pt : MonoBehaviour
 
             marceloGO.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
             marceloGO.GetComponent<Walk8>().StartMovement();
-
         }
         else
         {
